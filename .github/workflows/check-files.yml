@@ -1,0 +1,17 @@
+name: Check Files
+
+on:
+  pull_request:
+
+jobs:
+  check-img-sizes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run image size check
+        run: python3 scripts/check_img_sizes.py
