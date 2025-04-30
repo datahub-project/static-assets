@@ -27,7 +27,7 @@
         {
           "type": "link",
           "label": "Adoption Stories",
-          "href": "/adoption-stories"
+          "href": "https://datahub.com/adoption-stories"
         },
         "docs/what-is-datahub/datahub-concepts"
       ]
