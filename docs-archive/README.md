@@ -1,41 +1,26 @@
-# Website
+# DataHub Legacy Docs Archive
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This directory contains the static archive for older, legacy versions of DataHub documentation (v0.10.5 through v1.3.0). 
 
-### Installation
+To keep the main `datahub` repository lightweight and ensure fast CI/CD pipelines, these legacy versions have been decoupled and are hosted here. They are built using [Docusaurus 2](https://docusaurus.io/).
 
-```
-$ yarn
-```
+## Local Development
 
-### Local Development
+To run the archive locally, you will need Node.js (v18.x recommended).
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+### 1. Install Dependencies
+```bash
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+### 2. Start the Server
+Because this archive contains over a dozen full versions of the documentation, it requires a higher memory heap to compile. You must set the `NODE_OPTIONS` environment variable before starting or building.
+```bash
+export NODE_OPTIONS=--max-old-space-size=8192
+npm start
 ```
 
-Not using SSH:
+This command starts a local development server at `http://localhost:3000`.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+#### ⚠️ Maintenance Note
+Do not upgrade this archive to Docusaurus v3. These legacy versions contain historical MDX 1 syntax. Upgrading to v3 (MDX 2) will cause fatal parsing errors across thousands of older files. Treat this directory as a read-only time capsule unless fixing critical broken links or 404s.
