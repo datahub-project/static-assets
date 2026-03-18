@@ -1,0 +1,298 @@
+/**
+ * DataHub brand theme — ported from docs-website/src/styles/global.scss + datahub.scss
+ * Archive-specific overrides noted with "ARCHIVE:"
+ */
+
+/* ─────────────────────────────────────────────
+   Color palette & design tokens
+   ───────────────────────────────────────────── */
+:root {
+  /* DataHub blue (from datahub.scss) */
+  --ifm-color-primary: #1890ff;
+  --ifm-color-primary-dark: #0082fb;
+  --ifm-color-primary-darker: #007bed;
+  --ifm-color-primary-darkest: #0065c3;
+  --ifm-color-primary-light: #349dff;
+  --ifm-color-primary-lighter: #42a4ff;
+  --ifm-color-primary-lightest: #6cb8ff;
+  --ifm-color-primary-opaque: rgba(24, 144, 255, 0.1);
+
+  /* Typography */
+  --ifm-font-size-base: 95%;
+  --ifm-heading-font-weight: 700;
+  --ifm-code-font-size: 0.9em;
+  --ifm-heading-color: #000000;
+  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
+
+  /* Buttons */
+  --ifm-button-border-radius: 1000em;
+  --ifm-button-font-weight: 600;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-height: 60px;
+  --ifm-navbar-item-padding-horizontal: 1rem;
+
+  /* Spacing & borders */
+  --ifm-hr-border-width: 1px 0 0 0;
+  --ifm-hr-border-color: #e3e3e3;
+  --ifm-hr-background-color: #e3e3e3;
+
+  /* Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #fafafa;
+
+  /* Cards */
+  --ifm-card-background-color: #ffffff;
+  --ifm-card-border-radius: calc(var(--ifm-global-radius) * 1.5);
+
+  /* Menu / Sidebar */
+  --ifm-menu-link-padding-vertical: 0.3rem;
+  --ifm-menu-link-padding-horizontal: 1rem;
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.47 9.47L8 7.94333L9.53 9.47L10 9L8 7L6 9L6.47 9.47Z" fill="black" fill-opacity="0.5"/></svg>');
+  --ifm-menu-color-background-hover: var(--ifm-color-primary-opaque);
+  --ifm-menu-color-background-active: var(--ifm-color-primary-opaque);
+
+  /* TOC */
+  --ifm-toc-padding-vertical: 1.25rem;
+
+  /* Breadcrumbs */
+  --ifm-breadcrumb-item-background-active: var(--ifm-color-primary-opaque);
+
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* ─────────────────────────────────────────────
+   Dark mode
+   ───────────────────────────────────────────── */
+html[data-theme="dark"] {
+  --ifm-color-primary: #349dff;
+  --ifm-color-primary-dark: #1890ff;
+  --ifm-color-primary-darker: #0082fb;
+  --ifm-color-primary-darkest: #0065c3;
+  --ifm-color-primary-light: #42a4ff;
+  --ifm-color-primary-lighter: #6cb8ff;
+  --ifm-color-primary-lightest: #91caff;
+  --ifm-color-primary-opaque: rgba(52, 157, 255, 0.15);
+
+  --ifm-background-color: #0d0d0d;
+  --ifm-heading-color: #ffffff;
+  --ifm-navbar-background-color: #0d0d0d;
+  --ifm-background-surface-color: #0b0b0b;
+  --ifm-hr-border-color: #313131;
+  --ifm-hr-background-color: rgba(255, 255, 255, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-menu-link-sublist-icon: url('data:image/svg+xml;utf8,<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.47 9.47L8 7.94333L9.53 9.47L10 9L8 7L6 9L6.47 9.47Z" fill="white" fill-opacity="0.5"/></svg>');
+
+  .button--primary {
+    color: #fff;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Navbar
+   ───────────────────────────────────────────── */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+
+  .navbar__logo {
+    height: 2.5rem;
+  }
+
+  .navbar__link {
+    align-items: center;
+    margin: 0 1rem 0;
+    padding: 0;
+    border-bottom: 2px solid transparent;
+  }
+
+  .navbar__link--active {
+    border-bottom-color: var(--ifm-navbar-link-hover-color);
+  }
+
+  .navbar__item {
+    padding: 0.25rem 0;
+
+    svg[class*="iconExternalLink"] {
+      display: none;
+    }
+  }
+}
+
+/* GitHub icon link in navbar */
+.header-github-link::before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.99 1.787C6.196 1.785 1.5 6.477 1.5 12.27c0 4.58 2.937 8.472 7.027 9.902.55.138.466-.253.466-.52v-1.817c-3.18.373-3.31-1.732-3.523-2.083-.43-.736-1.45-.924-1.146-1.275.724-.373 1.463.094 2.318 1.357.619.916 1.826.762 2.438.61.133-.552.42-1.044.813-1.426-3.295-.59-4.669-2.601-4.669-4.992 0-1.16.382-2.227 1.132-3.087-.478-1.418.045-2.632.115-2.812 1.362-.122 2.777.975 2.888 1.061.773-.208 1.657-.318 2.646-.318.993 0 1.88.115 2.66.326.265-.202 1.577-1.144 2.843-1.03.068.181.579 1.367.129 2.766.76.863 1.146 1.939 1.146 3.101 0 2.395-1.383 4.409-4.688 4.99a2.986 2.986 0 0 1 .893 2.133v2.636c.019.211 0 .42.352.42 4.15-1.4 7.139-5.32 7.139-9.94 0-5.794-4.697-10.484-10.488-10.484Z' fill='%23262626'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+}
+
+html[data-theme="dark"] .header-github-link::before {
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.99 1.787C6.196 1.785 1.5 6.477 1.5 12.27c0 4.58 2.937 8.472 7.027 9.902.55.138.466-.253.466-.52v-1.817c-3.18.373-3.31-1.732-3.523-2.083-.43-.736-1.45-.924-1.146-1.275.724-.373 1.463.094 2.318 1.357.619.916 1.826.762 2.438.61.133-.552.42-1.044.813-1.426-3.295-.59-4.669-2.601-4.669-4.992 0-1.16.382-2.227 1.132-3.087-.478-1.418.045-2.632.115-2.812 1.362-.122 2.777.975 2.888 1.061.773-.208 1.657-.318 2.646-.318.993 0 1.88.115 2.66.326.265-.202 1.577-1.144 2.843-1.03.068.181.579 1.367.129 2.766.76.863 1.146 1.939 1.146 3.101 0 2.395-1.383 4.409-4.688 4.99a2.986 2.986 0 0 1 .893 2.133v2.636c.019.211 0 .42.352.42 4.15-1.4 7.139-5.32 7.139-9.94 0-5.794-4.697-10.484-10.488-10.484Z' fill='%23ffffff'/%3E%3C/svg%3E");
+}
+
+/* ─────────────────────────────────────────────
+   Sidebar Menu (matches production exactly)
+   ───────────────────────────────────────────── */
+
+/* Sidebar section headers: "Getting Started", "DataHub Cloud", etc.
+   Production targets the CSS-module class by full hash name; we use
+   an attribute wildcard which is hash-independent. */
+li[class*="menuHtmlItem"] {
+  font-weight: 600;
+}
+
+.menu .theme-doc-sidebar-menu {
+
+  .menu__link {
+    font-weight: 400;
+    padding: calc(var(--ifm-menu-link-padding-vertical) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-horizontal) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-vertical) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-horizontal) + 1rem);
+  }
+
+  .menu__link--active {
+    font-weight: 400;
+    padding: calc(var(--ifm-menu-link-padding-vertical) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-horizontal) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-vertical) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-horizontal) + 1rem);
+  }
+
+  .theme-doc-sidebar-item-category-level-1 > div > a:first-child {
+    font-weight: 400;
+    color: var(--ifm-menu-color);
+    padding: calc(var(--ifm-menu-link-padding-vertical) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-horizontal) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-vertical) + 0.2rem)
+      calc(var(--ifm-menu-link-padding-horizontal) + 1rem);
+  }
+
+  .theme-doc-sidebar-item-category-level-1 > div > a.menu__link--active {
+    color: var(--ifm-menu-color);
+    font-weight: 400;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Cards
+   ───────────────────────────────────────────── */
+.card {
+  box-shadow: none;
+  border: 1px solid var(--ifm-hr-border-color);
+  padding: 2rem;
+}
+
+/* ─────────────────────────────────────────────
+   TOC
+   ───────────────────────────────────────────── */
+.table-of-contents {
+  padding-left: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+
+  .table-of-contents__link--active {
+    font-weight: 600;
+  }
+}
+
+/* ─────────────────────────────────────────────
+   Footer
+   ───────────────────────────────────────────── */
+.footer--dark {
+  --ifm-footer-background-color: #000000;
+}
+
+.footer .footer__copyright {
+  text-align: left;
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+/* ─────────────────────────────────────────────
+   Docs layout
+   ───────────────────────────────────────────── */
+main {
+  padding-top: 1rem;
+}
+
+.markdown,
+main > h1 {
+  margin-top: 1rem;
+}
+
+[class*="docItemCol"] {
+  padding: 0 2rem;
+}
+
+/* ─────────────────────────────────────────────
+   Misc utilities
+   ───────────────────────────────────────────── */
+.button {
+  white-space: initial;
+}
+
+.row--centered {
+  align-items: center;
+}
+
+.row--padded {
+  padding: 5vh 0;
+}
+
+/* ─────────────────────────────────────────────
+   ARCHIVE: Version dropdown styling
+   The docsVersionDropdown button gets the same
+   amber pill treatment as our "Archive" badge,
+   keeping it visually distinct from the main
+   docs.datahub.com blue "1.4.0" pill.
+   ───────────────────────────────────────────── */
+
+/* Active version pill in navbar */
+.navbar__item.dropdown .navbar__link[class*="navbarActiveVersion"],
+.navbar .dropdown > .navbar__link {
+  font-weight: 600;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #ad6800;
+  background: #fff7e6;
+  border: 1px solid #ffd591;
+  border-radius: 12px;
+  padding: 1px 12px;
+
+  /* Hide the default caret — we keep Docusaurus's own chevron */
+  &::after {
+    border-color: #ad6800 transparent transparent;
+  }
+}
+
+html[data-theme="dark"] .navbar .dropdown > .navbar__link {
+  color: #ffc53d;
+  background: rgba(255, 197, 61, 0.12);
+  border-color: rgba(255, 197, 61, 0.35);
+
+  &::after {
+    border-color: #ffc53d transparent transparent;
+  }
+}
+
+/* Dropdown panel */
+.navbar .dropdown__menu {
+  min-width: 160px;
+}
+
+/* "1.4.0 (Latest) ↗" item at the bottom */
+.navbar .dropdown__menu .dropdown__link:last-child {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+}
