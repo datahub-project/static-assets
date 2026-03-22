@@ -51,7 +51,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -153,7 +153,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_bryan@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -221,7 +221,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_patrick1@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -490,7 +490,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_alex@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -611,7 +611,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -770,7 +770,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -941,7 +941,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_alex@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -1025,7 +1025,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -1169,7 +1169,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -1354,7 +1354,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -1421,7 +1421,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -1891,18 +1891,18 @@
       "json": {
         "title": "Data Engineer",
         "platforms": [
-          "urn:li:dataPlatform:sample_data_snowflake",
-          "urn:li:dataPlatform:sample_data_dbt",
-          "urn:li:dataPlatform:sample_data_bigquery",
-          "urn:li:dataPlatform:sample_data_spark",
-          "urn:li:dataPlatform:sample_data_mongodb",
-          "urn:li:dataPlatform:sample_data_powerbi",
-          "urn:li:dataPlatform:sample_data_hdfs",
-          "urn:li:dataPlatform:sample_data_postgres",
-          "urn:li:dataPlatform:sample_data_mysql",
-          "urn:li:dataPlatform:sample_data_mode",
-          "urn:li:dataPlatform:sample_data_looker",
-          "urn:li:dataPlatform:sample_data_s3"
+          "urn:li:dataPlatform:snowflake",
+          "urn:li:dataPlatform:dbt",
+          "urn:li:dataPlatform:bigquery",
+          "urn:li:dataPlatform:spark",
+          "urn:li:dataPlatform:mongodb",
+          "urn:li:dataPlatform:powerbi",
+          "urn:li:dataPlatform:hdfs",
+          "urn:li:dataPlatform:postgres",
+          "urn:li:dataPlatform:mysql",
+          "urn:li:dataPlatform:mode",
+          "urn:li:dataPlatform:looker",
+          "urn:li:dataPlatform:s3"
         ],
         "persona": "urn:li:dataHubPersona:sample_data_technicalUser"
       }
@@ -2470,9 +2470,9 @@
       "json": {
         "title": "Customer Success Manager",
         "platforms": [
-          "urn:li:dataPlatform:sample_data_acryl",
-          "urn:li:dataPlatform:sample_data_snowflake",
-          "urn:li:dataPlatform:sample_data_s3"
+          "urn:li:dataPlatform:acryl",
+          "urn:li:dataPlatform:snowflake",
+          "urn:li:dataPlatform:s3"
         ],
         "persona": "urn:li:dataHubPersona:sample_data_technicalUser"
       }
@@ -2982,7 +2982,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -3159,7 +3159,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_brock1@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__none",
+            "typeUrn": "urn:li:ownershipType:__system__none",
             "source": {
               "type": "MANUAL"
             },
@@ -3359,7 +3359,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.analytics.order_history",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -3546,7 +3546,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -3699,7 +3699,7 @@
         "schemaName": "order_entry_db.analytics.order_history",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -3992,7 +3992,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.order_items",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -4172,7 +4172,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -4234,7 +4234,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -4242,7 +4242,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -4489,7 +4489,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -4703,7 +4703,7 @@
     "aspect": {
       "json": {
         "name": "datahub_order_entries.Geographic_Measures",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi",
+        "platform": "urn:li:dataPlatform:powerbi",
         "origin": "PROD"
       }
     },
@@ -4856,7 +4856,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -4965,7 +4965,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -5696,7 +5696,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.regions",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -5852,7 +5852,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -5958,7 +5958,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -6024,7 +6024,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/products",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -6148,7 +6148,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -6367,7 +6367,7 @@
         "schemaName": "products",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -6718,7 +6718,7 @@
     "aspect": {
       "json": {
         "name": "datahub_order_entries.ORDER_DETAILS",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi",
+        "platform": "urn:li:dataPlatform:powerbi",
         "origin": "PROD"
       }
     },
@@ -6871,7 +6871,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -6895,7 +6895,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_kirk@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -8301,7 +8301,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -8367,7 +8367,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.inventories",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -8523,7 +8523,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -8653,7 +8653,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -8750,7 +8750,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/promotions",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -8874,7 +8874,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -9004,7 +9004,7 @@
         "schemaName": "promotions",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -9087,7 +9087,7 @@
     "aspect": {
       "json": {
         "name": "f32082e5-06b8-f46e-9047-4611fffe66b0",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -9259,7 +9259,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -9436,7 +9436,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -9604,7 +9604,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.product_categories",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -9772,7 +9772,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -9930,7 +9930,7 @@
         "schemaName": "order_entry_db.order_entry.product_categories",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -10139,7 +10139,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/customers",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -10263,7 +10263,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -10602,7 +10602,7 @@
         "schemaName": "customers",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -10741,7 +10741,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.addresses",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -10897,7 +10897,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -11063,7 +11063,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -11129,7 +11129,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.order_items",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -11285,7 +11285,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -11475,7 +11475,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -11624,7 +11624,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.order_items",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -11811,7 +11811,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -12072,7 +12072,7 @@
         "schemaName": "order_entry_db.order_entry.order_items",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -12257,7 +12257,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.regions",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -12425,7 +12425,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -12590,7 +12590,7 @@
         "schemaName": "order_entry_db.order_entry.regions",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -12676,7 +12676,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.regions",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -12872,7 +12872,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -12899,7 +12899,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -12907,7 +12907,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -13063,7 +13063,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -13302,7 +13302,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.promotions",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -13508,7 +13508,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -13655,7 +13655,7 @@
         "schemaName": "order_entry_db.order_entry.promotions",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -13721,7 +13721,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/inventories",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -13845,7 +13845,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -13992,7 +13992,7 @@
         "schemaName": "inventories",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -14267,7 +14267,7 @@
     "aspect": {
       "json": {
         "name": "order-entry.explore.order_details",
-        "platform": "urn:li:dataPlatform:sample_data_looker",
+        "platform": "urn:li:dataPlatform:looker",
         "origin": "PROD"
       }
     },
@@ -14479,7 +14479,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -14509,7 +14509,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -14517,7 +14517,7 @@
           },
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_BACKEND_ENG",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__data_steward",
+            "typeUrn": "urn:li:ownershipType:__system__data_steward",
             "source": {
               "type": "MANUAL"
             },
@@ -14525,7 +14525,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -15978,7 +15978,7 @@
         "schemaName": "order_details",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -16990,7 +16990,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.customers",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -17180,7 +17180,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -17617,7 +17617,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -17683,7 +17683,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.product_categories",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -17839,7 +17839,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -17945,7 +17945,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -18042,7 +18042,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.products",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -18198,7 +18198,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -18400,7 +18400,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -18466,7 +18466,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.promotions",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -18622,7 +18622,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -18752,7 +18752,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -18818,7 +18818,7 @@
     "aspect": {
       "json": {
         "name": "37fcfb15-34ae-973a-5ae3-cf63691d48e3",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -18990,7 +18990,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -19167,7 +19167,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -19335,7 +19335,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.warehouses",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -19538,7 +19538,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -19682,7 +19682,7 @@
         "schemaName": "order_entry_db.order_entry.warehouses",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -19765,7 +19765,7 @@
     "aspect": {
       "json": {
         "name": "datahub_order_entries.Time_Inteligence_Measures",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi",
+        "platform": "urn:li:dataPlatform:powerbi",
         "origin": "PROD"
       }
     },
@@ -19918,7 +19918,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -20705,7 +20705,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -20771,7 +20771,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/warehouses",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -20895,7 +20895,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -21018,7 +21018,7 @@
         "schemaName": "warehouses",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -21185,7 +21185,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/addresses",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -21309,7 +21309,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -21492,7 +21492,7 @@
         "schemaName": "addresses",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -21542,7 +21542,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.product_categories",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -21722,7 +21722,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -21749,7 +21749,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -21757,7 +21757,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -21970,7 +21970,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -22110,7 +22110,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.inventories",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -22282,7 +22282,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -22290,7 +22290,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -22351,7 +22351,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -22616,7 +22616,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -22843,7 +22843,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.orders",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -23014,7 +23014,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -23362,7 +23362,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -23428,7 +23428,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.product_information",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -23584,7 +23584,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -23702,7 +23702,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -25013,7 +25013,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -25030,7 +25030,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.analytics.order_details",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -25116,7 +25116,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_1e0398a3-113f-475e-b6fc-32ab72a634d2",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -25125,12 +25125,12 @@
           {
             "owner": "urn:li:corpuser:sample_data_brock1@example.com",
             "type": "NONE",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__data_steward"
+            "typeUrn": "urn:li:ownershipType:__system__data_steward"
           },
           {
             "owner": "urn:li:corpuser:sample_data_jonny1@example.com",
             "type": "NONE",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__data_steward"
+            "typeUrn": "urn:li:ownershipType:__system__data_steward"
           }
         ],
         "lastModified": {
@@ -25152,7 +25152,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -26993,7 +26993,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.customers",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -27149,7 +27149,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -27471,7 +27471,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -27568,7 +27568,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/order_items",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -27692,7 +27692,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -27882,7 +27882,7 @@
         "schemaName": "order_items",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -28100,7 +28100,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.analytics.order_details_replica",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -28262,7 +28262,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -29735,7 +29735,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -29785,7 +29785,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.products",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -29965,7 +29965,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -29995,7 +29995,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -30003,7 +30003,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -30011,7 +30011,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_patrick1@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__data_steward",
+            "typeUrn": "urn:li:ownershipType:__system__data_steward",
             "source": {
               "type": "MANUAL"
             },
@@ -30487,7 +30487,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -30632,7 +30632,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.orders",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -30788,7 +30788,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -31029,7 +31029,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -31079,7 +31079,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.warehouses",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -31259,7 +31259,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -31321,7 +31321,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -31329,7 +31329,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -31509,7 +31509,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -31681,7 +31681,7 @@
     "aspect": {
       "json": {
         "name": "ORDER_ENTRY_DB.analytics.order_history",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -31922,7 +31922,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -32056,7 +32056,7 @@
         "schemaName": "model.order_entry_db.order_history",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -32281,7 +32281,7 @@
     "aspect": {
       "json": {
         "name": "datahub_order_entries.Essential_KPI_Measures",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi",
+        "platform": "urn:li:dataPlatform:powerbi",
         "origin": "PROD"
       }
     },
@@ -32434,7 +32434,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -32647,7 +32647,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -33378,7 +33378,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/regions",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -33502,7 +33502,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -33625,7 +33625,7 @@
         "schemaName": "regions",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -33874,7 +33874,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.customers",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -34101,7 +34101,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -34109,7 +34109,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -34117,7 +34117,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_jonny1@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -34143,7 +34143,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -34550,7 +34550,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -34885,7 +34885,7 @@
     "aspect": {
       "json": {
         "name": "fadbf744-48be-0929-a47c-5786327a3343",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -35038,7 +35038,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -35246,7 +35246,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -35383,7 +35383,7 @@
     "aspect": {
       "json": {
         "name": "datahub_order_entries.Customer_Analytics_Measures",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi",
+        "platform": "urn:li:dataPlatform:powerbi",
         "origin": "PROD"
       }
     },
@@ -35536,7 +35536,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -36284,7 +36284,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -36429,7 +36429,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/orders",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -36553,7 +36553,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -36811,7 +36811,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -36877,7 +36877,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.countries",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -37033,7 +37033,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -37139,7 +37139,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -37205,7 +37205,7 @@
     "aspect": {
       "json": {
         "name": "b980a8c5-28eb-119e-f6ca-4da32732e5be",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -37384,7 +37384,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -37595,7 +37595,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -39006,7 +39006,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -39023,7 +39023,7 @@
     "aspect": {
       "json": {
         "name": "ORDER_ENTRY_DB.analytics.order_details",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -39099,7 +39099,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -39119,7 +39119,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_1e0398a3-113f-475e-b6fc-32ab72a634d2",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__data_steward",
+            "typeUrn": "urn:li:ownershipType:__system__data_steward",
             "source": {
               "type": "MANUAL"
             },
@@ -39127,7 +39127,7 @@
           },
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__data_steward",
+            "typeUrn": "urn:li:ownershipType:__system__data_steward",
             "source": {
               "type": "MANUAL"
             },
@@ -39135,7 +39135,7 @@
           },
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39143,7 +39143,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39151,7 +39151,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_brock1@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39159,7 +39159,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_bryan@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39167,7 +39167,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_jonny1@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39175,7 +39175,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_jonny2@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39183,7 +39183,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_kirk@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39191,7 +39191,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39199,7 +39199,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -39207,7 +39207,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_sam@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -40224,7 +40224,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.orders",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -40415,7 +40415,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -40423,7 +40423,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -40449,7 +40449,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -40773,7 +40773,7 @@
         "schemaName": "source.order_entry_db.order_entry.orders",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -41114,7 +41114,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.inventories",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -41336,7 +41336,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -41483,7 +41483,7 @@
         "schemaName": "order_entry_db.order_entry.inventories",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -41579,7 +41579,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.promotions",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -41779,7 +41779,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -41806,7 +41806,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -41814,7 +41814,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -42018,7 +42018,7 @@
         "schemaName": "source.order_entry_db.order_entry.promotions",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -42376,7 +42376,7 @@
     "aspect": {
       "json": {
         "name": "order-entry-looker.view.order_details",
-        "platform": "urn:li:dataPlatform:sample_data_looker",
+        "platform": "urn:li:dataPlatform:looker",
         "origin": "PROD"
       }
     },
@@ -42584,7 +42584,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_marty@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -42592,7 +42592,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -42600,7 +42600,7 @@
           },
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -42608,7 +42608,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_alex@example.com",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -42634,7 +42634,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -44547,7 +44547,7 @@
         "schemaName": "order_details",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -44613,7 +44613,7 @@
     "aspect": {
       "json": {
         "name": "8bfe7483-1c9a-a0e1-ec84-57207dd37a15",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -44785,7 +44785,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -44988,7 +44988,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -45137,7 +45137,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.products",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -45327,7 +45327,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -45603,7 +45603,7 @@
         "schemaName": "order_entry_db.order_entry.products",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -45672,7 +45672,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.countries",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -45868,7 +45868,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -45895,7 +45895,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -45903,7 +45903,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -46059,7 +46059,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -46196,7 +46196,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/countries",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -46320,7 +46320,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -46443,7 +46443,7 @@
         "schemaName": "countries",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -46509,7 +46509,7 @@
     "aspect": {
       "json": {
         "name": "datahub_order_entries.Product_Perfromance_Measures",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi",
+        "platform": "urn:li:dataPlatform:powerbi",
         "origin": "PROD"
       }
     },
@@ -46662,7 +46662,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -47449,7 +47449,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -47515,7 +47515,7 @@
     "aspect": {
       "json": {
         "name": "c067553a-127e-a871-14a0-5f32cb032c78",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -47668,7 +47668,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -47879,7 +47879,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -48016,7 +48016,7 @@
     "aspect": {
       "json": {
         "name": "f8fb6a0b-7be6-690b-cc45-3c6e0fd2bcde",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -48195,7 +48195,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -48380,7 +48380,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -48517,7 +48517,7 @@
     "aspect": {
       "json": {
         "name": "4a3af1dd-fd0c-7077-d5fd-aa2fdf87cb23",
-        "platform": "urn:li:dataPlatform:sample_data_tableau",
+        "platform": "urn:li:dataPlatform:tableau",
         "origin": "PROD"
       }
     },
@@ -48689,7 +48689,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -48795,7 +48795,7 @@
         "schemaName": "test",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -49015,7 +49015,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.countries",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -49202,7 +49202,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -49360,7 +49360,7 @@
         "schemaName": "order_entry_db.order_entry.countries",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -49426,7 +49426,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/product_categories",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -49550,7 +49550,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -49673,7 +49673,7 @@
         "schemaName": "product_categories",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -49914,7 +49914,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.addresses",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake",
+        "platform": "urn:li:dataPlatform:snowflake",
         "origin": "PROD"
       }
     },
@@ -50117,7 +50117,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -50283,7 +50283,7 @@
         "schemaName": "order_entry_db.order_entry.addresses",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -50470,7 +50470,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.addresses",
-        "platform": "urn:li:dataPlatform:sample_data_dbt",
+        "platform": "urn:li:dataPlatform:dbt",
         "origin": "PROD"
       }
     },
@@ -50642,7 +50642,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -50650,7 +50650,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -50676,7 +50676,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -50922,7 +50922,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_dbt"
+        "platform": "urn:li:dataPlatform:dbt"
       }
     },
     "systemMetadata": {
@@ -51114,7 +51114,7 @@
     "aspect": {
       "json": {
         "name": "order_entry_db.order_entry.warehouses",
-        "platform": "urn:li:dataPlatform:sample_data_postgres",
+        "platform": "urn:li:dataPlatform:postgres",
         "origin": "PROD"
       }
     },
@@ -51270,7 +51270,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -51376,7 +51376,7 @@
         ],
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -51442,7 +51442,7 @@
     "aspect": {
       "json": {
         "name": "demo-data-bucket/order_entry/product_information",
-        "platform": "urn:li:dataPlatform:sample_data_s3",
+        "platform": "urn:li:dataPlatform:s3",
         "origin": "PROD"
       }
     },
@@ -51566,7 +51566,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -51701,7 +51701,7 @@
         "schemaName": "product_information",
         "version": 0,
         "hash": "",
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -51948,7 +51948,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -52242,7 +52242,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -52445,7 +52445,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -52816,7 +52816,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -53077,7 +53077,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -53354,7 +53354,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -53679,7 +53679,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -53980,7 +53980,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -54314,7 +54314,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -54517,7 +54517,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -54748,7 +54748,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -54979,7 +54979,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -55346,7 +55346,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -55354,7 +55354,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -55380,7 +55380,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -55828,7 +55828,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -55836,7 +55836,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -55862,7 +55862,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -56101,7 +56101,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -56377,7 +56377,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -56686,7 +56686,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -56713,7 +56713,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -56721,7 +56721,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -56970,7 +56970,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -57312,7 +57312,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -57568,7 +57568,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -57576,7 +57576,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -57602,7 +57602,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -57918,7 +57918,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -58139,7 +58139,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -58398,7 +58398,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -58674,7 +58674,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -58701,7 +58701,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -58709,7 +58709,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -58969,7 +58969,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -59212,7 +59212,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -59455,7 +59455,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -59482,7 +59482,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -59490,7 +59490,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -59739,7 +59739,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -60158,7 +60158,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -60379,7 +60379,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -60633,7 +60633,7 @@
         "owners": [
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -60641,7 +60641,7 @@
           },
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -60667,7 +60667,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -61038,7 +61038,7 @@
         "owners": [
           {
             "owner": "urn:li:corpGroup:sample_data_ORG_DATA_PLATFORM",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__technical_owner",
+            "typeUrn": "urn:li:ownershipType:__system__technical_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -61046,7 +61046,7 @@
           },
           {
             "owner": "urn:li:corpuser:sample_data_EMP006",
-            "typeUrn": "urn:li:ownershipType:sample_data___system__business_owner",
+            "typeUrn": "urn:li:ownershipType:__system__business_owner",
             "source": {
               "type": "MANUAL"
             },
@@ -61072,7 +61072,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -61335,7 +61335,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -61644,7 +61644,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -61865,7 +61865,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_spark"
+        "platform": "urn:li:dataPlatform:spark"
       }
     },
     "systemMetadata": {
@@ -62154,7 +62154,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -62754,7 +62754,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -63134,7 +63134,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -63247,7 +63247,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -63368,7 +63368,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_powerbi"
+        "platform": "urn:li:dataPlatform:powerbi"
       }
     },
     "systemMetadata": {
@@ -63494,7 +63494,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -63636,7 +63636,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -63783,7 +63783,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -63912,7 +63912,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -64037,7 +64037,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -64180,7 +64180,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -64309,7 +64309,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_tableau"
+        "platform": "urn:li:dataPlatform:tableau"
       }
     },
     "systemMetadata": {
@@ -64449,7 +64449,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_s3"
+        "platform": "urn:li:dataPlatform:s3"
       }
     },
     "systemMetadata": {
@@ -64594,7 +64594,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
@@ -64736,7 +64736,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_postgres"
+        "platform": "urn:li:dataPlatform:postgres"
       }
     },
     "systemMetadata": {
@@ -64879,7 +64879,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_snowflake"
+        "platform": "urn:li:dataPlatform:snowflake"
       }
     },
     "systemMetadata": {
@@ -65013,7 +65013,7 @@
     "aspectName": "dataPlatformInstance",
     "aspect": {
       "json": {
-        "platform": "urn:li:dataPlatform:sample_data_looker"
+        "platform": "urn:li:dataPlatform:looker"
       }
     },
     "systemMetadata": {
