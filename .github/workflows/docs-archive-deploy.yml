@@ -1,0 +1,44 @@
+name: Docs Archive Vercel Deploy
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs-archive/**"
+      - ".github/workflows/docs-archive-deploy.yml"
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+          cache-dependency-path: docs-archive/package-lock.json
+
+      - name: Install dependencies
+        working-directory: docs-archive
+        run: npm ci
+
+      - name: Build Docusaurus site
+        working-directory: docs-archive
+        run: |
+          NODE_OPTIONS="--max-old-space-size=6144" \
+          DOCUSAURUS_SSR_CONCURRENCY=1 \
+          npm run build
+
+      - name: Deploy to Vercel (prebuilt)
+        working-directory: docs-archive
+        run: |
+          npx vercel deploy --prebuilt --prod --yes \
+          --token=${{ secrets.VERCEL_TOKEN }} \
+          --org=${{ secrets.VERCEL_ORG_ID }} \
+          --project=${{ secrets.VERCEL_PROJECT_ID }}
