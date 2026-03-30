@@ -5,7 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "NODE_OPTIONS='--max-old-space-size=8192' docusaurus start",
-    "build": "NODE_OPTIONS='--max-old-space-size=8192' docusaurus build",
+    "build": "docusaurus build",
+    "build:high-mem": "NODE_OPTIONS='--max-old-space-size=8192' docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
