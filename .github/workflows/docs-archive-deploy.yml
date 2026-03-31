@@ -12,6 +12,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
 
     steps:
       - name: Checkout repository
@@ -27,11 +28,20 @@ jobs:
       - name: Install dependencies
         working-directory: docs-archive
         run: npm ci
-
+      
+      - name: Allocate Swap Space
+        run: |
+          sudo fallocate -l 10G /swapfile || sudo dd if=/dev/zero of=/swapfile bs=1M count=10240
+          sudo chmod 600 /swapfile
+          sudo mkswap /swapfile
+          sudo swapon /swapfile
+          sudo swapon --show
+          free -h
+      
       - name: Build Docusaurus site
         working-directory: docs-archive
         run: |
-          NODE_OPTIONS="--max-old-space-size=6144" \
+          NODE_OPTIONS="--max-old-space-size=10240" \
           DOCUSAURUS_SSR_CONCURRENCY=1 \
           npm run build
 
