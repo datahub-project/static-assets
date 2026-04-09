@@ -1,0 +1,22 @@
+# DataHub ingestion recipe for olist.db (clean base / source of truth)
+#
+# Usage: datahub ingest -c ingest_source.yaml
+#
+# Creates: olist_source platform instance in DataHub
+# You'll see: 9 tables + 5 views + table-to-view lineage
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///olist.db"
+    platform: sqlite
+    platform_instance: olist_source
+    include_tables: true
+    include_views: true
+    include_view_lineage: true
+    include_view_column_lineage: true
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"

@@ -1,0 +1,29 @@
+# DataHub ingestion recipe for nyc_taxi_pipeline.db (staleness planted)
+#
+# Usage: datahub ingest -c ingest_pipeline.yaml
+#
+# Creates: nyc_taxi_pipeline platform instance in DataHub
+#
+# This variant has the same 3-stage pipeline structure, but:
+#   - staging_trips is 3 days behind raw_trips (stale)
+#   - mart_daily_summary reflects the staging gap
+#   - One day in the mart shows 0 trips (empty load — pipeline ran, loaded nothing)
+#
+# The staleness is invisible in DataHub metadata. All tables show "ingested now."
+# Only detectable by querying actual MAX(timestamp) in each table.
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///nyc_taxi_pipeline.db"
+    platform: sqlite
+    platform_instance: nyc_taxi_pipeline
+    include_tables: true
+    include_views: true
+    include_view_lineage: false
+    include_view_column_lineage: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"

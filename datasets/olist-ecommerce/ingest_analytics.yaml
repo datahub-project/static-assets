@@ -1,0 +1,33 @@
+# DataHub ingestion recipe for olist_analytics.db (daily rollup tables with drift)
+#
+# Usage: datahub ingest -c ingest_analytics.yaml
+#
+# Creates: olist_analytics platform instance in DataHub
+#
+# IMPORTANT: This variant has DIFFERENT tables than source/warehouse.
+# Instead of raw order-level data, it contains daily aggregations:
+#   analytics_daily_orders    — order_date, order_count, avg_items_per_order
+#   analytics_daily_revenue   — order_date, total_revenue, total_freight, total_payment
+#   analytics_daily_sellers   — order_date, seller_state, active_sellers, items_sold
+#   analytics_daily_reviews   — review_date, review_count, avg_score
+#
+# Planted drift: inflated counts, 5% freight reduction, precision loss, missing days
+#
+# For Reconciliation: ingest this + ingest_source.yaml + ingest_warehouse.yaml
+# The agent must figure out that SUM(source rows) should equal rollup totals — but doesn't.
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///olist_analytics.db"
+    platform: sqlite
+    platform_instance: olist_analytics
+    include_tables: true
+    include_views: true
+    include_view_lineage: false
+    include_view_column_lineage: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"

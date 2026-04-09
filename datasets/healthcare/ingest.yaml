@@ -1,0 +1,23 @@
+# DataHub ingestion recipe for healthcare.db
+#
+# Usage: datahub ingest -c ingest.yaml
+#
+# Creates: healthcare platform instance in DataHub
+# Pipeline: raw_patients → staging_patients → mart_billing + mart_demographics
+# Quality issues planted in raw data propagate through the entire pipeline.
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///healthcare.db"
+    platform: sqlite
+    platform_instance: healthcare
+    include_tables: true
+    include_views: true
+    include_view_lineage: false
+    include_view_column_lineage: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"

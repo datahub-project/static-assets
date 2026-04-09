@@ -1,0 +1,29 @@
+# DataHub ingestion recipe for olist_warehouse.db (same structure as source, with drift)
+#
+# Usage: datahub ingest -c ingest_warehouse.yaml
+#
+# Creates: olist_warehouse platform instance in DataHub
+#
+# Same table structure as olist.db (source), but with planted pipeline drift:
+#   - ~3% orders randomly dropped (failed ETL batch)
+#   - ~2% order_items duplicated (re-processed batch)
+#   - payment_value rounded to 0 decimals (precision loss from type conversion)
+#
+# For Reconciliation: ingest this + ingest_source.yaml + ingest_analytics.yaml
+# The agent compares row counts, value sums, and record-level differences.
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///olist_warehouse.db"
+    platform: sqlite
+    platform_instance: olist_warehouse
+    include_tables: true
+    include_views: true
+    include_view_lineage: false
+    include_view_column_lineage: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"

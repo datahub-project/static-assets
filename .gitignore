@@ -1,2 +1,6 @@
 .idea/
 .DS_Store
+csvs/
+.venv
+olist_warehouse.db
+olist_analytics.db

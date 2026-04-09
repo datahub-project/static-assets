@@ -1,0 +1,23 @@
+# DataHub ingestion recipe for nyc_taxi.db (clean 3-stage pipeline)
+#
+# Usage: datahub ingest -c ingest.yaml
+#
+# Creates: nyc_taxi platform instance in DataHub
+# Tables: raw_trips → staging_trips → mart_daily_summary
+# Views: v_staging_from_raw, v_daily_from_staging (lineage handled by add_lineage.py)
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///nyc_taxi.db"
+    platform: sqlite
+    platform_instance: nyc_taxi
+    include_tables: true
+    include_views: true
+    include_view_lineage: false
+    include_view_column_lineage: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"
