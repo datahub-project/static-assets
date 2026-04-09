@@ -1,0 +1,22 @@
+# DataHub ingestion recipe for olist_dirty.db (planted data quality issues)
+#
+# Usage: datahub ingest -c ingest_dirty.yaml
+#
+# Creates: olist_dirty platform instance in DataHub
+# Contains: ~8% orphan customers, ~5% seller ID mismatches, ~3% NULL categories
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///olist_dirty.db"
+    platform: sqlite
+    platform_instance: olist_dirty
+    include_tables: true
+    include_views: true
+    include_view_lineage: true
+    include_view_column_lineage: true
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"
