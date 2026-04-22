@@ -1,7 +1,8 @@
 {
-  "version": "2",
+  "version": "3",
   "files": [
     {"path": "01-definitions.json", "wait_for_completion": true},
-    {"path": "02-data.json"}
+    {"path": "02-data.json"},
+    {"path": "03-context.json"}
   ]
 }
