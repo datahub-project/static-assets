@@ -1,0 +1,97 @@
+<svg width="100%" viewBox="0 0 680 420" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Analytics Agent architecture</title>
+<desc>Flow diagram showing how a user's question flows through Analytics Agent, which reads context from DataHub, executes SQL on a SQL engine, streams responses back to the browser, and writes context improvements back to DataHub.</desc>
+
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <style>
+    .box { fill: #F1EFE8; stroke: #5F5E5A; }
+    .box-purple { fill: #EEEDFE; stroke: #534AB7; }
+    .box-teal { fill: #E1F5EE; stroke: #0F6E56; }
+    .box-coral { fill: #FAECE7; stroke: #993C1D; }
+    .label-title { font: 500 14px "Anthropic Sans", system-ui, sans-serif; fill: #2C2C2A; }
+    .label-title-purple { font: 500 14px "Anthropic Sans", system-ui, sans-serif; fill: #3C3489; }
+    .label-title-teal { font: 500 14px "Anthropic Sans", system-ui, sans-serif; fill: #085041; }
+    .label-title-coral { font: 500 14px "Anthropic Sans", system-ui, sans-serif; fill: #712B13; }
+    .label-sub { font: 400 12px "Anthropic Sans", system-ui, sans-serif; fill: #444441; }
+    .label-sub-purple { font: 400 12px "Anthropic Sans", system-ui, sans-serif; fill: #534AB7; }
+    .label-sub-teal { font: 400 12px "Anthropic Sans", system-ui, sans-serif; fill: #0F6E56; }
+    .label-sub-coral { font: 400 12px "Anthropic Sans", system-ui, sans-serif; fill: #993C1D; }
+    .label-arrow { font: 400 12px "Anthropic Sans", system-ui, sans-serif; fill: #5F5E5A; }
+    .label-writeback { font: 500 12px "Anthropic Sans", system-ui, sans-serif; fill: #0F6E56; }
+    .caption { font: 400 12px "Anthropic Sans", system-ui, sans-serif; fill: #5F5E5A; }
+  </style>
+</defs>
+
+<!-- User node -->
+<g>
+  <rect class="box" x="40" y="180" width="100" height="56" rx="8" stroke-width="0.5"/>
+  <text class="label-title" x="90" y="204" text-anchor="middle" dominant-baseline="central">You</text>
+  <text class="label-sub" x="90" y="222" text-anchor="middle" dominant-baseline="central">your question</text>
+</g>
+
+<!-- Analytics Agent (central) -->
+<g>
+  <rect class="box-purple" x="240" y="180" width="160" height="56" rx="8" stroke-width="0.5"/>
+  <text class="label-title-purple" x="320" y="204" text-anchor="middle" dominant-baseline="central">Analytics Agent</text>
+  <text class="label-sub-purple" x="320" y="222" text-anchor="middle" dominant-baseline="central">reads, reasons, writes</text>
+</g>
+
+<!-- DataHub (top right) -->
+<g>
+  <rect class="box-teal" x="500" y="40" width="140" height="56" rx="8" stroke-width="1"/>
+  <text class="label-title-teal" x="570" y="64" text-anchor="middle" dominant-baseline="central">DataHub</text>
+  <text class="label-sub-teal" x="570" y="82" text-anchor="middle" dominant-baseline="central">Core or Cloud</text>
+</g>
+
+<!-- SQL Engine (middle right) -->
+<g>
+  <rect class="box-coral" x="500" y="180" width="140" height="56" rx="8" stroke-width="0.5"/>
+  <text class="label-title-coral" x="570" y="204" text-anchor="middle" dominant-baseline="central">SQL Engine</text>
+  <text class="label-sub-coral" x="570" y="222" text-anchor="middle" dominant-baseline="central">Snowflake · DuckDB</text>
+</g>
+
+<!-- Browser (bottom right) -->
+<g>
+  <rect class="box" x="500" y="320" width="140" height="56" rx="8" stroke-width="0.5"/>
+  <text class="label-title" x="570" y="344" text-anchor="middle" dominant-baseline="central">Your browser</text>
+  <text class="label-sub" x="570" y="362" text-anchor="middle" dominant-baseline="central">SQL · Chart · Score</text>
+</g>
+
+<!-- Arrow: User → Agent (question) -->
+<line x1="140" y1="208" x2="232" y2="208" stroke="#888780" stroke-width="1" fill="none" marker-end="url(#arrow)"/>
+<text class="label-arrow" x="186" y="200" text-anchor="middle">question</text>
+
+<!-- Arrow: Agent → DataHub (read context) -->
+<path d="M380 180 Q380 130 500 90" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+<text class="label-arrow" x="408" y="138" text-anchor="start">read context</text>
+
+<!-- Arrow: DataHub → Agent (context returned) -->
+<path d="M510 96 Q400 140 360 180" fill="none" stroke="#888780" stroke-width="0.5" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+
+<!-- Arrow: Agent → SQL Engine (execute SQL) -->
+<line x1="400" y1="208" x2="492" y2="208" stroke="#888780" stroke-width="1" fill="none" marker-end="url(#arrow)"/>
+<text class="label-arrow" x="446" y="200" text-anchor="middle">execute SQL</text>
+
+<!-- Arrow: SQL Engine → Agent (results returned) -->
+<path d="M500 220 Q450 232 400 224" fill="none" stroke="#888780" stroke-width="0.5" stroke-dasharray="3 3" marker-end="url(#arrow)"/>
+<text class="label-arrow" x="448" y="240" text-anchor="middle">results</text>
+
+<!-- Arrow: Agent → Browser (stream response) -->
+<path d="M380 236 Q380 290 500 348" fill="none" stroke="#888780" stroke-width="1" marker-end="url(#arrow)"/>
+<text class="label-arrow" x="408" y="294" text-anchor="start">stream response</text>
+
+<!-- THICK GREEN write-back arrow: Agent → DataHub -->
+<path d="M340 180 Q340 110 500 70" fill="none" stroke="#0F6E56" stroke-width="2.5" marker-end="url(#arrow-green)"/>
+<text class="label-writeback" x="280" y="120" text-anchor="start">write back</text>
+<text class="label-writeback" x="280" y="138" text-anchor="start">/improve-context</text>
+
+<!-- Caption -->
+<text class="caption" x="340" y="406" text-anchor="middle">Agent reads context from DataHub, queries the warehouse, streams the answer — and writes improvements back.</text>
+
+</svg>
