@@ -1,0 +1,5 @@
+id: mailshot_eligible_customers
+data_product: Customer Analytics
+question: "How many customers are eligible for marketing emails (mailshot = Y)?"
+primary_tables: [order_entry_db.order_entry.customers]
+variants: [canonical, with_partner_breakdown, by_class]

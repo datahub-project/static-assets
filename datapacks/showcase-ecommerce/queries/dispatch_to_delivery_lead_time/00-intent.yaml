@@ -1,0 +1,6 @@
+id: dispatch_to_delivery_lead_time
+data_product: Order Entry Analytics
+domain: Ecommerce Operations
+question: "How long from dispatch to estimated delivery on average?"
+primary_tables: [order_entry_db.order_entry.order_items]
+variants: [canonical, with_percentiles, by_delivery_type]
