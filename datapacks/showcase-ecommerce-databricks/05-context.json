@@ -1,0 +1,542 @@
+[
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-catalog",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"E-Commerce Data Catalog\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# E-Commerce Data Catalog\\n\\nThis catalog covers the **Order Entry** e-commerce platform \\u2014 a multi-channel\\nretail system that handles online and direct-sales orders across a global customer\\nbase.\\n\\n## Data Products\\n\\n| Data Product | Domain | Key Tables |\\n|---|---|---|\\n| Order Entry Analytics | Ecommerce Operations | orders, order_items, order_details |\\n| Inventory & Fulfilment | Ecommerce Operations | inventories, warehouses, order_items |\\n| Customer Analytics | Customer Success | customers, addresses, orders |\\n| Returns & Refunds | Ecommerce Operations | order_items (return_date), order_details |\\n| Promotions Performance | Ecommerce Operations | promotions, orders, order_items |\\n\\n## Platform Stack\\n\\nData flows through the following layers:\\n\\n```\\nPostgreSQL (source) \\u2192 S3 (data lake) \\u2192 Snowflake (warehouse) \\u2192 dbt (models) \\u2192 BI (Looker / PowerBI / Tableau)\\n```\\n\\n- **PostgreSQL**: Operational source of truth. Do not query directly for analytics.\\n- **S3**: Raw ingestion layer. Parquet files partitioned by date.\\n- **Snowflake**: Curated analytics warehouse. Primary layer for SQL analytics.\\n- **dbt**: Transformation models. Builds the `analytics` schema views.\\n- **BI Tools**: Looker (explores/views), PowerBI (measure tables), Tableau.\\n\\n## Navigation\\n\\n- [Core Transactional Tables](urn:li:document:ecomm-source-tables) \\u2014 orders, customers, products, inventories\\n- [Analytics Layer](urn:li:document:ecomm-analytics) \\u2014 pre-joined wide views for fast querying\\n- [Fulfillment & Reference Data](urn:li:document:ecomm-fulfillment) \\u2014 warehouses, regions, categories\\n- [Operational Runbooks](urn:li:document:ecomm-runbooks) \\u2014 debugging guides for common data issues\\n- [Key Metrics Reference](urn:li:document:ecomm-metrics) \\u2014 GMV, AOV, return rate, and more\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataProduct:b2fd91.e0e95662-34bb-42fc-9dcc-29002bbbfeda\"}, {\"asset\": \"urn:li:dataProduct:b2fd91.16451bea-150f-4e82-b496-79dda7c537a9\"}, {\"asset\": \"urn:li:dataProduct:b2fd91.8971083d-e315-4b0f-9b9d-aa83340661a4\"}, {\"asset\": \"urn:li:dataProduct:b2fd91.716c9cdd-8643-489f-8909-ee51e884bc68\"}, {\"asset\": \"urn:li:dataProduct:b2fd91.38e6dc7c-83d7-46c2-aece-e4918bd00d09\"}]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-catalog",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-catalog",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-source-tables",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Core Transactional Tables\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Core Transactional Tables\\n\\nThese are the primary operational tables that record every customer interaction\\nwith the platform. They live in the `order_entry_db.order_entry` schema on\\nSnowflake (mirrored from PostgreSQL via S3).\\n\\n## Table Grain Summary\\n\\n| Table | Grain | Row Count (approx) |\\n|---|---|---|\\n| `orders` | One row per order | ~500K/year |\\n| `order_items` | One row per product line within an order | ~1.5M/year |\\n| `customers` | One row per registered customer | ~200K total |\\n| `products` | One row per SKU | ~1K total |\\n| `inventories` | One row per (product, warehouse) | ~5K total |\\n| `promotions` | One row per promotional campaign | ~50 active |\\n| `addresses` | One row per saved address | ~300K total |\\n\\n## Entity Relationship\\n\\n```\\ncustomers \\u2500\\u2500\\u2500 orders \\u2500\\u2500\\u2500 order_items \\u2500\\u2500\\u2500 products\\n    \\u2502              \\u2502              \\u2502\\n addresses   promotions      inventories\\n              warehouses       warehouses\\n```\\n\\n**Primary join path for revenue analysis:**\\n`orders` \\u2192 `order_items` \\u2192 `products` \\u2192 `product_categories`\\n\\n**Primary join path for customer segmentation:**\\n`customers` \\u2192 `orders` \\u2192 `order_items`\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.order_items,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.products,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-catalog\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-source-tables",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-source-tables",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-orders",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Orders Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Orders Table\\n\\n**Schema:** `order_entry_db.order_entry.orders`\\n**Platforms:** Snowflake (analytics), PostgreSQL (source), S3 (data lake), dbt (models)\\n\\n## Purpose\\n\\nThe `orders` table is the **central fact table** for all customer purchase\\ntransactions. Every purchase initiated on the platform creates one row here.\\nUse this table for order volume, revenue/GMV, payment method analysis,\\nand fulfillment channel reporting.\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `order_id` | Primary key. |\\n| `customer_id` | FK \\u2192 customers. The buyer. |\\n| `order_date` | Date the order was placed. |\\n| `order_total` | **Gross order value** \\u2014 sum of all line items at time of order. Use for GMV. |\\n| `order_status` | Lifecycle state (see values below). |\\n| `order_mode` | Channel: `online` (web/app) or `direct` (phone/sales rep). |\\n| `payment_method_code` | `CreditCard`, `PurchaseOrder`, or `AccountBalance`. |\\n| `delivery_type` | `ground`, `express`, `overnight`, `pickup`. |\\n| `warehouse_id` | FK \\u2192 warehouses. Fulfillment center assigned. |\\n| `promotion_id` | FK \\u2192 promotions. NULL means no promotion applied (~65% of orders). |\\n| `billing_address_id` | FK \\u2192 addresses. |\\n| `delivery_address_id` | FK \\u2192 addresses. May differ from billing. |\\n| `cost_of_delivery` | Shipping cost. Zero for `pickup` orders. |\\n| `wait_till_complete_yn` | `Y` = hold shipment until all items available. `N` = partial ship OK. |\\n| `sales_rep_id` | Non-NULL only for `direct` channel orders. |\\n\\n## Order Status Lifecycle\\n\\n```\\nPending \\u2192 Open \\u2192 Shipped \\u2192 Complete\\n              \\u2198 Cancelled\\n              \\u2198 On Hold\\n```\\n\\n| Status | Meaning |\\n|---|---|\\n| `Pending` | Order placed, payment not yet confirmed. |\\n| `Open` | Payment confirmed, awaiting fulfillment. |\\n| `Shipped` | At least one item dispatched. |\\n| `Complete` | All items delivered, return window closed. |\\n| `Cancelled` | Order voided before shipment. Revenue = 0. |\\n| `On Hold` | Temporarily stopped (fraud review, stock issue). |\\n\\n**Always filter `WHERE order_status NOT IN ('Cancelled', 'On Hold')`** when\\ncomputing revenue unless you explicitly need these.\\n\\n## Known Gotchas\\n\\n1. **`wait_till_complete_yn = 'Y'`**: These are back-order holds. The order\\n   appears in `Open` status until all items are available. Exclude from\\n   \\\"shipped\\\" counts until `order_status = 'Shipped'` is set.\\n\\n2. **`order_total` vs item sum**: `order_total` is captured at order creation;\\n   `SUM(order_items.line_total)` reflects actual invoiced amount. They differ\\n   when returns or price adjustments occur post-order. Use `order_items` for\\n   net revenue; use `orders.order_total` for GMV at point of sale.\\n\\n3. **NULL `promotion_id`**: Normal. Do not filter these out \\u2014 they are orders\\n   without a discount campaign.\\n\\n## Common Query Patterns\\n\\n**Monthly GMV (Gross Merchandise Value):**\\n```sql\\nSELECT DATE_TRUNC('month', order_date) AS month,\\n       SUM(order_total)                AS gmv\\nFROM   order_entry_db.order_entry.orders\\nWHERE  order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP  BY 1\\nORDER  BY 1;\\n```\\n\\n**Orders by payment method this quarter:**\\n```sql\\nSELECT payment_method_code,\\n       COUNT(*)              AS order_count,\\n       SUM(order_total)      AS revenue\\nFROM   order_entry_db.order_entry.orders\\nWHERE  order_status NOT IN ('Cancelled', 'On Hold')\\n  AND  order_date >= DATE_TRUNC('quarter', CURRENT_DATE)\\nGROUP  BY 1;\\n```\\n\\n## Related Tables\\n\\n- `order_items` \\u2014 line items (join on `order_id`)\\n- `customers` \\u2014 buyer details (join on `customer_id`)\\n- `promotions` \\u2014 discount info (join on `promotion_id`)\\n- `warehouses` \\u2014 fulfillment center (join on `warehouse_id`)\\n- `order_details` \\u2014 pre-joined analytics view that includes all of the above\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:postgres,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:dbt,b2fd91.order_entry_db.order_entry.orders,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-orders",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-orders",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-items",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Order Items Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Order Items Table\\n\\n**Schema:** `order_entry_db.order_entry.order_items`\\n**Platforms:** Snowflake, S3\\n\\n## Purpose\\n\\nEach row is a **line item** within an order \\u2014 a specific product at a specific\\nquantity and price. An order with three distinct products has three rows here.\\n\\nThis is the correct grain for:\\n- Product-level revenue breakdown\\n- Return rate calculation\\n- Delivery SLA tracking\\n- Supplier-level fulfillment reporting\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `line_item_id` | Primary key. |\\n| `order_id` | FK \\u2192 orders. |\\n| `product_id` | FK \\u2192 products. |\\n| `quantity` | Units purchased. |\\n| `unit_price` | **Actual sale price per unit** after promotions. Use this for revenue, not `products.list_price`. |\\n| `condition` | Item condition: `new`, `refurbished`, `used`. Filter to `new` for primary sales. |\\n| `gift_wrap` | `Y` / `N`. |\\n| `dispatch_date` | Date item left the warehouse. NULL = not yet shipped. |\\n| `estimated_delivery` | Promised delivery date. NULL if not yet assigned. |\\n| `return_date` | Date customer returned item. NULL = not returned. |\\n| `supplier_id` | Internal supplier/vendor. Not customer-facing. |\\n\\n## Price Hierarchy\\n\\n```\\nproducts.list_price   \\u2190 Catalog list price (what's shown before discount)\\n    \\u2193 promotions apply\\nunit_price            \\u2190 What the customer actually paid\\n    \\u00d7 quantity\\n    = line_total (computed in order_details view)\\n```\\n\\n## Return Rate Calculation\\n\\n```sql\\nSELECT\\n    COUNT(CASE WHEN return_date IS NOT NULL THEN 1 END) * 100.0 / COUNT(*) AS return_rate_pct\\nFROM order_entry_db.order_entry.order_items\\nWHERE dispatch_date >= DATEADD('day', -90, CURRENT_DATE);\\n```\\n\\n## Delivery SLA Check\\n\\n```sql\\nSELECT\\n    COUNT(CASE WHEN estimated_delivery < CURRENT_DATE\\n                AND dispatch_date IS NULL THEN 1 END) AS overdue_items\\nFROM order_entry_db.order_entry.order_items;\\n```\\n\\n## Gotchas\\n\\n- Use `unit_price * quantity` for line revenue \\u2014 the `order_details` view\\n  pre-computes this as `line_total`.\\n- `condition != 'new'` rows are refurbished/used marketplace items; separate\\n  them from primary catalog sales.\\n- `supplier_id` is an internal logistics field and should not be used in\\n  customer-facing reports.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.order_items,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/order_items,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-items",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-items",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-customers",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Customers Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Customers Table\\n\\n**Schema:** `order_entry_db.order_entry.customers`\\n**Platforms:** Snowflake, PostgreSQL, S3, dbt\\n\\n## Purpose\\n\\nMaster customer registry. One row per registered account. Use for customer\\nsegmentation, cohort analysis, geographic breakdowns, and lifetime value\\ncalculations.\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `customer_id` | Primary key. |\\n| `cust_first_name` | **PII** \\u2014 First name. |\\n| `cust_last_name` | **PII** \\u2014 Last name. |\\n| `cust_email` | **PII** \\u2014 Primary contact email. Unique per customer. |\\n| `phone_number` | **PII** \\u2014 Contact phone. |\\n| `dob` | **PII** \\u2014 Date of birth. Used for age-gate and loyalty tiers. |\\n| `customer_class` | Segmentation tier: `Premium`, `Standard`. See below. |\\n| `customer_since` | Date of first registration. Use for cohort analysis. |\\n| `credit_limit` | Maximum spend on `AccountBalance` payment method. |\\n| `account_mgr_id` | FK \\u2192 corpuser. Assigned sales rep (B2B accounts only). NULL for B2C. |\\n| `mailshot` | `Y`/`N` \\u2014 Consented to email marketing. Filter before sending campaigns. |\\n| `partner_mailshot` | `Y`/`N` \\u2014 Consented to partner/third-party marketing. |\\n| `country_id` | FK \\u2192 countries. Billing country. |\\n| `region_id` | FK \\u2192 regions. Billing region. |\\n\\n## Customer Class Values\\n\\n| Class | Description |\\n|---|---|\\n| `Premium` | High-value accounts: annual spend > $10K or B2B accounts. Eligible for priority support and extended return windows. |\\n| `Standard` | All other registered customers. Default tier. |\\n\\n## Privacy / PII Notice\\n\\nColumns `cust_first_name`, `cust_last_name`, `cust_email`, `phone_number`,\\nand `dob` are classified as **PII** and governed under GDPR/CCPA. Do not\\ninclude them in aggregated reports or share outside approved systems.\\nUse `customer_id` as the join key in analytics; strip PII before exporting.\\n\\n## Common Patterns\\n\\n**Active customers (ordered in last 90 days):**\\n```sql\\nSELECT DISTINCT c.customer_id\\nFROM   order_entry_db.order_entry.customers c\\nJOIN   order_entry_db.order_entry.orders    o USING (customer_id)\\nWHERE  o.order_date >= DATEADD('day', -90, CURRENT_DATE)\\n  AND  o.order_status NOT IN ('Cancelled');\\n```\\n\\n**Customer Lifetime Value (CLV):**\\n```sql\\nSELECT customer_id,\\n       COUNT(DISTINCT order_id)    AS total_orders,\\n       SUM(order_total)            AS lifetime_revenue,\\n       AVG(order_total)            AS avg_order_value\\nFROM   order_entry_db.order_entry.orders\\nWHERE  order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP  BY 1;\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:postgres,b2fd91.order_entry_db.order_entry.customers,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/customers,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:dbt,b2fd91.order_entry_db.order_entry.customers,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-customers",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-customers",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-products",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Products Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Products Table\\n\\n**Schema:** `order_entry_db.order_entry.products`\\n**Platforms:** Snowflake, PostgreSQL, S3\\n\\n## Purpose\\n\\nProduct catalog master. One row per SKU. Use for product performance analysis,\\ncategory breakdowns, and inventory planning.\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `product_id` | Primary key. |\\n| `product_name` | Display name of the product. |\\n| `product_description` | Long-form product description. |\\n| `category_id` | FK \\u2192 product_categories. Primary category assignment. |\\n| `supplier_id` | FK \\u2192 internal supplier. The vendor providing the product. |\\n| `list_price` | **Catalog price** \\u2014 what is shown to customers before discounts. Do not use for revenue (see `order_items.unit_price`). |\\n| `min_price` | Floor price \\u2014 minimum allowed selling price. Promotions cannot go below this. |\\n| `product_status` | Current availability: `orderable`, `planned`, `under development`, `obsolete`. |\\n| `weight_class` | Shipping weight tier: `1`\\u2013`5` (light to heavy). Affects `cost_of_delivery`. |\\n| `warranty_period` | Months of warranty coverage. NULL = no warranty. |\\n| `date_added` | Date product was first listed in catalog. |\\n| `catalog_url` | URL to product page on the public storefront. |\\n\\n## Product Status Values\\n\\n| Status | Meaning |\\n|---|---|\\n| `orderable` | Available for purchase now. |\\n| `planned` | Announced but not yet available. |\\n| `under development` | In production pipeline. |\\n| `obsolete` | Discontinued. May still appear in historical orders. |\\n\\nFilter `product_status = 'orderable'` for current catalog analysis.\\n\\n## Price Relationship\\n\\n```\\nlist_price     \\u2190 What customer sees\\nmin_price      \\u2190 Floor (promotions cannot go below this)\\nunit_price     \\u2190 Actual charged price (in order_items) \\u2014 may be less than list_price due to promotions\\n```\\n\\n## Common Patterns\\n\\n**Top products by revenue last quarter:**\\n```sql\\nSELECT   p.product_name,\\n         SUM(oi.unit_price * oi.quantity) AS revenue\\nFROM     order_entry_db.order_entry.order_items  oi\\nJOIN     order_entry_db.order_entry.products     p  USING (product_id)\\nJOIN     order_entry_db.order_entry.orders       o  USING (order_id)\\nWHERE    o.order_date >= DATE_TRUNC('quarter', CURRENT_DATE)\\n  AND    o.order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP BY 1\\nORDER BY 2 DESC\\nLIMIT    20;\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.products,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:postgres,b2fd91.order_entry_db.order_entry.products,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/products,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-products",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-products",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-inventories",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Inventories Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Inventories Table\\n\\n**Schema:** `order_entry_db.order_entry.inventories`\\n**Platforms:** Snowflake, S3\\n\\n## Purpose\\n\\nCurrent stock levels for each (product, warehouse) combination. One row per\\nproduct-warehouse pair. Used for inventory availability checks, reorder\\ntrigger logic, and fulfillment routing decisions.\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `product_id` | FK \\u2192 products. Composite PK part 1. |\\n| `warehouse_id` | FK \\u2192 warehouses. Composite PK part 2. |\\n| `quantity_on_hand` | **Current available stock** at this warehouse. |\\n| `restock_level` | Threshold that triggers a replenishment order. When `quantity_on_hand < restock_level`, a purchase order should be raised. |\\n| `reorder_quantity` | Standard replenishment quantity ordered each time restock is triggered. |\\n| `max_stock_level` | Maximum stocking capacity at this warehouse. Used for receiving limits. |\\n\\n## Stock Health Classification\\n\\n```\\nquantity_on_hand = 0                     \\u2192 Out of Stock\\n0 < quantity_on_hand < restock_level     \\u2192 Low Stock (reorder needed)\\nrestock_level \\u2264 quantity_on_hand \\u2264 max   \\u2192 Healthy\\nquantity_on_hand > max_stock_level       \\u2192 Overstocked (unusual \\u2014 investigate)\\n```\\n\\n## Gotchas\\n\\n- **Negative `quantity_on_hand`**: Should not occur but can appear due to race\\n  conditions in the CDC pipeline. Values < 0 indicate a data quality issue in\\n  the upstream feed. Flag and exclude from availability calculations.\\n- **Table is a current-state snapshot**, not a history. For historical stock\\n  levels you need the S3 raw partitions (archived daily snapshots).\\n- **Composite primary key**: (`product_id`, `warehouse_id`). Joins to other\\n  tables require both keys.\\n\\n## Out-of-Stock Products\\n\\n```sql\\nSELECT p.product_name,\\n       SUM(i.quantity_on_hand) AS total_stock\\nFROM   order_entry_db.order_entry.inventories i\\nJOIN   order_entry_db.order_entry.products    p USING (product_id)\\nGROUP  BY 1\\nHAVING SUM(i.quantity_on_hand) = 0;\\n```\\n\\n## Reorder Candidates\\n\\n```sql\\nSELECT product_id, warehouse_id, quantity_on_hand, restock_level\\nFROM   order_entry_db.order_entry.inventories\\nWHERE  quantity_on_hand < restock_level\\n  AND  quantity_on_hand >= 0\\nORDER  BY (quantity_on_hand - restock_level);\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.inventories,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/inventories,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-inventories",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-inventories",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-promotions",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Promotions Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Promotions Table\\n\\n**Schema:** `order_entry_db.order_entry.promotions`\\n**Platforms:** Snowflake, S3\\n\\n## Purpose\\n\\nCatalog of marketing campaigns and discount promotions. One row per promotion.\\nJoin to `orders` on `promotion_id` to measure campaign impact.\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `promotion_id` | Primary key. |\\n| `promotion_name` | Short campaign name (e.g., \\\"Summer Sale 2025\\\"). |\\n| `promotion_description` | Full description of the promotion terms. |\\n| `promotion_cost` | Budget/cost allocated to this promotion. |\\n| `promotion_start_date` | Date promotion became active. |\\n| `promotion_end_date` | Date promotion expired. NULL = still active. |\\n\\n## Active vs. Expired Promotions\\n\\n```sql\\n-- Active promotions\\nSELECT * FROM order_entry_db.order_entry.promotions\\nWHERE promotion_end_date IS NULL\\n   OR promotion_end_date >= CURRENT_DATE;\\n\\n-- All orders using a specific promotion\\nSELECT o.*\\nFROM   order_entry_db.order_entry.orders o\\nJOIN   order_entry_db.order_entry.promotions p USING (promotion_id)\\nWHERE  p.promotion_name = 'Summer Sale 2025';\\n```\\n\\n## Gotchas\\n\\n- **NULL `promotion_id` in orders** is not an error \\u2014 it means no promotion was\\n  applied to that order (~65% of orders). Do not INNER JOIN orders to promotions\\n  unless you explicitly want only promoted orders.\\n- **`promotion_cost`** is the *allocated* campaign budget, not the actual\\n  discount amount given. To calculate actual discount value, use\\n  `SUM(products.list_price - order_items.unit_price) * quantity` on promoted orders.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/promotions,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-promotions",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-promotions",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-addresses",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Addresses Table\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Addresses Table\\n\\n**Schema:** `order_entry_db.order_entry.addresses`\\n**Platforms:** Snowflake, PostgreSQL, S3, dbt\\n\\n## Purpose\\n\\nSaved customer addresses used for both billing and delivery. A single customer\\ncan have multiple addresses. Referenced by `orders.billing_address_id` and\\n`orders.delivery_address_id`.\\n\\n## Key Columns\\n\\n| Column | Description |\\n|---|---|\\n| `address_id` | Primary key. |\\n| `customer_id` | FK \\u2192 customers. The owning customer. |\\n| `address_line1` | **PII** \\u2014 Street address. |\\n| `address_line2` | **PII** \\u2014 Apartment / suite / floor. |\\n| `town_city` | City. |\\n| `zipcode` | Postal code. |\\n| `region_id` | FK \\u2192 regions. |\\n| `country_id` | FK \\u2192 countries. |\\n| `date_created` | When address was saved. |\\n\\n## PII Notice\\n\\n`address_line1` and `address_line2` are **PII** under GDPR/CCPA. Use\\n`town_city`, `zipcode`, `region_id`, `country_id` for geographic analysis.\\nStrip line-level fields before exporting or aggregating.\\n\\n## Geographic Analysis Pattern\\n\\n```sql\\nSELECT c.country_name,\\n       COUNT(DISTINCT o.order_id)  AS order_count,\\n       SUM(o.order_total)          AS revenue\\nFROM   order_entry_db.order_entry.orders    o\\nJOIN   order_entry_db.order_entry.addresses a  ON o.delivery_address_id = a.address_id\\nJOIN   order_entry_db.order_entry.countries c  USING (country_id)\\nWHERE  o.order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP  BY 1\\nORDER  BY 3 DESC;\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.addresses,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:postgres,b2fd91.order_entry_db.order_entry.addresses,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/addresses,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-source-tables\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-addresses",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-addresses",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-fulfillment",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Fulfillment & Reference Data\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Fulfillment & Reference Data\\n\\nThis section covers the supporting dimension tables that describe the physical\\ninfrastructure (warehouses) and geographic/categorical reference data.\\n\\n## Tables in this section\\n\\n### warehouses\\n`order_entry_db.order_entry.warehouses`\\n\\nFulfillment center registry. One row per warehouse.\\n\\n| Column | Description |\\n|---|---|\\n| `warehouse_id` | Primary key. Referenced by `orders.warehouse_id` and `inventories.warehouse_id`. |\\n| `warehouse_name` | Human-readable name (e.g., \\\"Seattle Distribution Center\\\"). |\\n| `location_id` | Internal location code. |\\n| `wh_geo_location` | Lat/long coordinates. Useful for distance-to-customer calculations. |\\n\\n### product_categories\\n`order_entry_db.order_entry.product_categories`\\n\\nHierarchical product taxonomy. Self-referential via `parent_category_id`.\\n\\n| Column | Description |\\n|---|---|\\n| `category_id` | Primary key. |\\n| `category_name` | Display name (e.g., \\\"Electronics\\\", \\\"Apparel\\\"). |\\n| `category_description` | Extended description. |\\n| `parent_category_id` | FK \\u2192 product_categories. NULL for top-level categories. |\\n\\n**Category hierarchy query:**\\n```sql\\nWITH RECURSIVE cat_tree AS (\\n    SELECT category_id, category_name, parent_category_id, 1 AS depth\\n    FROM   order_entry_db.order_entry.product_categories\\n    WHERE  parent_category_id IS NULL\\n    UNION ALL\\n    SELECT c.category_id, c.category_name, c.parent_category_id, ct.depth + 1\\n    FROM   order_entry_db.order_entry.product_categories c\\n    JOIN   cat_tree ct ON c.parent_category_id = ct.category_id\\n)\\nSELECT * FROM cat_tree ORDER BY depth, category_name;\\n```\\n\\n### regions / countries\\nGeographic reference tables. Used to decode `region_id` / `country_id`\\non `customers` and `addresses`.\\n\\n`countries`: `country_id`, `country_name`, `country_code`, `nls_territory`\\n`regions`: `region_id`, `region_name`, `country_id`, `nls_language`\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.warehouses,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.product_categories,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.countries,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.regions,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/warehouses,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-catalog\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-fulfillment",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-fulfillment",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-analytics",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Analytics Layer\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Analytics Layer\\n\\nThe analytics layer is built by dbt on top of Snowflake. It lives in the\\n`order_entry_db.analytics` schema and provides pre-joined, wide views\\noptimized for BI queries. **Always prefer these views over joining source\\ntables directly** unless you have a specific reason.\\n\\n## Tables / Views\\n\\n### order_details\\n`order_entry_db.analytics.order_details`\\n\\n**The primary analytics table.** A fully denormalized view that joins\\n`orders` + `order_items` + `products` + `customers` + `promotions` +\\n`warehouses` + `addresses`. ~57 columns.\\n\\nBest for: cross-dimensional analysis, BI dashboards, ad-hoc exploratory queries.\\n\\n### order_history\\n`order_entry_db.analytics.order_history`\\n\\nDaily snapshot of order status changes. Lightweight table with 5 columns:\\n`order_id`, `customer_id`, `order_total`, `order_status`, `as_of_date`.\\n\\nBest for: tracking how orders move through statuses over time, SLA reporting.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_details,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_history,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:dbt,b2fd91.ORDER_ENTRY_DB.analytics.order_details,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-catalog\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-analytics",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-analytics",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-details",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Order Details View\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Order Details View\\n\\n**Schema:** `order_entry_db.analytics.order_details`\\n**Platforms:** Snowflake, dbt\\n\\n## Purpose\\n\\nPre-joined, denormalized analytics view covering the full order lifecycle.\\nOne row per **order line item** \\u2014 so a 3-item order creates 3 rows.\\n\\nThis view is the **recommended starting point** for most analytical queries.\\nIt saves you from writing 5-table joins and ensures consistent business logic\\nis applied (e.g., `line_total = unit_price * quantity`).\\n\\n## When to Use `order_details` vs. Source Tables\\n\\n| Use `order_details` when... | Use source tables when... |\\n|---|---|\\n| Building dashboards or ad-hoc reports | Modifying or loading data |\\n| Need cross-dimensional slices | Need exact row counts per source table |\\n| Want pre-computed `line_total` | Need to debug a specific pipeline stage |\\n| BI tools (Looker, PowerBI, Tableau) | dbt model development |\\n\\n## Key Computed Columns\\n\\n| Column | Computation | Notes |\\n|---|---|---|\\n| `line_total` | `unit_price \\u00d7 quantity` | Actual revenue per line item |\\n| `order_size_category` | Bucket of `order_total` | Small / Medium / Large |\\n| `stock_status` | Derived from `quantity_on_hand` | In Stock / Low / Out |\\n| `delivery_status` | Derived from dates | On Time / Delayed / Pending |\\n| `return_status` | From `return_date` | Returned / Not Returned |\\n\\n## Gotchas\\n\\n- **Grain is order-item, not order.** Use `COUNT(DISTINCT order_id)` for order counts,\\n  not `COUNT(*)`.\\n- **`order_details_replica`** is an exact copy used for query load balancing.\\n  They have identical schemas and are kept in sync. Use `order_details` by default;\\n  use the replica only if explicitly directed by the data platform team.\\n\\n## Quick Reference Queries\\n\\n**Revenue by product category:**\\n```sql\\nSELECT   category_name,\\n         SUM(line_total)   AS revenue,\\n         COUNT(DISTINCT order_id) AS orders\\nFROM     order_entry_db.analytics.order_details\\nWHERE    order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP BY 1\\nORDER BY 2 DESC;\\n```\\n\\n**Average Order Value by customer class:**\\n```sql\\nSELECT   customer_class,\\n         SUM(order_total) / COUNT(DISTINCT order_id) AS aov\\nFROM     order_entry_db.analytics.order_details\\nWHERE    order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP BY 1;\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_details,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:dbt,b2fd91.ORDER_ENTRY_DB.analytics.order_details,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-analytics\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-details",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-details",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-history",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Order History View\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Order History View\\n\\n**Schema:** `order_entry_db.analytics.order_history`\\n**Platforms:** Snowflake, dbt\\n\\n## Purpose\\n\\nDaily snapshot of order status. Each row represents an order's status\\n**as of a given date**. An order that transitions from `Open` to `Shipped`\\nover two days appears as two rows with different `as_of_date` and `order_status`.\\n\\n## Columns\\n\\n| Column | Description |\\n|---|---|\\n| `order_id` | FK \\u2192 orders. |\\n| `customer_id` | FK \\u2192 customers. |\\n| `order_total` | Order value at that point in time. |\\n| `order_status` | Status on the `as_of_date`. |\\n| `as_of_date` | The snapshot date. |\\n\\n## Use Cases\\n\\n- **Status duration analysis**: How long do orders stay in `Open` vs `Shipped`?\\n- **SLA compliance**: Did orders hit `Shipped` within 2 business days of `Open`?\\n- **Backlog trending**: How many orders were in `Pending` status each day?\\n\\n## Common Query\\n\\n**Average days from Open to Shipped:**\\n```sql\\nSELECT\\n    AVG(DATEDIFF('day', opened.as_of_date, shipped.as_of_date)) AS avg_days_to_ship\\nFROM\\n    (SELECT order_id, MIN(as_of_date) AS as_of_date\\n     FROM order_entry_db.analytics.order_history\\n     WHERE order_status = 'Open' GROUP BY 1)  opened\\nJOIN\\n    (SELECT order_id, MIN(as_of_date) AS as_of_date\\n     FROM order_entry_db.analytics.order_history\\n     WHERE order_status = 'Shipped' GROUP BY 1) shipped\\nUSING (order_id);\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_history,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-analytics\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-history",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Table Overview\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-order-history",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbooks",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Operational Runbooks\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Operational Runbooks\\n\\nDebugging guides for the most common data issues on the Order Entry platform.\\n\\n## Available Runbooks\\n\\n- [Order Count Discrepancy](urn:li:document:ecomm-runbook-order-count) \\u2014 When reported order counts don't match\\n- [Inventory Data Staleness](urn:li:document:ecomm-runbook-inventory) \\u2014 When inventory numbers look frozen or wrong\\n- [Promotion Attribution Issues](urn:li:document:ecomm-runbook-promotions) \\u2014 When promotion metrics appear incorrect\\n\\n## General Debugging Principles\\n\\n1. **Identify the layer first**: PostgreSQL \\u2192 S3 \\u2192 Snowflake \\u2192 dbt \\u2192 BI.\\n   Narrow down which layer shows the discrepancy before digging into SQL.\\n2. **Check the freshness**: Query `MAX(order_date)` on Snowflake. If it's older\\n   than expected, the CDC pipeline likely hasn't run.\\n3. **Compare counts**: Row counts should match across Postgres, S3, and Snowflake\\n   for the same date partition. A gap indicates a pipeline failure.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.inventories,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-catalog\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbooks",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Runbook\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbooks",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-order-count",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Runbook: Order Count Discrepancy\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Runbook: Order Count Discrepancy\\n\\n**Applies to:** `orders` table, all platforms\\n**Severity:** High (affects revenue reporting)\\n\\n## Symptoms\\n\\n- Dashboard shows different order counts than expected\\n- Order counts in Snowflake differ from PostgreSQL source\\n- A specific date range has fewer orders than prior periods\\n\\n## Step 1 \\u2014 Check Snowflake freshness\\n\\n```sql\\nSELECT MAX(order_date) AS latest_order_date,\\n       COUNT(*)        AS total_orders\\nFROM   order_entry_db.order_entry.orders;\\n```\\n\\nIf `latest_order_date` is more than 24 hours behind current date, the\\ningestion pipeline has stalled. Check the S3 \\u2192 Snowflake COPY job logs.\\n\\n## Step 2 \\u2014 Compare Snowflake vs PostgreSQL\\n\\n```sql\\n-- On Snowflake\\nSELECT DATE_TRUNC('day', order_date) AS day, COUNT(*) AS sf_count\\nFROM   order_entry_db.order_entry.orders\\nGROUP  BY 1\\nORDER  BY 1 DESC LIMIT 7;\\n```\\n\\nRun the same query on the PostgreSQL source. If counts differ, an ingestion\\nstep dropped rows. Check S3 file completeness first (verify all partition files\\narrived), then check the Snowflake COPY HISTORY.\\n\\n## Step 3 \\u2014 Check for filter issues in the report\\n\\nThe most common cause is **inadvertent filtering**. Verify the report is not:\\n- Filtering `order_status NOT IN ('Pending', 'On Hold')` \\u2014 this excludes valid orders\\n- Filtering on `delivery_address_id IS NOT NULL` \\u2014 pickup orders have no delivery address\\n- Joining to `addresses` with INNER JOIN \\u2014 drops orders with deleted addresses\\n\\n## Step 4 \\u2014 Check `wait_till_complete_yn`\\n\\nHeld orders (`wait_till_complete_yn = 'Y'`) may appear in totals inconsistently\\nacross tools if this flag is filtered differently. Confirm alignment:\\n\\n```sql\\nSELECT wait_till_complete_yn, COUNT(*) AS cnt\\nFROM   order_entry_db.order_entry.orders\\nWHERE  order_status = 'Open'\\nGROUP  BY 1;\\n```\\n\\n## Resolution\\n\\n- **Pipeline stall**: Trigger a backfill run for the missing date partitions.\\n- **Filter mismatch**: Align filter logic across all reports to use\\n  `order_status NOT IN ('Cancelled', 'On Hold')` as the standard exclusion set.\\n- **Missing rows in Snowflake**: Rerun the S3 \\u2192 Snowflake COPY job for affected partitions.\\n\\n## Escalation\\n\\nIf the above steps do not resolve the discrepancy, escalate to the\\nData Platform team with: affected date range, row count delta, and\\nthe output of Steps 1\\u20133.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:postgres,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/orders,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-runbooks\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-order-count",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Runbook\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-order-count",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-inventory",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Runbook: Inventory Data Staleness\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Runbook: Inventory Data Staleness\\n\\n**Applies to:** `inventories` table\\n**Severity:** Medium (affects stock availability displays)\\n\\n## Symptoms\\n\\n- `quantity_on_hand` values appear frozen (unchanged for >24 hours)\\n- Inventory shows items as in-stock that are actually out-of-stock (or vice versa)\\n- Negative `quantity_on_hand` values appear\\n\\n## Step 1 \\u2014 Check last update time\\n\\nInventories do not have an `updated_at` column. Check the S3 partition freshness:\\n\\n```sql\\n-- Proxy: compare inventory totals to yesterday's snapshot if available\\nSELECT warehouse_id,\\n       SUM(quantity_on_hand) AS total_stock\\nFROM   order_entry_db.order_entry.inventories\\nGROUP  BY 1;\\n```\\n\\nIf the S3 raw partition for today is missing, the batch feed from the\\nwarehouse management system (WMS) has not arrived.\\n\\n## Step 2 \\u2014 Check for negative quantities\\n\\n```sql\\nSELECT product_id, warehouse_id, quantity_on_hand\\nFROM   order_entry_db.order_entry.inventories\\nWHERE  quantity_on_hand < 0;\\n```\\n\\nNegative values indicate a race condition in the CDC feed where a sale\\nwas recorded before the inventory update arrived. These should self-correct\\non the next batch run. If they persist > 2 batch cycles, escalate.\\n\\n## Step 3 \\u2014 Verify warehouse coverage\\n\\n```sql\\nSELECT w.warehouse_name,\\n       COUNT(i.product_id) AS product_count,\\n       SUM(i.quantity_on_hand) AS total_units\\nFROM   order_entry_db.order_entry.warehouses w\\nLEFT   JOIN order_entry_db.order_entry.inventories i USING (warehouse_id)\\nGROUP  BY 1;\\n```\\n\\nA warehouse with 0 products or NULL total_units has no inventory records \\u2014\\nthis may indicate a missing data feed from that location.\\n\\n## Resolution\\n\\n- **Stale batch**: Trigger the WMS \\u2192 S3 batch export for the affected date.\\n  Then rerun the S3 \\u2192 Snowflake COPY for `inventories`.\\n- **Negative quantities**: Wait one batch cycle. If unresolved, apply a floor\\n  of 0 in downstream reporting while the correction propagates.\\n- **Missing warehouse**: Confirm with the Warehouse Ops team that the warehouse\\n  is actively reporting. It may be a new facility not yet configured.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.inventories,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.warehouses,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:s3,b2fd91.demo-data-bucket/order_entry/inventories,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-runbooks\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-inventory",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Runbook\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-inventory",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-promotions",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Runbook: Promotion Attribution Issues\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Runbook: Promotion Attribution Issues\\n\\n**Applies to:** `promotions` table, `orders.promotion_id`\\n**Severity:** Medium (affects marketing ROI reporting)\\n\\n## Symptoms\\n\\n- Promotion metrics show 0 orders when orders clearly used a discount\\n- A promotion appears to have too many or too few attributed orders\\n- Revenue lift calculations look implausible\\n\\n## Step 1 \\u2014 Verify the join type\\n\\nThe most common cause: reports use INNER JOIN on promotions, which drops\\nthe ~65% of orders with `promotion_id IS NULL`.\\n\\n```sql\\n-- Correct: use LEFT JOIN so non-promoted orders are preserved\\nSELECT p.promotion_name,\\n       COUNT(o.order_id)   AS orders,\\n       SUM(o.order_total)  AS gmv\\nFROM   order_entry_db.order_entry.orders     o\\nLEFT   JOIN order_entry_db.order_entry.promotions p USING (promotion_id)\\nWHERE  o.order_status NOT IN ('Cancelled', 'On Hold')\\nGROUP  BY 1;\\n```\\n\\n## Step 2 \\u2014 Check promotion date boundaries\\n\\nPromotions have `promotion_start_date` and `promotion_end_date`. Ensure the\\nreport's date filter aligns with the promotion's active window:\\n\\n```sql\\nSELECT p.promotion_name,\\n       p.promotion_start_date,\\n       p.promotion_end_date,\\n       COUNT(o.order_id) AS attributed_orders\\nFROM   order_entry_db.order_entry.promotions p\\nJOIN   order_entry_db.order_entry.orders     o USING (promotion_id)\\nWHERE  p.promotion_name = '<YOUR PROMOTION>'\\n  AND  o.order_date BETWEEN p.promotion_start_date AND COALESCE(p.promotion_end_date, CURRENT_DATE)\\nGROUP  BY 1, 2, 3;\\n```\\n\\n## Step 3 \\u2014 Calculate actual discount value\\n\\n`promotions.promotion_cost` is the *allocated budget*, not the actual discount given.\\nFor actual discount per order:\\n\\n```sql\\nSELECT o.order_id,\\n       SUM((p2.list_price - oi.unit_price) * oi.quantity) AS total_discount\\nFROM   order_entry_db.order_entry.orders      o\\nJOIN   order_entry_db.order_entry.order_items oi  USING (order_id)\\nJOIN   order_entry_db.order_entry.products    p2  USING (product_id)\\nWHERE  o.promotion_id IS NOT NULL\\nGROUP  BY 1;\\n```\\n\\n## Resolution\\n\\n- **0 attributed orders**: Switch from INNER to LEFT JOIN in the report.\\n- **Wrong order counts**: Verify `order_date` falls within the promotion window.\\n- **Implausible discount**: `promotion_cost` \\u2260 discount amount \\u2014 correct the\\n  metric definition to use the per-item price delta calculation above.\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.order_items,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-runbooks\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-promotions",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Runbook\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-runbook-promotions",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-metrics",
+    "changeType": "UPSERT",
+    "aspectName": "documentInfo",
+    "aspect": {
+      "value": "{\"customProperties\": {}, \"title\": \"Key Metrics Reference\", \"source\": {\"sourceType\": \"NATIVE\"}, \"status\": {\"state\": \"PUBLISHED\"}, \"contents\": {\"text\": \"# Key Metrics Reference\\n\\nBusiness KPI definitions for the Order Entry e-commerce platform.\\nUse these definitions to ensure consistent metric calculations across\\nall dashboards, reports, and AI-generated analyses.\\n\\n## Revenue Metrics\\n\\n### GMV (Gross Merchandise Value)\\n**Definition:** Total order value at the point of sale, before returns or\\ncancellations. The headline revenue number.\\n\\n**Calculation:**\\n```sql\\nSUM(order_total) FROM orders\\nWHERE order_status NOT IN ('Cancelled', 'On Hold')\\n```\\n\\n**Source table:** `orders.order_total`\\n**Note:** Does *not* deduct returns. For net revenue, subtract returned\\nitem value from `order_items` where `return_date IS NOT NULL`.\\n\\n---\\n\\n### Net Revenue\\n**Definition:** GMV minus the value of returned items.\\n\\n**Calculation:**\\n```sql\\nSUM(CASE WHEN oi.return_date IS NULL\\n         THEN oi.unit_price * oi.quantity\\n         ELSE 0 END)\\nFROM order_items oi\\nJOIN orders o USING (order_id)\\nWHERE o.order_status NOT IN ('Cancelled', 'On Hold')\\n```\\n\\n---\\n\\n### AOV (Average Order Value)\\n**Definition:** Average GMV per completed order.\\n\\n**Calculation:**\\n```sql\\nSUM(order_total) / COUNT(DISTINCT order_id)\\nFROM orders\\nWHERE order_status NOT IN ('Cancelled', 'On Hold')\\n```\\n\\n---\\n\\n## Customer Metrics\\n\\n### Active Customer\\n**Definition:** A customer who placed at least one non-cancelled order in\\nthe last 90 days.\\n\\n**Calculation:**\\n```sql\\nCOUNT(DISTINCT customer_id)\\nFROM orders\\nWHERE order_status NOT IN ('Cancelled', 'On Hold')\\n  AND order_date >= DATEADD('day', -90, CURRENT_DATE)\\n```\\n\\n---\\n\\n### Customer Lifetime Value (CLV)\\n**Definition:** Total GMV attributed to a single customer since first order.\\n\\n**Calculation:**\\n```sql\\nSUM(order_total)\\nFROM orders\\nWHERE customer_id = <id>\\n  AND order_status NOT IN ('Cancelled', 'On Hold')\\n```\\n\\n---\\n\\n## Fulfillment Metrics\\n\\n### Return Rate\\n**Definition:** Percentage of dispatched line items that were returned.\\n\\n**Calculation:**\\n```sql\\nCOUNT(CASE WHEN return_date IS NOT NULL THEN 1 END) * 100.0 / COUNT(*)\\nFROM order_items\\nWHERE dispatch_date IS NOT NULL\\n```\\n\\n**Typical range:** 5\\u201315% for hard goods; 15\\u201330% for apparel.\\n\\n---\\n\\n### Fill Rate\\n**Definition:** Percentage of ordered items that were successfully dispatched\\n(not out-of-stock or cancelled).\\n\\n**Calculation:**\\n```sql\\nCOUNT(CASE WHEN dispatch_date IS NOT NULL THEN 1 END) * 100.0 / COUNT(*)\\nFROM order_items\\nJOIN orders USING (order_id)\\nWHERE orders.order_status NOT IN ('Cancelled')\\n```\\n\\n---\\n\\n## Promotion Metrics\\n\\n### Promotion Attachment Rate\\n**Definition:** Percentage of orders that used a promotion code.\\n\\n**Calculation:**\\n```sql\\nCOUNT(CASE WHEN promotion_id IS NOT NULL THEN 1 END) * 100.0 / COUNT(*)\\nFROM orders\\nWHERE order_status NOT IN ('Cancelled', 'On Hold')\\n```\\n\\n**Typical range:** 30\\u201340%. Values significantly above 50% may indicate\\nover-reliance on discounting.\\n\\n---\\n\\n### Discount Rate\\n**Definition:** Average percentage discount off list price on promoted orders.\\n\\n**Calculation:**\\n```sql\\nAVG((p.list_price - oi.unit_price) / NULLIF(p.list_price, 0) * 100)\\nFROM order_items oi\\nJOIN products p USING (product_id)\\nJOIN orders o USING (order_id)\\nWHERE o.promotion_id IS NOT NULL\\n  AND o.order_status NOT IN ('Cancelled', 'On Hold')\\n```\\n\"}, \"created\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}, \"relatedAssets\": [{\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_details,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.order_items,PROD)\"}, {\"asset\": \"urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD)\"}], \"parentDocument\": {\"document\": \"urn:li:document:ecomm-catalog\"}}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-metrics",
+    "changeType": "UPSERT",
+    "aspectName": "subTypes",
+    "aspect": {
+      "value": "{\"typeNames\": [\"Reference\"]}",
+      "contentType": "application/json"
+    }
+  },
+  {
+    "entityType": "document",
+    "entityUrn": "urn:li:document:ecomm-metrics",
+    "changeType": "UPSERT",
+    "aspectName": "documentSettings",
+    "aspect": {
+      "value": "{\"showInGlobalContext\": true, \"lastModified\": {\"time\": 1769615173327, \"actor\": \"urn:li:corpuser:b2fd91.bryan@example.com\"}}",
+      "contentType": "application/json"
+    }
+  }
+]
