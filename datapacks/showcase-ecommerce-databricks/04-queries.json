@@ -18688,5 +18688,4685 @@
         "sampleData": "true"
       }
     }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-active_customers_90d-1-canonical_distinct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-active_customers_90d-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-active_customers_90d-3-exclude_cancelled",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-active_customers_90d-4-last_180_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-aov_monthly-1-canonical_raw",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-aov_monthly-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-aov_monthly-3-weighted_avg_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-aov_monthly-4-with_prior_year_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-avg_dispatch_lead_by_warehouse-1-canonical_avg",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-avg_dispatch_lead_by_warehouse-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 37, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-avg_dispatch_lead_by_warehouse-3-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-clv_distribution_percentiles-1-canonical_percentile_cont",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-clv_distribution_percentiles-2-with_class_segmentation",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-clv_distribution_percentiles-3-top_decile_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_cohort_retention-1-canonical_cohort_grid",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 21, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_cohort_retention-2-six_month_horizon",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_cohort_retention-3-with_pct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_count_by_class-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_count_by_class-2-with_active_only",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_count_by_class-3-mart_version_distinct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 17, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_geo_distribution-1-canonical_billing",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_geo_distribution-2-by_delivery_address",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 33, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-customer_geo_distribution-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_count_audit-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_count_audit-2-with_dod_change",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_count_audit-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_volume_30d-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_volume_30d-2-with_running_total",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 21, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_volume_30d-3-with_dow_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-daily_order_volume_30d-4-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-discount_rate_by_promo-1-canonical_join_chain",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 28, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-discount_rate_by_promo-2-mart_version_discount_pct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-discount_rate_by_promo-3-with_min_price_floor",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-dispatch_to_delivery_lead_time-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-dispatch_to_delivery_lead_time-2-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-dispatch_to_delivery_lead_time-3-by_delivery_type",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 17, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-fill_rate_monthly-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-fill_rate_monthly-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-fill_rate_monthly-3-by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 39, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-fill_rate_monthly-4-with_inner_join_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-gmv_monthly_trend-1-canonical_raw",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 28, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-gmv_monthly_trend-2-mart_shortcut",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-gmv_monthly_trend-3-with_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-gmv_monthly_trend-4-missing_status_filter_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 25, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-high_credit_limit_actual_spend-1-canonical_credit_v_spend",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-high_credit_limit_actual_spend-2-with_credit_utilization_ratio",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 39, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-inventory_turnover_by_category-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 16, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-inventory_turnover_by_category-2-with_window_period",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-mailshot_eligible_customers-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-mailshot_eligible_customers-2-with_partner_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-mailshot_eligible_customers-3-by_class",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-negative_inventory_anomalies-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-negative_inventory_anomalies-2-with_severity_bucket",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-net_revenue_monthly-1-canonical_case_when",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-net_revenue_monthly-2-gmv_minus_returns_subq",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-net_revenue_monthly-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-new_customer_acquisition_monthly-1-canonical_customer_since",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-new_customer_acquisition_monthly-2-by_first_order",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-new_customer_acquisition_monthly-3-with_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_count_by_status-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_count_by_status-2-with_pct_of_total",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_count_by_status-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_to_dispatch_lead_time-1-canonical_avg",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_to_dispatch_lead_time-2-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_to_dispatch_lead_time-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 36, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-order_to_dispatch_lead_time-4-by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-orders_outside_promo_window-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 16, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-orders_outside_promo_window-2-with_days_off",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-orders_outside_promo_window-3-by_promo",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-orders_with_zero_or_negative_total-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-orders_with_zero_or_negative_total-2-with_status_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-out_of_stock_products-1-canonical_having",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-out_of_stock_products-2-with_warehouse_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-out_of_stock_products-3-with_last_order_date",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 36, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-overdue_items-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-overdue_items-2-with_product_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-overdue_items-3-by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-pickup_orders_missing_delivery_addr-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-pickup_orders_missing_delivery_addr-2-with_address_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-products_never_ordered-1-canonical_left_join_null",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-products_never_ordered-2-not_exists_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-products_never_ordered-3-anti_join_with_in",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_attachment_rate_monthly-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 21, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_attachment_rate_monthly-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 36, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_attachment_rate_monthly-3-with_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_budget_vs_actual_discount-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_budget_vs_actual_discount-2-with_variance_pct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_uplift_baseline_compare-1-canonical_self_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_uplift_baseline_compare-2-with_pct_lift",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-promo_uplift_baseline_compare-3-by_promo",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-reorder_candidates-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-reorder_candidates-2-with_reorder_qty",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-reorder_candidates-3-exclude_negatives",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 28, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-reorder_candidates-4-prioritised_by_gap",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-repeat_order_rate-1-canonical_with_having",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-repeat_order_rate-2-cte_based",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 39, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-repeat_order_rate-3-window_function_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_category-1-canonical_raw",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_category-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_category-3-last_90d_window",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 37, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_category-4-ranked_categories",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 36, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_warehouse-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_warehouse-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-return_rate_by_warehouse-3-time_to_return_filter",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-returns_by_customer_class-1-canonical_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-returns_by_customer_class-2-with_return_rate",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-returns_by_customer_class-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-returns_by_order_mode-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-returns_by_order_mode-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-returns_by_order_mode-3-with_pct_diff",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_category-1-canonical_join_chain",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_category-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_category-3-with_pct_of_total",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_category-4-recursive_category_tree",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_customer_class-1-canonical_mart",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_customer_class-2-canonical_raw_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_customer_class-3-with_aov_per_class",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_customer_class-4-with_order_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 43, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_delivery_type-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 43, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_delivery_type-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_delivery_type-3-with_order_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_order_mode-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_order_mode-2-with_aov_per_mode",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 17, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_order_mode-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_order_mode-4-with_pct_share",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 39, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_payment_method-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_payment_method-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 42, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-revenue_by_payment_method-3-with_aov_per_method",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-snowflake_freshness_check-1-canonical_max_date",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 25, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-snowflake_freshness_check-2-with_days_lag",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-snowflake_freshness_check-3-with_count_per_day",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-stock_value_by_warehouse-1-canonical_list_price",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 33, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-stock_value_by_warehouse-2-with_min_price_floor",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-stock_value_by_warehouse-3-ranked_warehouses",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-time_to_return_distribution-1-canonical_avg",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-time_to_return_distribution-2-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-time_to_return_distribution-3-by_category",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_customers_by_clv-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_customers_by_clv-2-with_first_order_date",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_customers_by_clv-3-with_avg_order_value",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_customers_by_clv-4-exclude_b2b_accounts",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_returns-1-canonical_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_returns-2-with_return_rate",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_returns-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_returns-4-by_category",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_revenue-1-canonical_join_chain",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_revenue-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 25, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_revenue-3-list_price_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 45, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_products_by_revenue-4-with_category_grouping",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_promos_by_revenue-1-canonical_left_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_promos_by_revenue-2-inner_join_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_promos_by_revenue-3-with_attribution_window",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-top_promos_by_revenue-4-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-warehouse_throughput-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 28, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-warehouse_throughput-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-warehouse_throughput-3-with_revenue",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 43, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-warehouse_throughput-4-by_delivery_type",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-wow_revenue_change-1-canonical_lag",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-wow_revenue_change-2-self_join_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-wow_revenue_change-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-abandoned_attempted_funnel",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-abandoned_clv_by_first_promo",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-abandoned_logon_to_order_funnel",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-abandoned_supplier_rev_by_supplier",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-category_fitness_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-category_food_dairy_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-category_kitchen_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-category_outdoor_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-category_pets_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-category_tools_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_b2b_via_sales_rep",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_back_order_holds",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_bitcoin_payers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_dormant_customers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_first_time_buyers_last_30d",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_gift_wrapped_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_government_class_payment_mix",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_high_discount_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_refurbished_buyers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-cohort_singapore_customers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-compare_enterprise_vs_smb_revenue",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-compare_express_vs_standard",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-compare_online_vs_instore_aov",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-compare_premium_payment_methods",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-compare_q1_vs_q4_2024_revenue",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_105_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_127_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_127_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_127_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_127_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_136_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_245_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_245_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_245_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_245_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_282_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_327_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_343_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_343_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_343_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_343_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_548_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_669_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_669_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_669_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_669_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_6_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_6_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_6_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_6_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-customer_lookup_963_complaint",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-distinct_payment_methods",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_credit_limit_outliers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_customer_dob_under_18",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_dispatch_before_order",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_inventory_above_max",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_orderitems_orphan_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_orders_missing_address",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_orders_missing_customer",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_promo_with_negative_cost",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_return_before_dispatch",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-dq_zero_qty_orderitems",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-duplicate_emails_audit",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-enterprise_customer_top_categories",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-feb_2025_revenue_drill",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-jan_2025_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-largest_single_order_lookup",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_did_today_have_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_inventory_health_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_promos_ending_soon",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_recent_high_value_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_recent_late_dispatches",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_returns_today",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-ops_warehouses_with_low_throughput_7d",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_1000_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_1000_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_2008_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_3333_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_3333_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_3624_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_3624_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_4813_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\", \"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_6057_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_6057_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_8744_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_9866_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_9866_full_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-order_9866_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-orders_missing_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_24_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_25_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_26_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_31_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_385_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_385_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_385_video_camera_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_406_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_508_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_508_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_533_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_533_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_555_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_568_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\", \"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_568_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_842_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_842_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_842_wifi_bulbs_investigation",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_997_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-product_997_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-products_added_last_month",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-products_with_min_above_list",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_12_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_21_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_21_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_22_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\", \"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_24_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\", \"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_24_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_25_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_26_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_26_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_31_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\", \"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_31_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-promo_32_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-refurbished_only_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_condition",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_customer_class",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_delivery_type",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\", \"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_order_mode",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_order_status",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_payment_method_code",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_distinct_product_status",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_orders_columns",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-schema_row_counts_all_tables",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-warehouse_eastside_logistics_center_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-warehouse_harbor_freight_depot_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\", \"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-warehouse_lakeside_distribution_center_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-warehouse_metro_area_hub_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-warehouse_southport_storage_facility_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-weekend_orders_pattern",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:sam@example.com\", \"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_december_2024_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:kirk@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_december_2024_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_february_2025_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_february_2025_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_january_2025_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:bryan@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_january_2025_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_july_4_weekend_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_march_2025_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny2@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_march_2025_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 1, \"topUsersLast30Days\": [\"urn:li:corpuser:brock1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_november_2024_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:EMP006\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_november_2024_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:jonny1@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_pre_christmas_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:databricks.q-noise-window_thanksgiving_week_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"topUsersLast30Days\": [\"urn:li:corpuser:alex@example.com\"]}",
+      "contentType": "application/json"
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
   }
 ]
