@@ -100550,5 +100550,239 @@
       "value": "{\"properties\": [{\"propertyUrn\": \"urn:li:structuredProperty:showcase.dataFreshnessSla\", \"values\": [{\"string\": \"Hourly\"}]}, {\"propertyUrn\": \"urn:li:structuredProperty:showcase.dataQualityScore\", \"values\": [{\"double\": 85.2}]}, {\"propertyUrn\": \"urn:li:structuredProperty:showcase.retentionPeriod\", \"values\": [{\"string\": \"7 years\"}]}, {\"propertyUrn\": \"urn:li:structuredProperty:showcase.costCenter\", \"values\": [{\"string\": \"Analytics\"}]}, {\"propertyUrn\": \"urn:li:structuredProperty:showcase.escalationContact\", \"values\": [{\"string\": \"urn:li:corpuser:b2fd91.michael@example.com\"}]}]}",
       "contentType": "application/json"
     }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_details_replica,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.order_history,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.addresses,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.countries,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.inventories,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.order_items,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.product_categories,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.products,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.regions,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
+  },
+  {
+    "entityType": "dataset",
+    "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.warehouses,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "domains",
+    "aspect": {
+      "json": {
+        "domains": [
+          "urn:li:domain:b2fd91.1caf2b7c-ca73-4708-bdec-6687d78cab0e"
+        ]
+      }
+    },
+    "systemMetadata": {
+      "properties": {
+        "sampleData": "true"
+      }
+    }
   }
 ]

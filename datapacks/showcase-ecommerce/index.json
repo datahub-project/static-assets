@@ -1,5 +1,5 @@
 {
-  "version": "3",
+  "version": "4",
   "files": [
     {"path": "01-definitions.json", "wait_for_completion": true},
     {"path": "02-data.json"},

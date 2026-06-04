@@ -1,0 +1,2810 @@
+[
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-aov_monthly-1-canonical_raw",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 125, \"queryCountTotal\": 1022, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779982720168}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-aov_monthly-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 103, \"queryCountTotal\": 930, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780108664697}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-aov_monthly-3-weighted_avg_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 62, \"queryCountTotal\": 425, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175103727}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-aov_monthly-4-with_prior_year_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 39, \"queryCountTotal\": 290, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780037938528}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-avg_dispatch_lead_by_warehouse-1-canonical_avg",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 82, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780166492233}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-avg_dispatch_lead_by_warehouse-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 97, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779977358381}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-avg_dispatch_lead_by_warehouse-3-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 79, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780045018213}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-clv_distribution_percentiles-1-canonical_percentile_cont",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 79, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780122318012}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-clv_distribution_percentiles-2-with_class_segmentation",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 124, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780097960643}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-clv_distribution_percentiles-3-top_decile_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 64, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780156337874}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_cohort_retention-1-canonical_cohort_grid",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 52, \"queryCountTotal\": 292, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780026044326}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_cohort_retention-2-six_month_horizon",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 255, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780075912969}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_cohort_retention-3-with_pct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"queryCountTotal\": 231, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780016225262}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_count_by_class-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 126, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779979399046}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_count_by_class-2-with_active_only",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 14, \"queryCountTotal\": 69, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780182232632}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_count_by_class-3-mart_version_distinct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 75, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780142923498}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_geo_distribution-1-canonical_billing",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780128896771}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_geo_distribution-2-by_delivery_address",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 93, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779999475008}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-customer_geo_distribution-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 80, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780102827319}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_count_audit-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780175596691}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_count_audit-2-with_dod_change",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780031571236}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_count_audit-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780096714812}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-discount_rate_by_promo-1-canonical_join_chain",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 141, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779955018330}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-discount_rate_by_promo-2-mart_version_discount_pct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780158972521}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-discount_rate_by_promo-3-with_min_price_floor",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 49, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780039222037}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-dispatch_to_delivery_lead_time-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 81, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779983433038}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-dispatch_to_delivery_lead_time-2-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 16, \"queryCountTotal\": 66, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780177007578}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-dispatch_to_delivery_lead_time-3-by_delivery_type",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 83, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780165535179}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-fill_rate_monthly-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 125, \"queryCountTotal\": 1223, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780086414775}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-fill_rate_monthly-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 106, \"queryCountTotal\": 1029, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780092896321}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-fill_rate_monthly-3-by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 77, \"queryCountTotal\": 662, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780078805112}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-fill_rate_monthly-4-with_inner_join_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 36, \"queryCountTotal\": 248, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780194353659}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-gmv_monthly_trend-1-canonical_raw",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 256, \"queryCountTotal\": 2401, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780181907364}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-gmv_monthly_trend-2-mart_shortcut",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 218, \"queryCountTotal\": 2868, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780125246829}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-gmv_monthly_trend-3-with_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 147, \"queryCountTotal\": 1364, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779948874809}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-gmv_monthly_trend-4-missing_status_filter_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 94, \"queryCountTotal\": 1076, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779989380327}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-high_credit_limit_actual_spend-1-canonical_credit_v_spend",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 25, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780173980334}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-high_credit_limit_actual_spend-2-with_credit_utilization_ratio",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780074634021}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-inventory_turnover_by_category-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 99, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780091922173}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-inventory_turnover_by_category-2-with_window_period",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 115, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780133251824}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-mailshot_eligible_customers-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780086752010}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-mailshot_eligible_customers-2-with_partner_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 17, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780081047997}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-mailshot_eligible_customers-3-by_class",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780186420299}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-negative_inventory_anomalies-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780174964965}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-negative_inventory_anomalies-2-with_severity_bucket",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 33, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780090904057}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-net_revenue_monthly-1-canonical_case_when",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 54, \"queryCountTotal\": 304, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780098270178}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-net_revenue_monthly-2-gmv_minus_returns_subq",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 36, \"queryCountTotal\": 222, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780086449794}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-net_revenue_monthly-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 32, \"queryCountTotal\": 230, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780158447043}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-new_customer_acquisition_monthly-1-canonical_customer_since",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 49, \"queryCountTotal\": 277, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780054455583}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-new_customer_acquisition_monthly-2-by_first_order",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 219, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780072013058}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-new_customer_acquisition_monthly-3-with_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 226, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780184731506}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_count_by_status-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 136, \"queryCountTotal\": 859, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780018749012}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_count_by_status-2-with_pct_of_total",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 103, \"queryCountTotal\": 784, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780189331929}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_count_by_status-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 529, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780145169589}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_to_dispatch_lead_time-1-canonical_avg",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 113, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780164867630}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_to_dispatch_lead_time-2-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779950618541}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_to_dispatch_lead_time-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 54, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780033258834}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-order_to_dispatch_lead_time-4-by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 8, \"queryCountTotal\": 55, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780055679864}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-orders_outside_promo_window-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779963544824}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-orders_outside_promo_window-2-with_days_off",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780157655157}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-orders_outside_promo_window-3-by_promo",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780035804002}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-orders_with_zero_or_negative_total-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 8, \"queryCountTotal\": 43, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780020721837}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-orders_with_zero_or_negative_total-2-with_status_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779947957898}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-out_of_stock_products-1-canonical_having",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780000709039}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-out_of_stock_products-2-with_warehouse_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780007367446}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-out_of_stock_products-3-with_last_order_date",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780064330289}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-overdue_items-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175223820}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-overdue_items-2-with_product_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780199048212}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-overdue_items-3-by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780156625669}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-pickup_orders_missing_delivery_addr-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780049432709}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-pickup_orders_missing_delivery_addr-2-with_address_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780053544221}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-products_never_ordered-1-canonical_left_join_null",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780084630007}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-products_never_ordered-2-not_exists_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779958696756}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-products_never_ordered-3-anti_join_with_in",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780105060116}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_attachment_rate_monthly-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 59, \"queryCountTotal\": 451, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780158512405}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_attachment_rate_monthly-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 48, \"queryCountTotal\": 274, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779982360123}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_attachment_rate_monthly-3-with_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 27, \"queryCountTotal\": 168, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780002279982}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_budget_vs_actual_discount-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 37, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779984651646}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_budget_vs_actual_discount-2-with_variance_pct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780128379888}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_uplift_baseline_compare-1-canonical_self_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 115, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780189604944}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_uplift_baseline_compare-2-with_pct_lift",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780106139282}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-promo_uplift_baseline_compare-3-by_promo",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 70, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780140159415}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-reorder_candidates-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 102, \"queryCountTotal\": 690, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780105739929}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-reorder_candidates-2-with_reorder_qty",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 97, \"queryCountTotal\": 737, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779964571795}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-reorder_candidates-3-exclude_negatives",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 76, \"queryCountTotal\": 510, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780170900913}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-reorder_candidates-4-prioritised_by_gap",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 302, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780082856409}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-repeat_order_rate-1-canonical_with_having",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 56, \"queryCountTotal\": 365, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780131623448}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-repeat_order_rate-2-cte_based",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 233, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780084224486}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-repeat_order_rate-3-window_function_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 26, \"queryCountTotal\": 181, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780032722994}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_category-1-canonical_raw",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 51, \"queryCountTotal\": 384, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780020982300}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_category-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 254, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780165831441}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_category-3-last_90d_window",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 27, \"queryCountTotal\": 188, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780018183850}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_category-4-ranked_categories",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 110, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780090995027}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_warehouse-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 22, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780084602780}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_warehouse-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 104, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780075180684}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-return_rate_by_warehouse-3-time_to_return_filter",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 72, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779986933277}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-returns_by_customer_class-1-canonical_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 153, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780177237872}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-returns_by_customer_class-2-with_return_rate",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 16, \"queryCountTotal\": 95, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780174931566}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-returns_by_customer_class-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 81, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780139698481}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-returns_by_order_mode-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 106, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780072456560}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-returns_by_order_mode-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 107, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780088749340}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-returns_by_order_mode-3-with_pct_diff",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 74, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780067291639}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_category-1-canonical_join_chain",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 242, \"queryCountTotal\": 2150, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780152785780}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_category-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 212, \"queryCountTotal\": 2581, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780133106348}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_category-3-with_pct_of_total",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 157, \"queryCountTotal\": 1370, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780075273281}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_category-4-recursive_category_tree",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 89, \"queryCountTotal\": 1239, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779944975686}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_customer_class-1-canonical_mart",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 129, \"queryCountTotal\": 1002, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779959157533}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_customer_class-2-canonical_raw_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 84, \"queryCountTotal\": 793, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779974551024}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_customer_class-3-with_aov_per_class",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 625, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780135777927}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_customer_class-4-with_order_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"queryCountTotal\": 239, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780137053609}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_delivery_type-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 51, \"queryCountTotal\": 303, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780137921219}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_delivery_type-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 223, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780088634747}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_delivery_type-3-with_order_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 29, \"queryCountTotal\": 192, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780183285675}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_order_mode-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 228, \"queryCountTotal\": 2398, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780198417284}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_order_mode-2-with_aov_per_mode",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 220, \"queryCountTotal\": 2154, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780055522518}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_order_mode-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 150, \"queryCountTotal\": 1691, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780141099453}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_order_mode-4-with_pct_share",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 79, \"queryCountTotal\": 862, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780109770914}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_payment_method-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 57, \"queryCountTotal\": 421, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779953162426}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_payment_method-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 38, \"queryCountTotal\": 260, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780041114993}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-revenue_by_payment_method-3-with_aov_per_method",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"queryCountTotal\": 157, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780163573448}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-snowflake_freshness_check-1-canonical_max_date",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780098235081}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-snowflake_freshness_check-2-with_days_lag",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 21, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779995658957}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-snowflake_freshness_check-3-with_count_per_day",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780132281378}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-stock_value_by_warehouse-1-canonical_list_price",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 129, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780139810822}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-stock_value_by_warehouse-2-with_min_price_floor",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 107, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779997537066}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-stock_value_by_warehouse-3-ranked_warehouses",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 10, \"queryCountTotal\": 47, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780033211480}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-time_to_return_distribution-1-canonical_avg",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 83, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779945588411}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-time_to_return_distribution-2-with_percentiles",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 91, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780154959445}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-time_to_return_distribution-3-by_category",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 82, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779991213082}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_customers_by_clv-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 131, \"queryCountTotal\": 1291, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780045435744}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_customers_by_clv-2-with_first_order_date",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 98, \"queryCountTotal\": 963, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780179599852}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_customers_by_clv-3-with_avg_order_value",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 643, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780012848679}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_customers_by_clv-4-exclude_b2b_accounts",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 44, \"queryCountTotal\": 413, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779986264385}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_returns-1-canonical_count",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 62, \"queryCountTotal\": 455, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780022424218}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_returns-2-with_return_rate",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 267, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779971943780}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_returns-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 194, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779942090551}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_returns-4-by_category",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 130, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780010133281}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_revenue-1-canonical_join_chain",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 223, \"queryCountTotal\": 2019, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780083076364}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_revenue-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 214, \"queryCountTotal\": 2472, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779977002342}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_revenue-3-list_price_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 158, \"queryCountTotal\": 1528, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779998545557}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_products_by_revenue-4-with_category_grouping",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 84, \"queryCountTotal\": 979, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780109699219}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_promos_by_revenue-1-canonical_left_join",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 47, \"queryCountTotal\": 354, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780104752400}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_promos_by_revenue-2-inner_join_anti",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 46, \"queryCountTotal\": 276, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780197275082}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_promos_by_revenue-3-with_attribution_window",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 167, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780006706429}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-top_promos_by_revenue-4-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780014615967}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-warehouse_throughput-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 54, \"queryCountTotal\": 385, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175021182}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-warehouse_throughput-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 40, \"queryCountTotal\": 248, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780021769589}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-warehouse_throughput-3-with_revenue",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 31, \"queryCountTotal\": 199, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780085779691}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-warehouse_throughput-4-by_delivery_type",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 21, \"queryCountTotal\": 139, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780011328813}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-wow_revenue_change-1-canonical_lag",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 21, \"queryCountTotal\": 103, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780006381711}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-wow_revenue_change-2-self_join_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 65, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780148583612}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-wow_revenue_change-3-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 59, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780173015229}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-abandoned_attempted_funnel",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780151831527}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-abandoned_clv_by_first_promo",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780126365113}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-abandoned_logon_to_order_funnel",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780012788446}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-abandoned_supplier_rev_by_supplier",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780172461840}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-category_fitness_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780071496134}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-category_food_dairy_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780132225850}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-category_kitchen_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780092435916}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-category_outdoor_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780159271091}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-category_pets_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780177134426}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-category_tools_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780037242846}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_b2b_via_sales_rep",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780079065946}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_back_order_holds",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780118025116}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_bitcoin_payers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779945633194}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_dormant_customers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780022717671}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_first_time_buyers_last_30d",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780157981095}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_gift_wrapped_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780121815679}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_government_class_payment_mix",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780011293216}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_high_discount_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779951989517}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_refurbished_buyers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780085877627}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-cohort_singapore_customers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779956150159}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-compare_enterprise_vs_smb_revenue",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780155460442}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-compare_express_vs_standard",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780082115643}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-compare_online_vs_instore_aov",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779946952274}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-compare_premium_payment_methods",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780178406555}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-compare_q1_vs_q4_2024_revenue",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780037941853}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_105_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779994711199}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_127_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779995154488}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_127_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779954093584}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_127_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780029601276}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_127_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780106594915}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_136_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779969754025}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_245_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780122632125}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_245_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780077908599}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_245_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779992620745}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_245_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780023460636}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_282_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780149646195}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_327_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780032118119}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_343_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780052569975}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_343_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780167404933}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_343_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780009469124}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_343_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780174979345}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_548_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780076131026}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_669_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780066218345}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_669_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780088467662}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_669_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780077382316}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_669_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779968064536}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_6_categories_bought",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780108765436}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_6_lifetime_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780124075989}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_6_recent_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779967733377}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_6_returns_check",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780110761330}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-customer_lookup_963_complaint",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779949589379}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-distinct_payment_methods",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780046509239}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_credit_limit_outliers",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780188283518}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_customer_dob_under_18",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780096362775}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_dispatch_before_order",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780067036230}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_inventory_above_max",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779966541599}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_orderitems_orphan_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780058816082}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_orders_missing_address",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780089947204}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_orders_missing_customer",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780073972077}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_promo_with_negative_cost",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780025560801}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_return_before_dispatch",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779943875104}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-dq_zero_qty_orderitems",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779965821467}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-duplicate_emails_audit",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780030574005}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-enterprise_customer_top_categories",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779999541430}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-feb_2025_revenue_drill",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780080900946}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-jan_2025_yoy_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780187654394}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-largest_single_order_lookup",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780099379362}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_did_today_have_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780048084843}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_inventory_health_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780178802096}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_promos_ending_soon",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780066408466}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_recent_high_value_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780028763780}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_recent_late_dispatches",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779958701079}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_returns_today",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780180172847}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-ops_warehouses_with_low_throughput_7d",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780028486199}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_1000_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779973090455}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_1000_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780171370481}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_2008_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780012288701}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_3333_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780126319733}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_3333_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779955558124}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_3624_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779991763618}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_3624_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780141211418}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_4813_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780031355933}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_6057_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780117071462}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_6057_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780003408672}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_8744_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779999349634}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_9866_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780057500401}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_9866_full_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780131020120}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-order_9866_header_vs_lines",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779999597002}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-orders_missing_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779941525299}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_24_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779969107767}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_25_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779972972196}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_26_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780196263739}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_31_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780019389008}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_385_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779979234038}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_385_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780073438892}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_385_video_camera_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779954312863}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_406_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779955888116}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_508_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780162478893}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_508_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780168829146}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_533_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780095673680}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_533_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780042337027}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_555_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780024195741}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_568_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779947924863}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_568_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780141677114}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_842_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780173329697}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_842_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780183746209}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_842_wifi_bulbs_investigation",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779945251858}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_997_sales_history",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780027743769}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-product_997_stock_by_warehouse",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779988796435}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-products_added_last_month",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780181582603}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-products_with_min_above_list",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779981747753}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_12_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779988300056}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_21_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780165105503}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_21_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780022548692}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_22_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779987940107}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_24_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780153226142}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_24_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780058779992}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_25_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779991152642}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_26_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780064751831}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_26_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780077045148}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_31_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779972555029}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_31_revenue_summary",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780008766230}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-promo_32_orders",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780113533767}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-refurbished_only_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780032411049}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_condition",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780097751756}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_customer_class",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780064292167}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_delivery_type",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779971080194}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_order_mode",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780084553980}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_order_status",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779977891344}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_payment_method_code",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780116100941}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_distinct_product_status",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779944021958}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_orders_columns",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780175512034}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-schema_row_counts_all_tables",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780000125922}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-warehouse_eastside_logistics_center_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780042571980}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-warehouse_harbor_freight_depot_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780089724397}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-warehouse_lakeside_distribution_center_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779966973290}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-warehouse_metro_area_hub_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780038828643}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-warehouse_southport_storage_facility_current_load",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780158464936}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-weekend_orders_pattern",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780106016992}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_december_2024_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780045891203}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_december_2024_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780036524173}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_february_2025_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780192227939}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_february_2025_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779952626656}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_january_2025_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780047979339}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_january_2025_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175368985}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_july_4_weekend_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780078225386}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_march_2025_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779991469777}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_march_2025_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780158236837}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_november_2024_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780126957950}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_november_2024_top_products",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780088818399}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_pre_christmas_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780107343368}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-noise-window_thanksgiving_week_daily",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780058552203}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-active_customers_90d-1-canonical_distinct",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 260, \"queryCountTotal\": 2119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780018349866}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-active_customers_90d-2-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 209, \"queryCountTotal\": 2355, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780174848875}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-active_customers_90d-3-exclude_cancelled",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 128, \"queryCountTotal\": 1412, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780146624926}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-active_customers_90d-4-last_180_compare",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 90, \"queryCountTotal\": 1098, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780140825922}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_volume_30d-1-canonical",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 118, \"queryCountTotal\": 839, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780108664697}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_volume_30d-2-with_running_total",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 87, \"queryCountTotal\": 596, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780098014041}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_volume_30d-3-with_dow_breakdown",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 59, \"queryCountTotal\": 554, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780188336362}"
+    }
+  },
+  {
+    "entityType": "query",
+    "entityUrn": "urn:li:query:b2fd91.q-daily_order_volume_30d-4-mart_version",
+    "changeType": "UPSERT",
+    "aspectName": "queryUsageFeatures",
+    "aspect": {
+      "value": "{\"queryCountLast30Days\": 43, \"queryCountTotal\": 350, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780178847234}"
+    }
+  }
+]
