@@ -13,6 +13,7 @@ Each dataset simulates a real-world data pipeline with tables, views (for lineag
 | [olist-ecommerce](./olist-ecommerce/) | Multi-table e-commerce with join relationships | 9 tables + 5 cross-table join views | `olist.db` (clean) + `olist_dirty.db` (broken joins) | ~90MB each |
 | [nyc-taxi](./nyc-taxi/) | 3-stage data pipeline with freshness tracking | raw → staging → mart (linear) | `nyc_taxi.db` + `nyc_taxi_pipeline.db` | ~85MB each |
 | [healthcare](./healthcare/) | Forking pipeline with data quality issues | raw → staging → billing + demographics (fork) | `healthcare.db` (quality issues planted) | ~2MB |
+| [fiction-retail](./fiction-retail/) | Synthetic global retail — orders, fulfillment, returns | 10 flat tables (no views) | `fiction-retail.db` | ~95MB |
 
 ### When to Use What
 
@@ -27,6 +28,9 @@ Each dataset simulates a real-world data pipeline with tables, views (for lineag
 
 **Testing data reconciliation or cross-system consistency?**
 → Use **olist-ecommerce** (`olist.db` + `olist_warehouse.db` + `olist_analytics.db`). Same source data in three "systems" — each with different drift. Warehouse has missing rows and precision loss. Analytics has daily rollups with inflated counts and missing days.
+
+**Exploring a flat, wide-table retail schema with no planted issues?**
+→ Use **fiction-retail** (`fiction-retail.db`). 10 clean, interconnected tables covering customers, orders, products, suppliers, inventory, warehouses, shipments, returns, and promotions. Good baseline for schema exploration, join traversal, or building demos from scratch.
 
 **Building something else entirely?**
 → Any of the above. Each dataset is a complete, realistic data environment. Pick the one whose schema and pipeline shape best fits your idea.
@@ -76,6 +80,21 @@ NYC Yellow Taxi trip records from the [NYC TLC](https://www.kaggle.com/datasets/
 - `nyc_taxi_pipeline.db` — Same pipeline with planted staleness: staging/mart are 3 days behind raw, plus one "empty load" day where the pipeline ran but loaded 0 rows.
 
 **Metadata:** Tags (daily_refresh, time_series, pii, pipeline_stage), glossary (freshness_sla, empty_load, pipeline_stage), ownership (data_platform_team).
+
+### fiction-retail
+
+Fully synthetic global retail dataset — 10 interconnected tables covering the complete order lifecycle across 50k customers, 150k orders, 5k products, 500 suppliers, and 15 warehouses.
+
+**Committed .db files:**
+- `fiction-retail.db` — Single clean database. No planted issues. All foreign keys present in the data.
+
+**No additional variants.** This dataset has no ETL pipeline stages or views — it's a flat analytical schema intended as a clean foundation.
+
+**Key tables:** `customers`, `orders`, `order_items`, `products`, `suppliers`, `inventory`, `warehouses`, `shipments`, `returns`, `promotions`
+
+**Metadata:** Tags (pii, financial, transactional, reference_data), glossary (order_status, customer_segment, discount_pct, reorder_threshold, return_reason_code, shipment_state), ownership (customer_team, commerce_team, catalog_team, logistics_team, marketing_team, finance_team).
+
+**Source:** [Kaggle — Fiction Retail E-Commerce Dataset](https://www.kaggle.com/datasets/nasalakshay/fiction-retail-e-commerce-dataset) | License: CC0 1.0 (Public Domain)
 
 ### healthcare
 
@@ -133,10 +152,16 @@ datasets/
 │   ├── ingest_pipeline.yaml
 │   ├── add_lineage.py
 │   └── add_metadata.py
-└── healthcare/
+├── healthcare/
+│   ├── README.md
+│   ├── create_db.py
+│   ├── healthcare.db                ← committed
+│   ├── ingest.yaml
+│   ├── add_lineage.py
+│   └── add_metadata.py
+└── fiction-retail/
     ├── README.md
-    ├── create_db.py
-    ├── healthcare.db                ← committed
+    ├── fiction-retail.db            ← committed
     ├── ingest.yaml
     ├── add_lineage.py
     └── add_metadata.py
@@ -150,9 +175,10 @@ These datasets are derived from publicly available sources. DataHub does not own
 
 | Dataset | Original Source | License |
 |---|---|---|
-| Brazilian E-Commerce (Olist) | [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — Olist / André Sionek | CC BY-NC-SA 4.0 |
+| Brazilian E-Commerce (Olist) | [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — Olist / André Sionek | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — derivative work, same license (see [LICENSE](./olist-ecommerce/LICENSE)) |
 | NYC Taxi Trip Records | [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data) — NYC TLC | Public Domain |
 | Healthcare Dataset | [Kaggle](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) — Prasad22 | CC0 1.0 (Public Domain) |
+| Fiction Retail | [Kaggle](https://www.kaggle.com/datasets/nasalakshay/fiction-retail-e-commerce-dataset) — nasalakshay | CC0 1.0 (Public Domain) |
 
 ### What We Modified
 
