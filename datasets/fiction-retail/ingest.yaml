@@ -1,0 +1,24 @@
+# DataHub ingestion recipe for fiction-retail.db
+#
+# Usage: datahub ingest -c ingest.yaml
+#
+# Creates: fiction-retail platform instance in DataHub
+# Schema: 10 flat tables — customers, orders, order_items, products,
+#         suppliers, inventory, warehouses, shipments, returns, promotions
+# No views or pipeline stages — run add_metadata.py after ingestion.
+
+source:
+  type: sqlalchemy
+  config:
+    connect_uri: "sqlite:///fiction-retail.db"
+    platform: sqlite
+    platform_instance: fiction-retail
+    include_tables: true
+    include_views: false
+    include_view_lineage: false
+    include_view_column_lineage: false
+
+sink:
+  type: datahub-rest
+  config:
+    server: "http://localhost:8080"

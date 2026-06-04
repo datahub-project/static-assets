@@ -1,0 +1,23 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Original dataset: Brazilian E-Commerce Public Dataset by Olist
+Source:          https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+Authors:         Olist / André Sionek
+Original license: CC BY-NC-SA 4.0 — https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+This folder contains a derivative work of the above dataset. In accordance with the
+ShareAlike clause of CC BY-NC-SA 4.0, this derivative work is distributed under the
+same license: CC BY-NC-SA 4.0.
+
+Modifications made to the original data:
+  - SQL views added to define transformation logic and enable lineage visualization
+  - Variant databases derived from the source (olist_dirty.db, olist_warehouse.db,
+    olist_analytics.db) with planted data quality issues, ETL drift, and rollup schemas
+  - Ingestion recipes (YAML) for loading into a metadata platform
+  - Metadata scripts for attaching tags, glossary terms, and ownership
+  - Geolocation table subsetted to 500k rows for size manageability
+
+The original data has been anonymized by Olist — company and partner names in reviews
+are replaced with Game of Thrones house names.
+
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
