@@ -5,7 +5,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 125, \"queryCountTotal\": 1022, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779982720168}"
+      "value": "{\"queryCountLast30Days\": 125, \"queryCountTotal\": 1022, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779982720168}"
     }
   },
   {
@@ -14,7 +14,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 103, \"queryCountTotal\": 930, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780108664697}"
+      "value": "{\"queryCountLast30Days\": 103, \"queryCountTotal\": 930, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780108664697}"
     }
   },
   {
@@ -23,7 +23,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 62, \"queryCountTotal\": 425, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175103727}"
+      "value": "{\"queryCountLast30Days\": 62, \"queryCountTotal\": 425, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780175103727}"
     }
   },
   {
@@ -32,7 +32,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 39, \"queryCountTotal\": 290, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780037938528}"
+      "value": "{\"queryCountLast30Days\": 39, \"queryCountTotal\": 290, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780037938528}"
     }
   },
   {
@@ -41,7 +41,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 82, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780166492233}"
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 82, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780166492233}"
     }
   },
   {
@@ -50,7 +50,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 97, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779977358381}"
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 97, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779977358381}"
     }
   },
   {
@@ -59,7 +59,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 79, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780045018213}"
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 79, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780045018213}"
     }
   },
   {
@@ -68,7 +68,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 79, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780122318012}"
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 79, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780122318012}"
     }
   },
   {
@@ -77,7 +77,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 124, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780097960643}"
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 124, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780097960643}"
     }
   },
   {
@@ -86,7 +86,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 64, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780156337874}"
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 64, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780156337874}"
     }
   },
   {
@@ -95,7 +95,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 52, \"queryCountTotal\": 292, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780026044326}"
+      "value": "{\"queryCountLast30Days\": 52, \"queryCountTotal\": 292, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780026044326}"
     }
   },
   {
@@ -104,7 +104,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 255, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780075912969}"
+      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 255, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780075912969}"
     }
   },
   {
@@ -113,7 +113,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 29, \"queryCountTotal\": 231, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780016225262}"
+      "value": "{\"queryCountLast30Days\": 29, \"queryCountTotal\": 231, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780016225262}"
     }
   },
   {
@@ -122,7 +122,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 126, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779979399046}"
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 126, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779979399046}"
     }
   },
   {
@@ -131,7 +131,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 14, \"queryCountTotal\": 69, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780182232632}"
+      "value": "{\"queryCountLast30Days\": 14, \"queryCountTotal\": 69, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780182232632}"
     }
   },
   {
@@ -140,7 +140,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 75, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780142923498}"
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 75, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780142923498}"
     }
   },
   {
@@ -149,7 +149,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780128896771}"
+      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780128896771}"
     }
   },
   {
@@ -158,7 +158,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 93, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779999475008}"
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 93, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779999475008}"
     }
   },
   {
@@ -167,7 +167,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 80, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780102827319}"
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 80, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780102827319}"
     }
   },
   {
@@ -176,7 +176,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780175596691}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 35, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780175596691}"
     }
   },
   {
@@ -185,7 +185,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780031571236}"
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780031571236}"
     }
   },
   {
@@ -194,7 +194,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780096714812}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780096714812}"
     }
   },
   {
@@ -203,7 +203,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 141, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779955018330}"
+      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 141, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779955018330}"
     }
   },
   {
@@ -212,7 +212,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780158972521}"
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780158972521}"
     }
   },
   {
@@ -221,7 +221,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 49, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780039222037}"
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 49, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780039222037}"
     }
   },
   {
@@ -230,7 +230,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 81, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779983433038}"
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 81, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779983433038}"
     }
   },
   {
@@ -239,7 +239,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 16, \"queryCountTotal\": 66, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780177007578}"
+      "value": "{\"queryCountLast30Days\": 16, \"queryCountTotal\": 66, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780177007578}"
     }
   },
   {
@@ -248,7 +248,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 83, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780165535179}"
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 83, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780165535179}"
     }
   },
   {
@@ -257,7 +257,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 125, \"queryCountTotal\": 1223, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780086414775}"
+      "value": "{\"queryCountLast30Days\": 125, \"queryCountTotal\": 1223, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780086414775}"
     }
   },
   {
@@ -266,7 +266,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 106, \"queryCountTotal\": 1029, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780092896321}"
+      "value": "{\"queryCountLast30Days\": 106, \"queryCountTotal\": 1029, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780092896321}"
     }
   },
   {
@@ -275,7 +275,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 77, \"queryCountTotal\": 662, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780078805112}"
+      "value": "{\"queryCountLast30Days\": 77, \"queryCountTotal\": 662, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780078805112}"
     }
   },
   {
@@ -284,7 +284,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 36, \"queryCountTotal\": 248, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780194353659}"
+      "value": "{\"queryCountLast30Days\": 36, \"queryCountTotal\": 248, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780194353659}"
     }
   },
   {
@@ -293,7 +293,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 256, \"queryCountTotal\": 2401, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780181907364}"
+      "value": "{\"queryCountLast30Days\": 256, \"queryCountTotal\": 2401, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780181907364}"
     }
   },
   {
@@ -311,7 +311,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 147, \"queryCountTotal\": 1364, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779948874809}"
+      "value": "{\"queryCountLast30Days\": 147, \"queryCountTotal\": 1364, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1779948874809}"
     }
   },
   {
@@ -320,7 +320,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 94, \"queryCountTotal\": 1076, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779989380327}"
+      "value": "{\"queryCountLast30Days\": 94, \"queryCountTotal\": 1076, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779989380327}"
     }
   },
   {
@@ -329,7 +329,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 25, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780173980334}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 25, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780173980334}"
     }
   },
   {
@@ -338,7 +338,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780074634021}"
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 20, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780074634021}"
     }
   },
   {
@@ -347,7 +347,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 99, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780091922173}"
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 99, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780091922173}"
     }
   },
   {
@@ -356,7 +356,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 115, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780133251824}"
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 115, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780133251824}"
     }
   },
   {
@@ -365,7 +365,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780086752010}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780086752010}"
     }
   },
   {
@@ -374,7 +374,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 17, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780081047997}"
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 17, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780081047997}"
     }
   },
   {
@@ -383,7 +383,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780186420299}"
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780186420299}"
     }
   },
   {
@@ -392,7 +392,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780174964965}"
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780174964965}"
     }
   },
   {
@@ -401,7 +401,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 33, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780090904057}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 33, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780090904057}"
     }
   },
   {
@@ -410,7 +410,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 54, \"queryCountTotal\": 304, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780098270178}"
+      "value": "{\"queryCountLast30Days\": 54, \"queryCountTotal\": 304, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780098270178}"
     }
   },
   {
@@ -419,7 +419,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 36, \"queryCountTotal\": 222, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780086449794}"
+      "value": "{\"queryCountLast30Days\": 36, \"queryCountTotal\": 222, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780086449794}"
     }
   },
   {
@@ -428,7 +428,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 32, \"queryCountTotal\": 230, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780158447043}"
+      "value": "{\"queryCountLast30Days\": 32, \"queryCountTotal\": 230, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780158447043}"
     }
   },
   {
@@ -437,7 +437,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 49, \"queryCountTotal\": 277, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780054455583}"
+      "value": "{\"queryCountLast30Days\": 49, \"queryCountTotal\": 277, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780054455583}"
     }
   },
   {
@@ -446,7 +446,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 219, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780072013058}"
+      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 219, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780072013058}"
     }
   },
   {
@@ -455,7 +455,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 226, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780184731506}"
+      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 226, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780184731506}"
     }
   },
   {
@@ -464,7 +464,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 136, \"queryCountTotal\": 859, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780018749012}"
+      "value": "{\"queryCountLast30Days\": 136, \"queryCountTotal\": 859, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780018749012}"
     }
   },
   {
@@ -473,7 +473,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 103, \"queryCountTotal\": 784, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780189331929}"
+      "value": "{\"queryCountLast30Days\": 103, \"queryCountTotal\": 784, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780189331929}"
     }
   },
   {
@@ -482,7 +482,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 529, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780145169589}"
+      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 529, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780145169589}"
     }
   },
   {
@@ -491,7 +491,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 113, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780164867630}"
+      "value": "{\"queryCountLast30Days\": 23, \"queryCountTotal\": 113, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780164867630}"
     }
   },
   {
@@ -500,7 +500,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779950618541}"
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779950618541}"
     }
   },
   {
@@ -509,7 +509,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 54, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780033258834}"
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 54, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780033258834}"
     }
   },
   {
@@ -518,7 +518,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 8, \"queryCountTotal\": 55, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780055679864}"
+      "value": "{\"queryCountLast30Days\": 8, \"queryCountTotal\": 55, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780055679864}"
     }
   },
   {
@@ -527,7 +527,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779963544824}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 22, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1779963544824}"
     }
   },
   {
@@ -536,7 +536,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780157655157}"
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780157655157}"
     }
   },
   {
@@ -545,7 +545,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780035804002}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780035804002}"
     }
   },
   {
@@ -563,7 +563,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779947957898}"
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 19, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779947957898}"
     }
   },
   {
@@ -590,7 +590,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780064330289}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780064330289}"
     }
   },
   {
@@ -599,7 +599,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175223820}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 34, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780175223820}"
     }
   },
   {
@@ -608,7 +608,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780199048212}"
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 27, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780199048212}"
     }
   },
   {
@@ -617,7 +617,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780156625669}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780156625669}"
     }
   },
   {
@@ -626,7 +626,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780049432709}"
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 32, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780049432709}"
     }
   },
   {
@@ -635,7 +635,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780053544221}"
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780053544221}"
     }
   },
   {
@@ -644,7 +644,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780084630007}"
+      "value": "{\"queryCountLast30Days\": 6, \"queryCountTotal\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780084630007}"
     }
   },
   {
@@ -662,7 +662,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780105060116}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780105060116}"
     }
   },
   {
@@ -671,7 +671,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 59, \"queryCountTotal\": 451, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780158512405}"
+      "value": "{\"queryCountLast30Days\": 59, \"queryCountTotal\": 451, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780158512405}"
     }
   },
   {
@@ -680,7 +680,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 48, \"queryCountTotal\": 274, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779982360123}"
+      "value": "{\"queryCountLast30Days\": 48, \"queryCountTotal\": 274, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779982360123}"
     }
   },
   {
@@ -689,7 +689,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 27, \"queryCountTotal\": 168, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780002279982}"
+      "value": "{\"queryCountLast30Days\": 27, \"queryCountTotal\": 168, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780002279982}"
     }
   },
   {
@@ -698,7 +698,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 37, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779984651646}"
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 37, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779984651646}"
     }
   },
   {
@@ -707,7 +707,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780128379888}"
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 26, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780128379888}"
     }
   },
   {
@@ -716,7 +716,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 115, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780189604944}"
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 115, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780189604944}"
     }
   },
   {
@@ -725,7 +725,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780106139282}"
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780106139282}"
     }
   },
   {
@@ -734,7 +734,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 70, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780140159415}"
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 70, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780140159415}"
     }
   },
   {
@@ -743,7 +743,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 102, \"queryCountTotal\": 690, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780105739929}"
+      "value": "{\"queryCountLast30Days\": 102, \"queryCountTotal\": 690, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780105739929}"
     }
   },
   {
@@ -752,7 +752,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 97, \"queryCountTotal\": 737, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779964571795}"
+      "value": "{\"queryCountLast30Days\": 97, \"queryCountTotal\": 737, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1779964571795}"
     }
   },
   {
@@ -761,7 +761,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 76, \"queryCountTotal\": 510, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780170900913}"
+      "value": "{\"queryCountLast30Days\": 76, \"queryCountTotal\": 510, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780170900913}"
     }
   },
   {
@@ -770,7 +770,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 302, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780082856409}"
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 302, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780082856409}"
     }
   },
   {
@@ -779,7 +779,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 56, \"queryCountTotal\": 365, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780131623448}"
+      "value": "{\"queryCountLast30Days\": 56, \"queryCountTotal\": 365, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780131623448}"
     }
   },
   {
@@ -788,7 +788,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 233, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780084224486}"
+      "value": "{\"queryCountLast30Days\": 37, \"queryCountTotal\": 233, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780084224486}"
     }
   },
   {
@@ -797,7 +797,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 26, \"queryCountTotal\": 181, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780032722994}"
+      "value": "{\"queryCountLast30Days\": 26, \"queryCountTotal\": 181, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780032722994}"
     }
   },
   {
@@ -806,7 +806,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 51, \"queryCountTotal\": 384, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780020982300}"
+      "value": "{\"queryCountLast30Days\": 51, \"queryCountTotal\": 384, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780020982300}"
     }
   },
   {
@@ -815,7 +815,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 254, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780165831441}"
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 254, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780165831441}"
     }
   },
   {
@@ -824,7 +824,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 27, \"queryCountTotal\": 188, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780018183850}"
+      "value": "{\"queryCountLast30Days\": 27, \"queryCountTotal\": 188, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780018183850}"
     }
   },
   {
@@ -833,7 +833,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 110, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780090995027}"
+      "value": "{\"queryCountLast30Days\": 20, \"queryCountTotal\": 110, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780090995027}"
     }
   },
   {
@@ -842,7 +842,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 22, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780084602780}"
+      "value": "{\"queryCountLast30Days\": 22, \"queryCountTotal\": 88, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780084602780}"
     }
   },
   {
@@ -851,7 +851,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 104, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780075180684}"
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 104, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780075180684}"
     }
   },
   {
@@ -860,7 +860,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 72, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779986933277}"
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 72, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779986933277}"
     }
   },
   {
@@ -869,7 +869,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 153, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780177237872}"
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 153, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780177237872}"
     }
   },
   {
@@ -878,7 +878,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 16, \"queryCountTotal\": 95, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780174931566}"
+      "value": "{\"queryCountLast30Days\": 16, \"queryCountTotal\": 95, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780174931566}"
     }
   },
   {
@@ -887,7 +887,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 81, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780139698481}"
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 81, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780139698481}"
     }
   },
   {
@@ -896,7 +896,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 106, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780072456560}"
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 106, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780072456560}"
     }
   },
   {
@@ -905,7 +905,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 107, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780088749340}"
+      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 107, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780088749340}"
     }
   },
   {
@@ -914,7 +914,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 74, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780067291639}"
+      "value": "{\"queryCountLast30Days\": 13, \"queryCountTotal\": 74, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780067291639}"
     }
   },
   {
@@ -923,7 +923,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 242, \"queryCountTotal\": 2150, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780152785780}"
+      "value": "{\"queryCountLast30Days\": 242, \"queryCountTotal\": 2150, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780152785780}"
     }
   },
   {
@@ -932,7 +932,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 212, \"queryCountTotal\": 2581, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780133106348}"
+      "value": "{\"queryCountLast30Days\": 212, \"queryCountTotal\": 2581, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780133106348}"
     }
   },
   {
@@ -941,7 +941,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 157, \"queryCountTotal\": 1370, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780075273281}"
+      "value": "{\"queryCountLast30Days\": 157, \"queryCountTotal\": 1370, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780075273281}"
     }
   },
   {
@@ -950,7 +950,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 89, \"queryCountTotal\": 1239, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779944975686}"
+      "value": "{\"queryCountLast30Days\": 89, \"queryCountTotal\": 1239, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779944975686}"
     }
   },
   {
@@ -959,7 +959,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 129, \"queryCountTotal\": 1002, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779959157533}"
+      "value": "{\"queryCountLast30Days\": 129, \"queryCountTotal\": 1002, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779959157533}"
     }
   },
   {
@@ -968,7 +968,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 84, \"queryCountTotal\": 793, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779974551024}"
+      "value": "{\"queryCountLast30Days\": 84, \"queryCountTotal\": 793, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779974551024}"
     }
   },
   {
@@ -977,7 +977,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 625, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780135777927}"
+      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 625, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780135777927}"
     }
   },
   {
@@ -986,7 +986,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 38, \"queryCountTotal\": 239, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780137053609}"
+      "value": "{\"queryCountLast30Days\": 38, \"queryCountTotal\": 239, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780137053609}"
     }
   },
   {
@@ -995,7 +995,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 51, \"queryCountTotal\": 303, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780137921219}"
+      "value": "{\"queryCountLast30Days\": 51, \"queryCountTotal\": 303, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780137921219}"
     }
   },
   {
@@ -1004,7 +1004,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 223, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780088634747}"
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 223, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780088634747}"
     }
   },
   {
@@ -1013,7 +1013,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 29, \"queryCountTotal\": 192, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780183285675}"
+      "value": "{\"queryCountLast30Days\": 29, \"queryCountTotal\": 192, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780183285675}"
     }
   },
   {
@@ -1022,7 +1022,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 228, \"queryCountTotal\": 2398, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780198417284}"
+      "value": "{\"queryCountLast30Days\": 228, \"queryCountTotal\": 2398, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780198417284}"
     }
   },
   {
@@ -1031,7 +1031,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 220, \"queryCountTotal\": 2154, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780055522518}"
+      "value": "{\"queryCountLast30Days\": 220, \"queryCountTotal\": 2154, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780055522518}"
     }
   },
   {
@@ -1040,7 +1040,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 150, \"queryCountTotal\": 1691, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780141099453}"
+      "value": "{\"queryCountLast30Days\": 150, \"queryCountTotal\": 1691, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780141099453}"
     }
   },
   {
@@ -1049,7 +1049,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 79, \"queryCountTotal\": 862, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780109770914}"
+      "value": "{\"queryCountLast30Days\": 79, \"queryCountTotal\": 862, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780109770914}"
     }
   },
   {
@@ -1058,7 +1058,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 57, \"queryCountTotal\": 421, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779953162426}"
+      "value": "{\"queryCountLast30Days\": 57, \"queryCountTotal\": 421, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779953162426}"
     }
   },
   {
@@ -1067,7 +1067,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 38, \"queryCountTotal\": 260, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780041114993}"
+      "value": "{\"queryCountLast30Days\": 38, \"queryCountTotal\": 260, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780041114993}"
     }
   },
   {
@@ -1076,7 +1076,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 31, \"queryCountTotal\": 157, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780163573448}"
+      "value": "{\"queryCountLast30Days\": 31, \"queryCountTotal\": 157, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780163573448}"
     }
   },
   {
@@ -1085,7 +1085,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780098235081}"
+      "value": "{\"queryCountLast30Days\": 7, \"queryCountTotal\": 24, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780098235081}"
     }
   },
   {
@@ -1094,7 +1094,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 21, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779995658957}"
+      "value": "{\"queryCountLast30Days\": 5, \"queryCountTotal\": 21, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779995658957}"
     }
   },
   {
@@ -1103,7 +1103,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780132281378}"
+      "value": "{\"queryCountLast30Days\": 4, \"queryCountTotal\": 15, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780132281378}"
     }
   },
   {
@@ -1112,7 +1112,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 129, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780139810822}"
+      "value": "{\"queryCountLast30Days\": 24, \"queryCountTotal\": 129, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780139810822}"
     }
   },
   {
@@ -1121,7 +1121,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 107, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779997537066}"
+      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 107, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779997537066}"
     }
   },
   {
@@ -1139,7 +1139,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 83, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779945588411}"
+      "value": "{\"queryCountLast30Days\": 19, \"queryCountTotal\": 83, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779945588411}"
     }
   },
   {
@@ -1148,7 +1148,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 91, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780154959445}"
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 91, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780154959445}"
     }
   },
   {
@@ -1157,7 +1157,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 82, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779991213082}"
+      "value": "{\"queryCountLast30Days\": 12, \"queryCountTotal\": 82, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779991213082}"
     }
   },
   {
@@ -1166,7 +1166,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 131, \"queryCountTotal\": 1291, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780045435744}"
+      "value": "{\"queryCountLast30Days\": 131, \"queryCountTotal\": 1291, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780045435744}"
     }
   },
   {
@@ -1175,7 +1175,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 98, \"queryCountTotal\": 963, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780179599852}"
+      "value": "{\"queryCountLast30Days\": 98, \"queryCountTotal\": 963, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780179599852}"
     }
   },
   {
@@ -1184,7 +1184,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 643, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780012848679}"
+      "value": "{\"queryCountLast30Days\": 69, \"queryCountTotal\": 643, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780012848679}"
     }
   },
   {
@@ -1193,7 +1193,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 44, \"queryCountTotal\": 413, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779986264385}"
+      "value": "{\"queryCountLast30Days\": 44, \"queryCountTotal\": 413, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779986264385}"
     }
   },
   {
@@ -1202,7 +1202,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 62, \"queryCountTotal\": 455, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780022424218}"
+      "value": "{\"queryCountLast30Days\": 62, \"queryCountTotal\": 455, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780022424218}"
     }
   },
   {
@@ -1211,7 +1211,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 267, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779971943780}"
+      "value": "{\"queryCountLast30Days\": 41, \"queryCountTotal\": 267, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779971943780}"
     }
   },
   {
@@ -1220,7 +1220,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 194, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779942090551}"
+      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 194, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779942090551}"
     }
   },
   {
@@ -1229,7 +1229,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 130, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780010133281}"
+      "value": "{\"queryCountLast30Days\": 17, \"queryCountTotal\": 130, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780010133281}"
     }
   },
   {
@@ -1238,7 +1238,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 223, \"queryCountTotal\": 2019, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780083076364}"
+      "value": "{\"queryCountLast30Days\": 223, \"queryCountTotal\": 2019, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780083076364}"
     }
   },
   {
@@ -1247,7 +1247,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 214, \"queryCountTotal\": 2472, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779977002342}"
+      "value": "{\"queryCountLast30Days\": 214, \"queryCountTotal\": 2472, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779977002342}"
     }
   },
   {
@@ -1256,7 +1256,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 158, \"queryCountTotal\": 1528, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779998545557}"
+      "value": "{\"queryCountLast30Days\": 158, \"queryCountTotal\": 1528, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779998545557}"
     }
   },
   {
@@ -1265,7 +1265,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 84, \"queryCountTotal\": 979, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780109699219}"
+      "value": "{\"queryCountLast30Days\": 84, \"queryCountTotal\": 979, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780109699219}"
     }
   },
   {
@@ -1274,7 +1274,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 47, \"queryCountTotal\": 354, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780104752400}"
+      "value": "{\"queryCountLast30Days\": 47, \"queryCountTotal\": 354, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780104752400}"
     }
   },
   {
@@ -1283,7 +1283,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 46, \"queryCountTotal\": 276, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780197275082}"
+      "value": "{\"queryCountLast30Days\": 46, \"queryCountTotal\": 276, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780197275082}"
     }
   },
   {
@@ -1292,7 +1292,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 167, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780006706429}"
+      "value": "{\"queryCountLast30Days\": 30, \"queryCountTotal\": 167, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780006706429}"
     }
   },
   {
@@ -1301,7 +1301,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780014615967}"
+      "value": "{\"queryCountLast30Days\": 18, \"queryCountTotal\": 119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780014615967}"
     }
   },
   {
@@ -1310,7 +1310,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 54, \"queryCountTotal\": 385, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175021182}"
+      "value": "{\"queryCountLast30Days\": 54, \"queryCountTotal\": 385, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780175021182}"
     }
   },
   {
@@ -1319,7 +1319,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 40, \"queryCountTotal\": 248, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780021769589}"
+      "value": "{\"queryCountLast30Days\": 40, \"queryCountTotal\": 248, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780021769589}"
     }
   },
   {
@@ -1328,7 +1328,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 31, \"queryCountTotal\": 199, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780085779691}"
+      "value": "{\"queryCountLast30Days\": 31, \"queryCountTotal\": 199, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780085779691}"
     }
   },
   {
@@ -1337,7 +1337,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 21, \"queryCountTotal\": 139, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780011328813}"
+      "value": "{\"queryCountLast30Days\": 21, \"queryCountTotal\": 139, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780011328813}"
     }
   },
   {
@@ -1346,7 +1346,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 21, \"queryCountTotal\": 103, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780006381711}"
+      "value": "{\"queryCountLast30Days\": 21, \"queryCountTotal\": 103, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780006381711}"
     }
   },
   {
@@ -1355,7 +1355,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 65, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780148583612}"
+      "value": "{\"queryCountLast30Days\": 15, \"queryCountTotal\": 65, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780148583612}"
     }
   },
   {
@@ -1364,7 +1364,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 59, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780173015229}"
+      "value": "{\"queryCountLast30Days\": 11, \"queryCountTotal\": 59, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780173015229}"
     }
   },
   {
@@ -1373,7 +1373,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780151831527}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780151831527}"
     }
   },
   {
@@ -1382,7 +1382,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780126365113}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780126365113}"
     }
   },
   {
@@ -1391,7 +1391,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780012788446}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780012788446}"
     }
   },
   {
@@ -1400,7 +1400,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780172461840}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780172461840}"
     }
   },
   {
@@ -1409,7 +1409,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780071496134}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780071496134}"
     }
   },
   {
@@ -1445,7 +1445,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780177134426}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780177134426}"
     }
   },
   {
@@ -1454,7 +1454,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780037242846}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780037242846}"
     }
   },
   {
@@ -1463,7 +1463,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780079065946}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780079065946}"
     }
   },
   {
@@ -1472,7 +1472,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780118025116}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780118025116}"
     }
   },
   {
@@ -1481,7 +1481,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779945633194}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779945633194}"
     }
   },
   {
@@ -1490,7 +1490,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780022717671}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780022717671}"
     }
   },
   {
@@ -1499,7 +1499,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780157981095}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780157981095}"
     }
   },
   {
@@ -1508,7 +1508,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780121815679}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780121815679}"
     }
   },
   {
@@ -1517,7 +1517,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780011293216}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780011293216}"
     }
   },
   {
@@ -1526,7 +1526,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779951989517}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779951989517}"
     }
   },
   {
@@ -1535,7 +1535,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780085877627}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780085877627}"
     }
   },
   {
@@ -1544,7 +1544,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779956150159}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779956150159}"
     }
   },
   {
@@ -1562,7 +1562,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780082115643}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780082115643}"
     }
   },
   {
@@ -1571,7 +1571,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779946952274}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779946952274}"
     }
   },
   {
@@ -1580,7 +1580,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780178406555}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780178406555}"
     }
   },
   {
@@ -1589,7 +1589,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780037941853}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780037941853}"
     }
   },
   {
@@ -1598,7 +1598,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779994711199}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779994711199}"
     }
   },
   {
@@ -1616,7 +1616,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779954093584}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779954093584}"
     }
   },
   {
@@ -1625,7 +1625,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780029601276}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780029601276}"
     }
   },
   {
@@ -1634,7 +1634,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780106594915}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780106594915}"
     }
   },
   {
@@ -1643,7 +1643,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779969754025}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779969754025}"
     }
   },
   {
@@ -1652,7 +1652,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780122632125}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780122632125}"
     }
   },
   {
@@ -1670,7 +1670,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779992620745}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779992620745}"
     }
   },
   {
@@ -1697,7 +1697,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780032118119}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780032118119}"
     }
   },
   {
@@ -1706,7 +1706,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780052569975}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780052569975}"
     }
   },
   {
@@ -1715,7 +1715,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780167404933}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780167404933}"
     }
   },
   {
@@ -1724,7 +1724,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780009469124}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780009469124}"
     }
   },
   {
@@ -1733,7 +1733,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780174979345}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780174979345}"
     }
   },
   {
@@ -1742,7 +1742,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780076131026}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780076131026}"
     }
   },
   {
@@ -1751,7 +1751,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780066218345}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780066218345}"
     }
   },
   {
@@ -1760,7 +1760,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780088467662}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780088467662}"
     }
   },
   {
@@ -1769,7 +1769,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780077382316}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780077382316}"
     }
   },
   {
@@ -1778,7 +1778,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779968064536}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779968064536}"
     }
   },
   {
@@ -1787,7 +1787,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780108765436}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780108765436}"
     }
   },
   {
@@ -1805,7 +1805,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779967733377}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779967733377}"
     }
   },
   {
@@ -1814,7 +1814,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780110761330}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780110761330}"
     }
   },
   {
@@ -1823,7 +1823,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779949589379}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779949589379}"
     }
   },
   {
@@ -1832,7 +1832,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780046509239}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780046509239}"
     }
   },
   {
@@ -1841,7 +1841,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780188283518}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780188283518}"
     }
   },
   {
@@ -1850,7 +1850,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780096362775}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780096362775}"
     }
   },
   {
@@ -1859,7 +1859,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780067036230}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780067036230}"
     }
   },
   {
@@ -1868,7 +1868,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779966541599}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779966541599}"
     }
   },
   {
@@ -1877,7 +1877,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780058816082}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780058816082}"
     }
   },
   {
@@ -1886,7 +1886,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780089947204}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780089947204}"
     }
   },
   {
@@ -1895,7 +1895,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780073972077}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780073972077}"
     }
   },
   {
@@ -1904,7 +1904,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780025560801}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780025560801}"
     }
   },
   {
@@ -1913,7 +1913,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779943875104}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779943875104}"
     }
   },
   {
@@ -1922,7 +1922,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779965821467}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779965821467}"
     }
   },
   {
@@ -1931,7 +1931,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780030574005}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780030574005}"
     }
   },
   {
@@ -1940,7 +1940,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779999541430}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779999541430}"
     }
   },
   {
@@ -1949,7 +1949,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780080900946}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780080900946}"
     }
   },
   {
@@ -1967,7 +1967,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780099379362}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780099379362}"
     }
   },
   {
@@ -1976,7 +1976,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780048084843}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780048084843}"
     }
   },
   {
@@ -1985,7 +1985,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780178802096}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780178802096}"
     }
   },
   {
@@ -1994,7 +1994,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780066408466}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780066408466}"
     }
   },
   {
@@ -2003,7 +2003,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780028763780}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780028763780}"
     }
   },
   {
@@ -2021,7 +2021,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780180172847}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780180172847}"
     }
   },
   {
@@ -2030,7 +2030,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780028486199}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780028486199}"
     }
   },
   {
@@ -2039,7 +2039,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779973090455}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779973090455}"
     }
   },
   {
@@ -2057,7 +2057,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780012288701}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780012288701}"
     }
   },
   {
@@ -2066,7 +2066,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780126319733}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780126319733}"
     }
   },
   {
@@ -2075,7 +2075,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779955558124}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1779955558124}"
     }
   },
   {
@@ -2084,7 +2084,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779991763618}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779991763618}"
     }
   },
   {
@@ -2093,7 +2093,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780141211418}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780141211418}"
     }
   },
   {
@@ -2102,7 +2102,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780031355933}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780031355933}"
     }
   },
   {
@@ -2120,7 +2120,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780003408672}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780003408672}"
     }
   },
   {
@@ -2129,7 +2129,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779999349634}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779999349634}"
     }
   },
   {
@@ -2138,7 +2138,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780057500401}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780057500401}"
     }
   },
   {
@@ -2147,7 +2147,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780131020120}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780131020120}"
     }
   },
   {
@@ -2156,7 +2156,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779999597002}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 14, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779999597002}"
     }
   },
   {
@@ -2165,7 +2165,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779941525299}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779941525299}"
     }
   },
   {
@@ -2174,7 +2174,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779969107767}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779969107767}"
     }
   },
   {
@@ -2183,7 +2183,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779972972196}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 12, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779972972196}"
     }
   },
   {
@@ -2192,7 +2192,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780196263739}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780196263739}"
     }
   },
   {
@@ -2201,7 +2201,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780019389008}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780019389008}"
     }
   },
   {
@@ -2210,7 +2210,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779979234038}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779979234038}"
     }
   },
   {
@@ -2219,7 +2219,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780073438892}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780073438892}"
     }
   },
   {
@@ -2228,7 +2228,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779954312863}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779954312863}"
     }
   },
   {
@@ -2237,7 +2237,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779955888116}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779955888116}"
     }
   },
   {
@@ -2246,7 +2246,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780162478893}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780162478893}"
     }
   },
   {
@@ -2255,7 +2255,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780168829146}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780168829146}"
     }
   },
   {
@@ -2264,7 +2264,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780095673680}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780095673680}"
     }
   },
   {
@@ -2273,7 +2273,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780042337027}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780042337027}"
     }
   },
   {
@@ -2282,7 +2282,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780024195741}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780024195741}"
     }
   },
   {
@@ -2291,7 +2291,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779947924863}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779947924863}"
     }
   },
   {
@@ -2300,7 +2300,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780141677114}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780141677114}"
     }
   },
   {
@@ -2309,7 +2309,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780173329697}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780173329697}"
     }
   },
   {
@@ -2318,7 +2318,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780183746209}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780183746209}"
     }
   },
   {
@@ -2327,7 +2327,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779945251858}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779945251858}"
     }
   },
   {
@@ -2336,7 +2336,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780027743769}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780027743769}"
     }
   },
   {
@@ -2354,7 +2354,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780181582603}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780181582603}"
     }
   },
   {
@@ -2363,7 +2363,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779981747753}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1779981747753}"
     }
   },
   {
@@ -2372,7 +2372,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1779988300056}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779988300056}"
     }
   },
   {
@@ -2381,7 +2381,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780165105503}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780165105503}"
     }
   },
   {
@@ -2390,7 +2390,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780022548692}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780022548692}"
     }
   },
   {
@@ -2399,7 +2399,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779987940107}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779987940107}"
     }
   },
   {
@@ -2417,7 +2417,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780058779992}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780058779992}"
     }
   },
   {
@@ -2426,7 +2426,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779991152642}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779991152642}"
     }
   },
   {
@@ -2435,7 +2435,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780064751831}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780064751831}"
     }
   },
   {
@@ -2444,7 +2444,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780077045148}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780077045148}"
     }
   },
   {
@@ -2453,7 +2453,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1779972555029}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779972555029}"
     }
   },
   {
@@ -2462,7 +2462,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780008766230}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780008766230}"
     }
   },
   {
@@ -2471,7 +2471,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780113533767}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780113533767}"
     }
   },
   {
@@ -2480,7 +2480,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780032411049}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780032411049}"
     }
   },
   {
@@ -2489,7 +2489,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1780097751756}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780097751756}"
     }
   },
   {
@@ -2498,7 +2498,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780064292167}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 10, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780064292167}"
     }
   },
   {
@@ -2507,7 +2507,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1779971080194}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779971080194}"
     }
   },
   {
@@ -2516,7 +2516,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780084553980}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780084553980}"
     }
   },
   {
@@ -2525,7 +2525,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779977891344}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779977891344}"
     }
   },
   {
@@ -2534,7 +2534,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780116100941}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780116100941}"
     }
   },
   {
@@ -2543,7 +2543,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779944021958}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779944021958}"
     }
   },
   {
@@ -2552,7 +2552,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780175512034}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780175512034}"
     }
   },
   {
@@ -2561,7 +2561,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780000125922}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780000125922}"
     }
   },
   {
@@ -2579,7 +2579,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780089724397}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 11, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780089724397}"
     }
   },
   {
@@ -2588,7 +2588,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1779966973290}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779966973290}"
     }
   },
   {
@@ -2597,7 +2597,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780038828643}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780038828643}"
     }
   },
   {
@@ -2606,7 +2606,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780158464936}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780158464936}"
     }
   },
   {
@@ -2615,7 +2615,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780106016992}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780106016992}"
     }
   },
   {
@@ -2624,7 +2624,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780045891203}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 9, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780045891203}"
     }
   },
   {
@@ -2642,7 +2642,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780192227939}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 13, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780192227939}"
     }
   },
   {
@@ -2651,7 +2651,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1779952626656}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1779952626656}"
     }
   },
   {
@@ -2660,7 +2660,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.patrick1@example.com\"], \"lastExecutedAt\": 1780047979339}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 4, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780047979339}"
     }
   },
   {
@@ -2669,7 +2669,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780175368985}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny1@example.com\"], \"lastExecutedAt\": 1780175368985}"
     }
   },
   {
@@ -2678,7 +2678,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780078225386}"
+      "value": "{\"queryCountLast30Days\": 3, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780078225386}"
     }
   },
   {
@@ -2687,7 +2687,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\"], \"lastExecutedAt\": 1779991469777}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1779991469777}"
     }
   },
   {
@@ -2705,7 +2705,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780126957950}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 7, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780126957950}"
     }
   },
   {
@@ -2714,7 +2714,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780088818399}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 6, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780088818399}"
     }
   },
   {
@@ -2723,7 +2723,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780107343368}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 8, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780107343368}"
     }
   },
   {
@@ -2732,7 +2732,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780058552203}"
+      "value": "{\"queryCountLast30Days\": 2, \"queryCountTotal\": 5, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780058552203}"
     }
   },
   {
@@ -2741,7 +2741,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 260, \"queryCountTotal\": 2119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780018349866}"
+      "value": "{\"queryCountLast30Days\": 260, \"queryCountTotal\": 2119, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780018349866}"
     }
   },
   {
@@ -2750,7 +2750,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 209, \"queryCountTotal\": 2355, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780174848875}"
+      "value": "{\"queryCountLast30Days\": 209, \"queryCountTotal\": 2355, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780174848875}"
     }
   },
   {
@@ -2759,7 +2759,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 128, \"queryCountTotal\": 1412, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780146624926}"
+      "value": "{\"queryCountLast30Days\": 128, \"queryCountTotal\": 1412, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780146624926}"
     }
   },
   {
@@ -2768,7 +2768,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 90, \"queryCountTotal\": 1098, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780140825922}"
+      "value": "{\"queryCountLast30Days\": 90, \"queryCountTotal\": 1098, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\"], \"lastExecutedAt\": 1780140825922}"
     }
   },
   {
@@ -2777,7 +2777,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 118, \"queryCountTotal\": 839, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\", \"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\"], \"lastExecutedAt\": 1780108664697}"
+      "value": "{\"queryCountLast30Days\": 118, \"queryCountTotal\": 839, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\", \"urn:li:corpuser:b2fd91.patrick1@example.com\", \"urn:li:corpuser:b2fd91.bryan@example.com\"], \"lastExecutedAt\": 1780108664697}"
     }
   },
   {
@@ -2786,7 +2786,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 87, \"queryCountTotal\": 596, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.marty@example.com\", \"urn:li:corpuser:b2fd91.sam@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780098014041}"
+      "value": "{\"queryCountLast30Days\": 87, \"queryCountTotal\": 596, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\", \"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.michael@example.com\"], \"lastExecutedAt\": 1780098014041}"
     }
   },
   {
@@ -2795,7 +2795,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 59, \"queryCountTotal\": 554, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.bryan@example.com\", \"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780188336362}"
+      "value": "{\"queryCountLast30Days\": 59, \"queryCountTotal\": 554, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.alex@example.com\", \"urn:li:corpuser:b2fd91.kirk@example.com\"], \"lastExecutedAt\": 1780188336362}"
     }
   },
   {
@@ -2804,7 +2804,7 @@
     "changeType": "UPSERT",
     "aspectName": "queryUsageFeatures",
     "aspect": {
-      "value": "{\"queryCountLast30Days\": 43, \"queryCountTotal\": 350, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.brock1@example.com\"], \"lastExecutedAt\": 1780178847234}"
+      "value": "{\"queryCountLast30Days\": 43, \"queryCountTotal\": 350, \"topUsersLast30Days\": [\"urn:li:corpuser:b2fd91.jonny2@example.com\"], \"lastExecutedAt\": 1780178847234}"
     }
   }
 ]
