@@ -1,5 +1,0 @@
-id: stock_value_by_warehouse
-data_product: Inventory & Fulfilment
-question: "What is the total stock value held at each warehouse?"
-primary_tables: [order_entry_db.order_entry.inventories, order_entry_db.order_entry.products, order_entry_db.order_entry.warehouses]
-variants: [canonical_list_price, with_min_price_floor, ranked_warehouses]

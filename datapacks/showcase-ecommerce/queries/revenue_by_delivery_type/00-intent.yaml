@@ -1,6 +1,0 @@
-id: revenue_by_delivery_type
-data_product: Order Entry Analytics
-domain: Ecommerce Operations
-question: "What is the revenue split by delivery method (standard, express, overnight, ...)"
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical, mart_version, with_order_count]

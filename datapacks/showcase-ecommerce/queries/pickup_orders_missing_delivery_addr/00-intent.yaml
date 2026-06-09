@@ -1,5 +1,0 @@
-id: pickup_orders_missing_delivery_addr
-data_product: Inventory & Fulfilment
-question: "Pickup orders should have no delivery address — are there any that don't follow this?"
-primary_tables: [order_entry_db.order_entry.orders]
-variants: [canonical, with_address_join]

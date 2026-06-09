@@ -1,6 +1,0 @@
-id: discount_rate_by_promo
-data_product: Promotions Performance
-question: "What is the average discount rate by promotion?"
-metric: Discount Rate
-primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.products, order_entry_db.order_entry.orders, order_entry_db.order_entry.promotions]
-variants: [canonical_join_chain, mart_version_discount_pct, with_min_price_floor]

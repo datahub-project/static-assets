@@ -1,5 +1,0 @@
-id: products_never_ordered
-data_product: Inventory & Fulfilment
-question: "Which products in our catalogue have never been ordered?"
-primary_tables: [order_entry_db.order_entry.products, order_entry_db.order_entry.order_items]
-variants: [canonical_left_join_null, not_exists_version, anti_join_with_in]

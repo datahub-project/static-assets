@@ -1,5 +1,0 @@
-id: customer_cohort_retention
-data_product: Customer Analytics
-question: "What is monthly cohort retention (% of customers from cohort still ordering N months later)?"
-primary_tables: [order_entry_db.order_entry.customers, order_entry_db.order_entry.orders]
-variants: [canonical_cohort_grid, six_month_horizon, with_pct]

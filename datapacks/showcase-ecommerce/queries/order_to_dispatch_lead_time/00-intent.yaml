@@ -1,6 +1,0 @@
-id: order_to_dispatch_lead_time
-data_product: Order Entry Analytics
-domain: Ecommerce Operations
-question: "What is the average time from order date to dispatch?"
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.order_items, order_entry_db.analytics.order_details]
-variants: [canonical_avg, with_percentiles, mart_version, by_warehouse]

@@ -1,5 +1,0 @@
-id: high_credit_limit_actual_spend
-data_product: Customer Analytics
-question: "For customers with high credit limits, what is their actual spending pattern?"
-primary_tables: [order_entry_db.order_entry.customers, order_entry_db.order_entry.orders]
-variants: [canonical_credit_v_spend, with_credit_utilization_ratio]

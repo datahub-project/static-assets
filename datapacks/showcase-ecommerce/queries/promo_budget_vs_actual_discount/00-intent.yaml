@@ -1,5 +1,0 @@
-id: promo_budget_vs_actual_discount
-data_product: Promotions Performance
-question: "How does each promotion's allocated budget compare to the actual discount given?"
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.promotions, order_entry_db.order_entry.order_items, order_entry_db.order_entry.products]
-variants: [canonical, with_variance_pct]

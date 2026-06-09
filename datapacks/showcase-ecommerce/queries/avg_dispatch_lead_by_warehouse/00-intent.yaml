@@ -1,5 +1,0 @@
-id: avg_dispatch_lead_by_warehouse
-data_product: Inventory & Fulfilment
-question: "What is the average dispatch lead time by warehouse?"
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.order_items, order_entry_db.order_entry.warehouses]
-variants: [canonical_avg, mart_version, with_percentiles]

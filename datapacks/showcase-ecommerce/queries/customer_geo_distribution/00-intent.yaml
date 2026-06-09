@@ -1,5 +1,0 @@
-id: customer_geo_distribution
-data_product: Customer Analytics
-question: "Where are our customers located (by country)?"
-primary_tables: [order_entry_db.order_entry.customers, order_entry_db.order_entry.countries, order_entry_db.order_entry.addresses]
-variants: [canonical_billing, by_delivery_address, mart_version]

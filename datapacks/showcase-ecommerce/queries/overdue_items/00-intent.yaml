@@ -1,5 +1,0 @@
-id: overdue_items
-data_product: Inventory & Fulfilment
-question: "Which items have passed their estimated delivery date but were never dispatched?"
-primary_tables: [order_entry_db.order_entry.order_items]
-variants: [canonical, with_product_join, by_warehouse]
