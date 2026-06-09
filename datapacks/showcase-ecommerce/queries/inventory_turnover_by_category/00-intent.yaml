@@ -1,5 +1,0 @@
-id: inventory_turnover_by_category
-data_product: Inventory & Fulfilment
-question: "What is inventory turnover by category (units sold / avg stock)?"
-primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.products, order_entry_db.order_entry.product_categories, order_entry_db.order_entry.inventories]
-variants: [canonical, with_window_period]

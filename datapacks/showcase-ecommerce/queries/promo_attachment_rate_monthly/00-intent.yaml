@@ -1,6 +1,0 @@
-id: promo_attachment_rate_monthly
-data_product: Promotions Performance
-question: "What is the promotion attachment rate by month?"
-metric: Promotion Attachment Rate
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical, mart_version, with_yoy_compare]

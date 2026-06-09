@@ -1,6 +1,0 @@
-id: clv_distribution_percentiles
-data_product: Customer Analytics
-question: "What does the CLV distribution look like (percentiles)?"
-metric: CLV
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.customers]
-variants: [canonical_percentile_cont, with_class_segmentation, top_decile_breakdown]

@@ -1,5 +1,0 @@
-id: snowflake_freshness_check
-data_product: Order Entry Analytics
-question: "How fresh is the orders data on Snowflake?"
-primary_tables: [order_entry_db.order_entry.orders]
-variants: [canonical_max_date, with_days_lag, with_count_per_day]

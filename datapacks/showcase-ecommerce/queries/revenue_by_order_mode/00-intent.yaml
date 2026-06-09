@@ -1,7 +1,0 @@
-id: revenue_by_order_mode
-data_product: Order Entry Analytics
-domain: Ecommerce Operations
-question: "Compare revenue across order channels (online vs in-store vs phone vs mail)"
-metric: null
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical, with_aov_per_mode, mart_version, with_pct_share]

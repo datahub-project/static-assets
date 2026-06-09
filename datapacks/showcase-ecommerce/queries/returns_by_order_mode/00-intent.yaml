@@ -1,5 +1,0 @@
-id: returns_by_order_mode
-data_product: Returns & Refunds
-question: "Are there return rate differences across order channels?"
-primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical, mart_version, with_pct_diff]

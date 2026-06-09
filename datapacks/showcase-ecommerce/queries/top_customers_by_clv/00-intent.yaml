@@ -1,7 +1,0 @@
-id: top_customers_by_clv
-data_product: Order Entry Analytics
-domain: Customer Success
-question: "Who are our top 10 customers by lifetime value?"
-metric: CLV
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.customers]
-variants: [canonical, with_first_order_date, with_avg_order_value, exclude_b2b_accounts]

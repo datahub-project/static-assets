@@ -1,6 +1,0 @@
-id: active_customers_90d
-data_product: Customer Analytics
-question: "How many customers placed an order in the last 90 days?"
-metric: Active Customer
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical_distinct, mart_version, exclude_cancelled, last_180_compare]

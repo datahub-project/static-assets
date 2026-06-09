@@ -1,6 +1,0 @@
-id: return_rate_by_warehouse
-data_product: Returns & Refunds
-question: "Which warehouses see the highest return rates?"
-metric: Return Rate
-primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.orders, order_entry_db.order_entry.warehouses]
-variants: [canonical, mart_version, time_to_return_filter]

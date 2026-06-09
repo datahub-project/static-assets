@@ -1,5 +1,0 @@
-id: orders_with_zero_or_negative_total
-data_product: Order Entry Analytics
-question: "Are there orders with zero or negative total? (data quality)"
-primary_tables: [order_entry_db.order_entry.orders]
-variants: [canonical, with_status_breakdown]

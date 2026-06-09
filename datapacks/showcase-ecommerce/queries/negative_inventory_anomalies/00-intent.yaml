@@ -1,5 +1,0 @@
-id: negative_inventory_anomalies
-data_product: Inventory & Fulfilment
-question: "Are there any products with negative quantity_on_hand?"
-primary_tables: [order_entry_db.order_entry.inventories, order_entry_db.order_entry.products, order_entry_db.order_entry.warehouses]
-variants: [canonical, with_severity_bucket]

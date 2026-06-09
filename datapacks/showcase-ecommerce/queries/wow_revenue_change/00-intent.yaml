@@ -1,6 +1,0 @@
-id: wow_revenue_change
-data_product: Order Entry Analytics
-domain: Ecommerce Operations
-question: "How did revenue change week-over-week?"
-primary_tables: [order_entry_db.order_entry.orders]
-variants: [canonical_lag, self_join_version, mart_version]

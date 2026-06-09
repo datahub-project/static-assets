@@ -1,8 +1,0 @@
-id: order_count_by_status
-data_product: Order Entry Analytics
-domain: Ecommerce Operations
-question: "How many orders are in each status right now?"
-metric: null
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical, with_pct_of_total, mart_version]
-data_caveats: status is numeric in real data (0..4)

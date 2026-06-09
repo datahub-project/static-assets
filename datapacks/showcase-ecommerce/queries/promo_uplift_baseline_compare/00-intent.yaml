@@ -1,5 +1,0 @@
-id: promo_uplift_baseline_compare
-data_product: Promotions Performance
-question: "How much did revenue lift during each promotion vs the same length window before?"
-primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.promotions]
-variants: [canonical_self_join, with_pct_lift, by_promo]

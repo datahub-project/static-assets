@@ -1,6 +1,0 @@
-id: fill_rate_monthly
-data_product: Inventory & Fulfilment
-question: "What is our monthly fill rate (dispatched / ordered)?"
-metric: Fill Rate
-primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
-variants: [canonical, mart_version, by_warehouse, with_inner_join_anti]
