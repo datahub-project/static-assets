@@ -1,0 +1,14 @@
+id: revenue_by_customer_class
+data_product: Order Entry Analytics
+domain: Ecommerce Operations
+question: "What is total revenue by customer class?"
+metric: Revenue by Customer Class
+primary_tables:
+  - order_entry_db.analytics.order_details
+  - order_entry_db.order_entry.orders
+  - order_entry_db.order_entry.customers
+variants:
+  - canonical_mart
+  - canonical_raw_join
+  - with_aov_per_class
+  - with_order_count
