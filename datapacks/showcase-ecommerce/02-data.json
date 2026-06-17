@@ -2268,7 +2268,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Editor"
+          "urn:li:dataHubRole:Editor"
         ]
       }
     },
@@ -2487,7 +2487,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
@@ -2615,7 +2615,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
@@ -2774,7 +2774,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
@@ -2928,7 +2928,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
@@ -3067,7 +3067,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
@@ -3413,7 +3413,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
@@ -3576,7 +3576,7 @@
     "aspect": {
       "json": {
         "roles": [
-          "urn:li:dataHubRole:b2fd91.Admin"
+          "urn:li:dataHubRole:Admin"
         ]
       }
     },
