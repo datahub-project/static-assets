@@ -1,0 +1,1370 @@
+[
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-platform-admin-all-privileges",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-platform-admin-all-privileges\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-platform-admin-all-privileges",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[\"urn:li:corpuser:persona-admin\"]},\"privileges\":[\"MANAGE_POLICIES\",\"MANAGE_INGESTION\",\"MANAGE_SECRETS\",\"MANAGE_USERS_AND_GROUPS\",\"VIEW_ANALYTICS\",\"GENERATE_PERSONAL_ACCESS_TOKENS\",\"VIEW_METADATA_PROPOSALS\",\"MANAGE_ACCESS_TOKENS\",\"MANAGE_SERVICE_ACCOUNTS\",\"MANAGE_DOMAINS\",\"MANAGE_GLOBAL_ANNOUNCEMENTS\",\"MANAGE_TESTS\",\"MANAGE_GLOSSARIES\",\"MANAGE_USER_CREDENTIALS\",\"MANAGE_TAGS\",\"MANAGE_GLOBAL_SETTINGS\",\"MANAGE_GLOBAL_VIEWS\",\"MANAGE_GLOBAL_SETTINGS\",\"RESTORE_INDICES_PRIVILEGE\",\"GET_TIMESERIES_INDEX_SIZES_PRIVILEGE\",\"TRUNCATE_TIMESERIES_INDEX_PRIVILEGE\",\"GET_ES_TASK_STATUS_PRIVILEGE\",\"SET_WRITEABLE_PRIVILEGE\",\"APPLY_RETENTION_PRIVILEGE\",\"MANAGE_GLOBAL_OWNERSHIP_TYPES\",\"GET_ANALYTICS_PRIVILEGE\",\"CREATE_BUSINESS_ATTRIBUTE\",\"MANAGE_BUSINESS_ATTRIBUTE\",\"MANAGE_STRUCTURED_PROPERTIES\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\",\"MANAGE_DOCUMENTATION_FORMS\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"MANAGE_FEATURES\",\"MANAGE_SYSTEM_OPERATIONS\",\"GET_PLATFORM_EVENTS\",\"MANAGE_HOME_PAGE_TEMPLATES\",\"GET_METADATA_CHANGE_LOG_EVENTS\",\"CREATE_CONSTRAINTS\",\"MANAGE_CONNECTIONS\",\"MANAGE_MONITORS\",\"MANAGE_ORGANIZATION_DISPLAY_PREFERENCES\",\"PROPOSE_CREATE_GLOSSARY_TERM\",\"PROPOSE_CREATE_GLOSSARY_NODE\",\"MANAGE_ACTION_WORKFLOWS\",\"CREATE_SUPPORT_TICKETS\",\"MANAGE_DOCUMENTS\",\"MANAGE_DOCUMENTS_PROPOSALS\",\"GET_TOPIC_EVENTS\",\"MANAGE_AGENTS\"],\"displayName\":\"Authz perf \\u00b7 Platform + direct user policy lookup (PLATFORM)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Stress focus: Platform + direct user policy lookup. Expected match personas: persona-admin. Actors: users [persona-admin]. Type: PLATFORM, state: ACTIVE, privileges: 49.\",\"state\":\"ACTIVE\",\"type\":\"PLATFORM\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-admin-direct",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-admin-direct\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-admin-direct",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[\"urn:li:corpuser:persona-admin\"]},\"privileges\":[\"EDIT_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_ENTITY\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"EDIT_LINEAGE\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"MANAGE_ENTITY_POSTS\",\"EDIT_ENTITY_ASSERTIONS\",\"SEARCH_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"PRODUCE_PLATFORM_EVENT_PRIVILEGE\",\"MANAGE_DATA_PRODUCTS\",\"MANAGE_GLOBAL_OWNERSHIP_TYPES\",\"DELETE_ENTITY\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"EXECUTE_ENTITY\",\"MANAGE_ASSET_SUMMARY\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"SHARE_ENTITY\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"MANAGE_USER_SUBSCRIPTIONS\",\"EXECUTE_ENTITY\",\"PROPOSE_ENTITY_TAGS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"EDIT_ENTITY_LIFECYCLE_STAGE\",\"PROPOSE_ENTITY_LIFECYCLE_STAGE\"],\"displayName\":\"Authz perf \\u00b7 Platform + direct user policy lookup (METADATA)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Stress focus: Platform + direct user policy lookup. Expected match personas: persona-admin. Actors: users [persona-admin]. Type: METADATA, state: ACTIVE, privileges: 50.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0001",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0001\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0001",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"VIEW_ANALYTICS\",\"GENERATE_PERSONAL_ACCESS_TOKENS\",\"VIEW_METADATA_PROPOSALS\"],\"actors\":{\"resourceOwners\":false,\"allGroups\":false,\"allUsers\":true,\"users\":[]},\"lastUpdatedTimestamp\":1775737169268,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0001 (INACTIVE)\",\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: allUsers. Type: PLATFORM, state: INACTIVE, privileges: 3.\",\"state\":\"INACTIVE\",\"type\":\"PLATFORM\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0002",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0002\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0002",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"VIEW_ENTITY_PAGE\",\"EDIT_ENTITY_TAGS\",\"PROPOSE_ENTITY_TAGS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"EDIT_ENTITY_GLOSSARY_TERMS\",\"EDIT_ENTITY_OWNERS\",\"EDIT_ENTITY_DOCS\",\"EDIT_ENTITY_DOC_LINKS\",\"EDIT_ENTITY_STATUS\",\"EDIT_DOMAINS_PRIVILEGE\",\"EDIT_ENTITY_APPLICATIONS_PRIVILEGE\",\"EDIT_ENTITY_DATA_PRODUCTS\",\"EDIT_DEPRECATION_PRIVILEGE\",\"EDIT_ENTITY_INCIDENTS\",\"EDIT_ENTITY\",\"DELETE_ENTITY\",\"EDIT_ENTITY_PROPERTIES\",\"CREATE_ENTITY\",\"EXISTS_ENTITY\",\"MANAGE_ASSET_SUMMARY\",\"VIEW_ENTITY\",\"PROPOSE_ENTITY_DOCS\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"SHARE_ENTITY\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"EDIT_DATASET_COL_DESCRIPTION\",\"EDIT_DATASET_COL_TAGS\",\"EDIT_DATASET_COL_GLOSSARY_TERMS\",\"EDIT_ENTITY_ASSERTIONS\",\"EDIT_LINEAGE\",\"EDIT_ENTITY_EMBED\",\"EDIT_ENTITY_QUERIES\",\"DATA_READ_ONLY\",\"DATA_READ_WRITE\",\"EDIT_DATASET_COL_BUSINESS_ATTRIBUTE_PRIVILEGE\",\"EDIT_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"EDIT_ENTITY_MONITORS\",\"EDIT_ENTITY_SQL_ASSERTION_MONITORS\",\"EDIT_ENTITY_DATA_CONTRACT\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"PROPOSE_DATA_CONTRACT\",\"EDIT_TAG_COLOR\",\"DATA_MANAGE_NAMESPACES\",\"DATA_MANAGE_TABLES\",\"DATA_MANAGE_VIEWS\",\"DATA_LIST_ENTITIES\",\"MANAGE_DATA_PRODUCTS\",\"MANAGE_GLOSSARY_CHILDREN\",\"MANAGE_ALL_GLOSSARY_CHILDREN\",\"EDIT_GROUP_MEMBERS\",\"EDIT_CONTACT_INFO\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"EDIT_USER_PROFILE\",\"EXECUTE_ENTITY\"],\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allGroups\":false,\"allUsers\":false,\"users\":[\"urn:li:corpuser:user-0484\"]},\"lastUpdatedTimestamp\":1763527924741,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0002 (ACTIVE)\",\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: users [user-0484]. Type: METADATA, state: ACTIVE, privileges: 72.\",\"resources\":{\"filter\":{\"criteria\":[]}},\"state\":\"ACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-direct-user-proposals",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-direct-user-proposals\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-direct-user-proposals",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\"],\"actors\":{\"resourceOwners\":false,\"allGroups\":false,\"allUsers\":false,\"users\":[\"urn:li:corpuser:persona-admin\"]},\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Direct user in actors.users (METADATA)\",\"description\":\"Authz perf fixture policy. Stress focus: Direct user in actors.users. Expected match personas: persona-policy-direct. Actors: users [persona-admin]. Resource filter: TYPE=dataset. Type: METADATA, state: ACTIVE, privileges: 10.\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"values\":[\"dataset\"]}]}},\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0003",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0003\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0003",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allUsers\":false,\"allGroups\":false,\"users\":[],\"roles\":[\"urn:li:dataHubRole:Admin\"]},\"privileges\":[\"VIEW_ENTITY_PAGE\",\"VIEW_ENTITY\",\"EDIT_ENTITY_TAGS\",\"EDIT_ENTITY_GLOSSARY_TERMS\",\"EDIT_ENTITY_OWNERS\",\"EDIT_ENTITY_DOCS\",\"EDIT_ENTITY_DOC_LINKS\",\"EDIT_ENTITY_STATUS\",\"EDIT_DOMAINS_PRIVILEGE\",\"EDIT_ENTITY_DATA_PRODUCTS\",\"EDIT_DEPRECATION_PRIVILEGE\",\"EDIT_ENTITY_ASSERTIONS\",\"EDIT_ENTITY_INCIDENTS\",\"EDIT_ENTITY\",\"EDIT_DATASET_COL_TAGS\",\"EDIT_DATASET_COL_GLOSSARY_TERMS\",\"EDIT_DATASET_COL_DESCRIPTION\",\"EDIT_DATASET_COL_PROPERTIES\",\"EDIT_DATASET_COL_BUSINESS_ATTRIBUTE_PRIVILEGE\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"EDIT_TAG_COLOR\",\"EDIT_GROUP_MEMBERS\",\"EDIT_USER_PROFILE\",\"EDIT_CONTACT_INFO\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_ENTITY_POSTS\",\"EDIT_LINEAGE\",\"EDIT_ENTITY_QUERIES\",\"SEARCH_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"PRODUCE_PLATFORM_EVENT_PRIVILEGE\",\"MANAGE_DATA_PRODUCTS\",\"DELETE_ENTITY\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"EDIT_ENTITY_PROPERTIES\",\"EXECUTE_ENTITY\",\"MANAGE_ASSET_SUMMARY\",\"EDIT_ENTITY_PROPERTIES\",\"EDIT_ENTITY_QUERIES\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"MANAGE_USER_SUBSCRIPTIONS\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"EDIT_ENTITY_DATA_CONTRACT_PRIVILEGE\",\"SHARE_ENTITY\",\"EXECUTE_ENTITY\",\"PROPOSE_ENTITY_TAGS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"EDIT_ENTITY_MONITORS\",\"EDIT_ENTITY_LIFECYCLE_STAGE\",\"PROPOSE_ENTITY_LIFECYCLE_STAGE\"],\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0003 (ACTIVE)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: roles [Admin]. Type: METADATA, state: ACTIVE, privileges: 73.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0004",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0004\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0004",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allUsers\":false,\"allGroups\":false,\"users\":[],\"roles\":[\"urn:li:dataHubRole:Admin\"]},\"privileges\":[\"MANAGE_POLICIES\",\"MANAGE_INGESTION\",\"MANAGE_SECRETS\",\"MANAGE_USERS_AND_GROUPS\",\"VIEW_ANALYTICS\",\"GENERATE_PERSONAL_ACCESS_TOKENS\",\"MANAGE_ACCESS_TOKENS\",\"MANAGE_SERVICE_ACCOUNTS\",\"MANAGE_DOMAINS\",\"MANAGE_GLOBAL_ANNOUNCEMENTS\",\"MANAGE_TESTS\",\"MANAGE_GLOSSARIES\",\"MANAGE_USER_CREDENTIALS\",\"MANAGE_TAGS\",\"VIEW_METADATA_PROPOSALS\",\"MANAGE_TESTS\",\"MANAGE_GLOBAL_SETTINGS\",\"CREATE_CONSTRAINTS\",\"MANAGE_GLOBAL_VIEWS\",\"MANAGE_GLOBAL_SETTINGS\",\"RESTORE_INDICES_PRIVILEGE\",\"GET_TIMESERIES_INDEX_SIZES_PRIVILEGE\",\"TRUNCATE_TIMESERIES_INDEX_PRIVILEGE\",\"GET_ES_TASK_STATUS_PRIVILEGE\",\"SET_WRITEABLE_PRIVILEGE\",\"APPLY_RETENTION_PRIVILEGE\",\"MANAGE_GLOBAL_OWNERSHIP_TYPES\",\"GET_ANALYTICS_PRIVILEGE\",\"CREATE_BUSINESS_ATTRIBUTE\",\"MANAGE_BUSINESS_ATTRIBUTE\",\"MANAGE_STRUCTURED_PROPERTIES\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\",\"MANAGE_DOCUMENTATION_FORMS\",\"MANAGE_FEATURES\",\"MANAGE_SYSTEM_OPERATIONS\",\"GET_PLATFORM_EVENTS\",\"MANAGE_HOME_PAGE_TEMPLATES\",\"GET_METADATA_CHANGE_LOG_EVENTS\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"MANAGE_CONNECTIONS\",\"MANAGE_MONITORS\",\"MANAGE_ORGANIZATION_DISPLAY_PREFERENCES\",\"PROPOSE_CREATE_GLOSSARY_TERM\",\"PROPOSE_CREATE_GLOSSARY_NODE\",\"MANAGE_ACTION_WORKFLOWS\",\"CREATE_SUPPORT_TICKETS\",\"MANAGE_DOCUMENTS\",\"MANAGE_DOCUMENTS_PROPOSALS\",\"GET_TOPIC_EVENTS\",\"MANAGE_AGENTS\"],\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0004 (ACTIVE)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: roles [Admin]. Type: PLATFORM, state: ACTIVE, privileges: 50.\",\"state\":\"ACTIVE\",\"type\":\"PLATFORM\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-resource-owner-entities",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-resource-owner-entities\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-resource-owner-entities",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"VIEW_ENTITY_PAGE\",\"VIEW_ENTITY\",\"EDIT_ENTITY_TAGS\",\"EDIT_ENTITY_GLOSSARY_TERMS\",\"EDIT_ENTITY_OWNERS\",\"EDIT_ENTITY_DOCS\",\"EDIT_ENTITY_DOC_LINKS\",\"EDIT_ENTITY_STATUS\",\"EDIT_DOMAINS_PRIVILEGE\",\"EDIT_ENTITY_DATA_PRODUCTS\",\"EDIT_DEPRECATION_PRIVILEGE\",\"EDIT_ENTITY_ASSERTIONS\",\"EDIT_ENTITY_INCIDENTS\",\"EDIT_ENTITY\",\"EDIT_DATASET_COL_TAGS\",\"EDIT_DATASET_COL_GLOSSARY_TERMS\",\"EDIT_DATASET_COL_DESCRIPTION\",\"EDIT_DATASET_COL_PROPERTIES\",\"EDIT_DATASET_COL_BUSINESS_ATTRIBUTE_PRIVILEGE\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"EDIT_TAG_COLOR\",\"EDIT_GROUP_MEMBERS\",\"EDIT_USER_PROFILE\",\"EDIT_CONTACT_INFO\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"EDIT_LINEAGE\",\"EDIT_ENTITY_QUERIES\",\"GET_TIMELINE_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"MANAGE_DATA_PRODUCTS\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"EDIT_ENTITY_PROPERTIES\",\"MANAGE_ASSET_SUMMARY\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"EDIT_ENTITY_DATA_CONTRACT_PRIVILEGE\"],\"actors\":{\"groups\":[],\"resourceOwners\":true,\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Ownership-based checks (METADATA)\",\"description\":\"Authz perf fixture policy. Stress focus: Ownership-based checks. Expected match personas: persona-domain-owner. Actors: resourceOwners. Type: METADATA, state: ACTIVE, privileges: 49.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-editor-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-editor-via-role\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-editor-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allUsers\":false,\"allGroups\":false,\"users\":[],\"roles\":[\"urn:li:dataHubRole:Editor\"]},\"privileges\":[\"VIEW_ENTITY_PAGE\",\"VIEW_ENTITY\",\"EDIT_ENTITY_TAGS\",\"EDIT_ENTITY_GLOSSARY_TERMS\",\"EDIT_ENTITY_DOCS\",\"EDIT_ENTITY_DOC_LINKS\",\"EDIT_ENTITY_STATUS\",\"EDIT_DOMAINS_PRIVILEGE\",\"EDIT_ENTITY_DATA_PRODUCTS\",\"EDIT_DEPRECATION_PRIVILEGE\",\"EDIT_ENTITY_ASSERTIONS\",\"EDIT_ENTITY_MONITORS\",\"EDIT_ENTITY_INCIDENTS\",\"EDIT_DATASET_COL_TAGS\",\"EDIT_DATASET_COL_PROPERTIES\",\"EDIT_DATASET_COL_GLOSSARY_TERMS\",\"EDIT_DATASET_COL_DESCRIPTION\",\"EDIT_DATASET_COL_BUSINESS_ATTRIBUTE_PRIVILEGE\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"EDIT_TAG_COLOR\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_ENTITY_POSTS\",\"EDIT_LINEAGE\",\"EDIT_ENTITY_QUERIES\",\"SEARCH_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"PRODUCE_PLATFORM_EVENT_PRIVILEGE\",\"MANAGE_DATA_PRODUCTS\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"EDIT_ENTITY_PROPERTIES\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\",\"MANAGE_ASSET_SUMMARY\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"EDIT_ENTITY_DATA_CONTRACT_PRIVILEGE\",\"SHARE_ENTITY\",\"PROPOSE_ENTITY_TAGS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"EDIT_ENTITY_LIFECYCLE_STAGE\",\"PROPOSE_ENTITY_LIFECYCLE_STAGE\"],\"displayName\":\"Authz perf \\u00b7 Direct roleMembership (METADATA)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Stress focus: Direct roleMembership. Expected match personas: persona-direct-role. Actors: roles [Editor]. Type: METADATA, state: ACTIVE, privileges: 64.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0005",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0005\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0005",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"EDIT_ENTITY\"],\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"lastUpdatedTimestamp\":1775737221064,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0005 (INACTIVE)\",\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: none. Resource filter: TYPE=dataset, chart, dashboard (+10 more). Type: METADATA, state: INACTIVE, privileges: 1.\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"dataset\",\"chart\",\"dashboard\",\"dataFlow\",\"dataJob\",\"tag\",\"container\",\"domain\",\"glossaryTerm\",\"glossaryNode\",\"notebook\",\"dataProduct\",\"dataProcessInstance\"]}]}},\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-platform-editor-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-platform-editor-via-role\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-platform-editor-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allUsers\":false,\"allGroups\":false,\"users\":[],\"roles\":[\"urn:li:dataHubRole:Editor\"]},\"privileges\":[\"GENERATE_PERSONAL_ACCESS_TOKENS\",\"MANAGE_DOMAINS\",\"MANAGE_GLOBAL_ANNOUNCEMENTS\",\"MANAGE_GLOSSARIES\",\"MANAGE_TAGS\",\"MANAGE_BUSINESS_ATTRIBUTE\",\"MANAGE_STRUCTURED_PROPERTIES\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\",\"MANAGE_DOCUMENTATION_FORMS\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"MANAGE_FEATURES\",\"MANAGE_TESTS\",\"CREATE_CONSTRAINTS\",\"VIEW_METADATA_PROPOSALS\",\"PROPOSE_CREATE_GLOSSARY_TERM\",\"PROPOSE_CREATE_GLOSSARY_NODE\",\"MANAGE_ACTION_WORKFLOWS\",\"MANAGE_DOCUMENTS\",\"MANAGE_DOCUMENTS_PROPOSALS\"],\"displayName\":\"Authz perf \\u00b7 Direct roleMembership (PLATFORM)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Stress focus: Direct roleMembership. Expected match personas: persona-direct-role. Actors: roles [Editor]. Type: PLATFORM, state: ACTIVE, privileges: 19.\",\"state\":\"ACTIVE\",\"type\":\"PLATFORM\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0006",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0006\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0006",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"DATA_LIST_ENTITIES\",\"DATA_MANAGE_NAMESPACES\",\"DATA_MANAGE_TABLES\",\"DATA_MANAGE_VIEWS\"],\"actors\":{\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[\"urn:li:corpuser:user-0484\"]},\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0006 (ACTIVE)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: users [user-0484]. Type: METADATA, state: ACTIVE, privileges: 4.\",\"resources\":{},\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-internal-domain-tree-view",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-internal-domain-tree-view\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-internal-domain-tree-view",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-internal-domain-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Internal Domain Tree View (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Actors: groups [group-internal-domain-readers]. Resource filter: TYPE=domain; URN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-internal-domain-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-internal-domain-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-internal-domain-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-internal-domain-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 DOMAIN filter + parentDomain walk (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: DOMAIN filter + parentDomain walk. Expected match personas: persona-domain-policy-user. Expected deny personas: persona-zero-authz. Actors: groups [group-internal-domain-readers]. Resource filter: DOMAIN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0007",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0007\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0007",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-standard-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0007 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0004\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-standard-readers]. Resource filter: TYPE=domain; URN=internal-domain-0004. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0008",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0008\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0008",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-standard-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0008 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0004\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-standard-readers]. Resource filter: DOMAIN=internal-domain-0004. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0009",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0009\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0009",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-native-readers-alt\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0009 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0005\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-native-readers-alt]. Resource filter: TYPE=domain; URN=internal-domain-0005. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0010",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0010\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0010",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-native-readers-alt\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0010 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0005\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-native-readers-alt]. Resource filter: DOMAIN=internal-domain-0005. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0011",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0011\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0011",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0001\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0011 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0007\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0001]. Resource filter: TYPE=domain; URN=internal-domain-0007. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0012",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0012\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0012",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0001\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0012 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0007\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0001]. Resource filter: DOMAIN=internal-domain-0007. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0013",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0013\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0013",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0002\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0013 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0008\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0002]. Resource filter: TYPE=domain; URN=internal-domain-0008. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0014",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0014\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0014",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0002\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0014 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0008\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0002]. Resource filter: DOMAIN=internal-domain-0008. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0015",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0015\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0015",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0003\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0015 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0011\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0003]. Resource filter: TYPE=domain; URN=internal-domain-0011. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0016",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0016\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0016",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0003\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0016 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0011\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0003]. Resource filter: DOMAIN=internal-domain-0011. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0017",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0017\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0017",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0004\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0017 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0012\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0004]. Resource filter: TYPE=domain; URN=internal-domain-0012. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0018",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0018\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0018",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0004\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0018 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0012\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0004]. Resource filter: DOMAIN=internal-domain-0012. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0019",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0019\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0019",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0005\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0019 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0013\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0005]. Resource filter: TYPE=domain; URN=internal-domain-0013. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0020",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0020\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0020",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0005\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0020 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0013\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0005]. Resource filter: DOMAIN=internal-domain-0013. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0021",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0021\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0021",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0006\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0021 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0015\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0006]. Resource filter: TYPE=domain; URN=internal-domain-0015. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0022",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0022\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0022",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0006\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0022 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0015\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0006]. Resource filter: DOMAIN=internal-domain-0015. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0023",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0023\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0023",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0007\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0023 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0016\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0007]. Resource filter: TYPE=domain; URN=internal-domain-0016. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0024",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0024\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0024",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0007\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0024 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0016\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0007]. Resource filter: DOMAIN=internal-domain-0016. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0025",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0025\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0025",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0008\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0025 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0017\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0008]. Resource filter: DOMAIN=internal-domain-0017. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0026",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0026\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0026",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0008\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0026 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0017\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0008]. Resource filter: TYPE=domain; URN=internal-domain-0017. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0027",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0027\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0027",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"actors\":{\"groups\":[\"urn:li:corpGroup:group-filler-0009\"],\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[]},\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0027 (ACTIVE)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0009]. Resource filter: TYPE=domain; URN=internal-domain-0018. Type: METADATA, state: ACTIVE, privileges: 2.\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0018\"]}]}},\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0028",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0028\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0028",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"actors\":{\"groups\":[\"urn:li:corpGroup:group-filler-0009\"],\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[]},\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0028 (ACTIVE)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0009]. Resource filter: DOMAIN=internal-domain-0018. Type: METADATA, state: ACTIVE, privileges: 24.\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0018\"]}]}},\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0029",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0029\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0029",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0010\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0029 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0019\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0010]. Resource filter: TYPE=domain; URN=internal-domain-0019. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0030",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0030\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0030",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0010\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0030 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0019\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0010]. Resource filter: DOMAIN=internal-domain-0019. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0031",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0031\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0031",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0011\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0031 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0020\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0011]. Resource filter: TYPE=domain; URN=internal-domain-0020. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0032",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0032\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0032",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-filler-0011\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0032 (ACTIVE)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0020\"]}]}},\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0011]. Resource filter: DOMAIN=internal-domain-0020. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-global-domains-tree-view",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-global-domains-tree-view\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-global-domains-tree-view",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-global-domain-readers\",\"urn:li:corpGroup:group-sso-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Global Domains Tree View (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:domain-0009\",\"urn:li:domain:domain-0014\",\"urn:li:domain:domain-0020\",\"urn:li:domain:domain-0031\",\"urn:li:domain:global-domain-0003\",\"urn:li:domain:internal-domain-0002\"]}]}},\"description\":\"Authz perf fixture policy. Actors: groups [group-global-domain-readers, group-sso-readers]. Resource filter: TYPE=domain; URN=domain-0009, domain-0014, domain-0020 (+3 more). Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-global-domains-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-global-domains-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-global-domains-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-global-domain-readers\",\"urn:li:corpGroup:group-sso-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Multi-value DOMAIN criterion (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:domain-0009\",\"urn:li:domain:domain-0014\",\"urn:li:domain:domain-0020\",\"urn:li:domain:domain-0031\",\"urn:li:domain:global-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Multi-value DOMAIN criterion. Expected match personas: persona-multi-domain-policy. Expected deny personas: persona-domain-policy-user. Actors: groups [group-global-domain-readers, group-sso-readers]. Resource filter: DOMAIN=domain-0009, domain-0014, domain-0020 (+2 more). Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-reader-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-reader-via-role\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-reader-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[],\"allUsers\":false,\"allGroups\":false,\"users\":[],\"roles\":[\"urn:li:dataHubRole:Reader\"]},\"privileges\":[\"VIEW_ENTITY_PAGE\",\"VIEW_ENTITY\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"PROPOSE_ENTITY_TAGS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_ENTITY_LIFECYCLE_STAGE\",\"SEARCH_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\"],\"displayName\":\"Authz perf \\u00b7 Low fanout + role policy (METADATA)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Stress focus: Low fanout + role policy; groupToRole inheritance. Expected match personas: persona-light-groups, persona-role-via-groups. Actors: roles [Reader]. Type: METADATA, state: ACTIVE, privileges: 26.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-platform-reader-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-platform-reader-via-role\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-platform-reader-via-role",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"PROPOSE_CREATE_GLOSSARY_TERM\",\"PROPOSE_CREATE_GLOSSARY_NODE\"],\"actors\":{\"groups\":[],\"resourceOwners\":false,\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[\"urn:li:dataHubRole:Reader\"]},\"editable\":true,\"displayName\":\"Authz perf \\u00b7 groupToRole inheritance (PLATFORM)\",\"description\":\"Authz perf fixture policy. Stress focus: groupToRole inheritance. Expected match personas: persona-role-via-groups. Actors: roles [Reader]. Type: PLATFORM, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"PLATFORM\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-all-users-view-sensitive",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-all-users-view-sensitive\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-all-users-view-sensitive",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\"],\"actors\":{\"resourceOwners\":false,\"allGroups\":false,\"allUsers\":true,\"users\":[]},\"lastUpdatedTimestamp\":1775737235255,\"displayName\":\"Authz perf \\u00b7 allUsers actor path (METADATA)\",\"description\":\"Authz perf fixture policy. Stress focus: Baseline vs denied path; allUsers actor path. Expected match personas: persona-platform-all-users, persona-zero-authz. Actors: allUsers. Type: METADATA, state: INACTIVE, privileges: 3.\",\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-all-users-view-entity-page",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-all-users-view-entity-page\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-all-users-view-entity-page",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"VIEW_ENTITY_PAGE\",\"SEARCH_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"ES_EXPLAIN_QUERY_PRIVILEGE\"],\"actors\":{\"resourceOwners\":false,\"allGroups\":false,\"allUsers\":true,\"users\":[]},\"lastUpdatedTimestamp\":1775737241137,\"displayName\":\"Authz perf \\u00b7 allUsers actor path (METADATA)\",\"description\":\"Authz perf fixture policy. Stress focus: allUsers actor path. Expected match personas: persona-platform-all-users. Actors: allUsers. Type: METADATA, state: INACTIVE, privileges: 7.\",\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0033",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-filler-0033\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-filler-0033",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"EDIT_DATASET_COL_BUSINESS_ATTRIBUTE_PRIVILEGE\",\"EDIT_DATASET_COL_DESCRIPTION\",\"EDIT_DATASET_COL_GLOSSARY_TERMS\",\"EDIT_DATASET_COL_PROPERTIES\",\"EDIT_DATASET_COL_TAGS\",\"EDIT_DEPRECATION_PRIVILEGE\",\"EDIT_ENTITY_ASSERTIONS\",\"EDIT_ENTITY_DATA_CONTRACT_PRIVILEGE\",\"EDIT_ENTITY_DATA_PRODUCTS\",\"EDIT_ENTITY_DOC_LINKS\",\"EDIT_ENTITY_DOCS\",\"EDIT_ENTITY_GLOSSARY_TERMS\",\"EDIT_ENTITY_INCIDENTS\",\"EDIT_ENTITY_MONITORS\",\"EDIT_ENTITY_PROPERTIES\",\"EDIT_ENTITY_QUERIES\",\"EDIT_ENTITY_STATUS\",\"EDIT_ENTITY_TAGS\",\"EDIT_LINEAGE\",\"EDIT_TAG_COLOR\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"MANAGE_ASSET_SUMMARY\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"PRODUCE_PLATFORM_EVENT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"SHARE_ENTITY\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"actors\":{\"groups\":[\"urn:li:corpGroup:group-filler-0013\"],\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[]},\"displayName\":\"Authz perf filler \\u00b7 policy-filler-0033 (ACTIVE)\",\"editable\":true,\"description\":\"Authz perf fixture policy. Catalog volume filler \\u2014 increases active policy count for evaluation benchmarks; not tied to a named test persona. Actors: groups [group-filler-0013]. Type: METADATA, state: ACTIVE, privileges: 59.\",\"resources\":{},\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-standard-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-group-standard-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-standard-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-standard-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Moderate membership + group actor policy (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0004\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Moderate membership + group actor policy. Expected match personas: persona-moderate-groups. Actors: groups [group-standard-readers]. Resource filter: DOMAIN=internal-domain-0004. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-heavy-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-group-heavy-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-heavy-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-heavy-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 High fanout + policy actor resolution (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: High fanout + policy actor resolution; Peak membership fanout. Expected match personas: persona-heavy-groups, persona-p90-groups. Actors: groups [group-heavy-readers]. Resource filter: DOMAIN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-heavy-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-group-heavy-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-heavy-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-heavy-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 High fanout + policy actor resolution (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: High fanout + policy actor resolution; Peak membership fanout. Expected match personas: persona-heavy-groups, persona-p90-groups. Actors: groups [group-heavy-readers]. Resource filter: DOMAIN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-heavy-tree-view",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-group-heavy-tree-view\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-heavy-tree-view",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-heavy-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Peak membership fanout (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"condition\":\"EQUALS\",\"values\":[\"domain\"]},{\"field\":\"URN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Peak membership fanout. Expected match personas: persona-heavy-groups. Actors: groups [group-heavy-readers]. Resource filter: TYPE=domain; URN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 2.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-sso-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-sso-group-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-sso-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-sso-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Both membership aspects (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Both membership aspects; EXTERNAL groupMembership path. Expected match personas: persona-dual-aspect, persona-sso-groups. Actors: groups [group-sso-readers]. Resource filter: DOMAIN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-native-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-native-group-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-native-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-native-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Both membership aspects (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0005\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Both membership aspects; NATIVE nativeGroupMembership path. Expected match personas: persona-dual-aspect, persona-native-groups. Actors: groups [group-native-readers]. Resource filter: DOMAIN=internal-domain-0005. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-sso-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-sso-group-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-sso-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-sso-readers\",\"urn:li:corpGroup:group-native-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Both membership aspects (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Both membership aspects; EXTERNAL groupMembership path. Expected match personas: persona-dual-aspect, persona-sso-groups. Actors: groups [group-sso-readers, group-native-readers]. Resource filter: DOMAIN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-native-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-native-group-reader\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-native-group-reader",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-sso-readers\",\"urn:li:corpGroup:group-native-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Both membership aspects (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0005\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Both membership aspects; NATIVE nativeGroupMembership path. Expected match personas: persona-dual-aspect, persona-native-groups. Actors: groups [group-sso-readers, group-native-readers]. Resource filter: DOMAIN=internal-domain-0005. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-domain-readers",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-group-domain-readers\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-group-domain-readers",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"groups\":[\"urn:li:corpGroup:group-internal-domain-readers\"],\"allGroups\":false,\"allUsers\":false,\"users\":[],\"roles\":[]},\"privileges\":[\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"PROPOSE_DATA_CONTRACT_PRIVILEGE\",\"PROPOSE_DATASET_COL_DESCRIPTION_PRIVILEGE\",\"PROPOSE_DATASET_COL_GLOSSARY_TERMS\",\"PROPOSE_DATASET_COL_PROPERTIES\",\"PROPOSE_DATASET_COL_TAGS\",\"PROPOSE_ENTITY_DOCS\",\"PROPOSE_ENTITY_DOMAINS\",\"PROPOSE_ENTITY_GLOSSARY_TERMS\",\"PROPOSE_ENTITY_OWNERS\",\"PROPOSE_ENTITY_PROPERTIES\",\"PROPOSE_ENTITY_TAGS\",\"SEARCH_PRIVILEGE\",\"VIEW_DATASET_OPERATIONS\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_USAGE\",\"VIEW_DOCUMENTATION_FORMS_PAGE\",\"VIEW_ENTITY\",\"VIEW_ENTITY_PAGE\",\"VIEW_STRUCTURED_PROPERTIES_PAGE\"],\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Group-based policy actor (METADATA)\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"DOMAIN\",\"condition\":\"EQUALS\",\"values\":[\"urn:li:domain:internal-domain-0003\"]}]}},\"description\":\"Authz perf fixture policy. Stress focus: Group-based policy actor. Expected match personas: persona-group-policy-actor. Actors: groups [group-internal-domain-readers]. Resource filter: DOMAIN=internal-domain-0003. Type: METADATA, state: ACTIVE, privileges: 24.\",\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-direct-user-proposals",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyKey",
+        "aspect": {
+            "value": "{\"id\": \"policy-metadata-direct-user-proposals\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:policy-metadata-direct-user-proposals",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"privileges\":[\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\"],\"actors\":{\"resourceOwners\":false,\"allGroups\":false,\"allUsers\":false,\"users\":[\"urn:li:corpuser:persona-policy-direct\"],\"groups\":[],\"roles\":[]},\"editable\":true,\"displayName\":\"Authz perf \\u00b7 Direct user in actors.users (METADATA)\",\"description\":\"Authz perf fixture policy. Stress focus: Direct user in actors.users. Expected match personas: persona-policy-direct. Actors: users [persona-policy-direct]. Resource filter: TYPE=dataset. Type: METADATA, state: ACTIVE, privileges: 10.\",\"resources\":{\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"values\":[\"dataset\"]}]}},\"state\":\"ACTIVE\",\"type\":\"METADATA\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    }
+]

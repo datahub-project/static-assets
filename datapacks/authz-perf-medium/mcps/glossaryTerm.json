@@ -1,0 +1,2390 @@
+[
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0001",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0001\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0001",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"047cfd2f-1a14-449f-9685-bb52f832b508\", \"id\": \"term-0001\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0002",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0002\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0002",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"13700733-5e96-42d8-983d-94069952124a\", \"id\": \"term-0002\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0003",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0003\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0008.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0008\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0003",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"27b625a5-f032-4783-8c58-775a8dfe19c1\", \"id\": \"term-0003\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0004",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0004\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0004.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0004\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0004",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"3915b91f-e9b2-4215-98f6-e068079550e5\", \"id\": \"term-0004\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0005",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0005\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0005",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"3a76cd8c-2ae5-4f39-b0e7-d831fc65a85a\", \"id\": \"term-0005\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0006",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0006\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0014.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0014\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0006",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"47ed50ba-6996-416f-84aa-684c82e34dfb\", \"id\": \"term-0006\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0007",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0007\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0016.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0016\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0007",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"5320c734-5170-4778-8e32-208c8a0aff9a\", \"id\": \"term-0007\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0008",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0008\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0003.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0003\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0008",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"5edac691-3569-4082-87e5-e29b1b0630d5\", \"id\": \"term-0008\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0009",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0009\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0009.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0009\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0009",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"5fa9b7bd-1933-4da1-b066-cb777aa570f6\", \"id\": \"term-0009\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0010",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0010\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0009.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0009\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0010",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"6274d86a-3e0e-4381-b2f7-c645efbc9c75\", \"id\": \"term-0010\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0011",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0011\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0011",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"6829ddf9-3e16-4ae2-beb7-3ed51e7c9ae9\", \"id\": \"term-0011\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0012",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0012\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0012",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"6fe4c165-46dd-417b-bf21-2fc84b0a111b\", \"id\": \"term-0012\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0013",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0013\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0006.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0006\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0013",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"74e5a209-d145-4977-acd8-af3d0f8d25b3\", \"id\": \"term-0013\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0014",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0014\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0014",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"7e0d2aec-9733-4670-a99a-457aea81a588\", \"id\": \"term-0014\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0015",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0015\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0015",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"7f4bdb10-9cb6-4d99-bfea-91d396513a1b\", \"id\": \"term-0015\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0016",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0016\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0009.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0009\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0016",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"8661f4bf-8c05-46fb-83f2-66ceaaf7ee95\", \"id\": \"term-0016\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0017",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0017\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0006.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0006\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0017",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"8a31baa9-d947-4a8c-bb23-b1eff0a13093\", \"id\": \"term-0017\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0018",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0018\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0009.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0009\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0018",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"8c91a158-673f-48e5-badf-c05d8c76e077\", \"id\": \"term-0018\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0019",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0019\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0019",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"8dc451a9-3674-4aef-af5e-e24e3a32a86f\", \"id\": \"term-0019\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0020",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0020\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0020",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"980e6997-71e9-4016-8a72-96e3c7d7f9b9\", \"id\": \"term-0020\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0021",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0021\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0021",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"9f6594cc-f4fc-4dd5-b20a-f626321cfadd\", \"id\": \"term-0021\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-01.seg-02",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-01.seg-02\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0010.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0010\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-01.seg-02",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"Fixed-Income.Auction-Calendar\", \"id\": \"seg-01.seg-02\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-01.seg-02",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-03.seg-04",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-03.seg-04\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0010.\",\"parentNode\":\"urn:li:glossaryNode:node-0010\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-03.seg-04",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"Fixed-Income.ECB\", \"id\": \"seg-03.seg-04\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-03.seg-04",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-05.seg-06",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-05.seg-06\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0010.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0010\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-05.seg-06",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"Fixed-Income.FHLB\", \"id\": \"seg-05.seg-06\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-05.seg-06",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-07.seg-08",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-07.seg-08\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0010.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0010\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-07.seg-08",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"Fixed-Income.T-Bill\", \"id\": \"seg-07.seg-08\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-07.seg-08",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-09.seg-10",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-09.seg-10\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-09.seg-10",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.CBT\", \"id\": \"seg-09.seg-10\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-09.seg-10",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-11.seg-12",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-11.seg-12\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-11.seg-12",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.CME\", \"id\": \"seg-11.seg-12\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-11.seg-12",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-13.seg-14",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-13.seg-14\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-13.seg-14",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.CMX\", \"id\": \"seg-13.seg-14\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-13.seg-14",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-15.seg-16",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-15.seg-16\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-15.seg-16",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.CSC\", \"id\": \"seg-15.seg-16\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-15.seg-16",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-17.seg-18",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-17.seg-18\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-17.seg-18",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.EUX\", \"id\": \"seg-17.seg-18\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-17.seg-18",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-19.seg-20",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-19.seg-20\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-19.seg-20",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.IUS\", \"id\": \"seg-19.seg-20\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-19.seg-20",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-21.seg-22",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-21.seg-22\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-21.seg-22",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.KBT\", \"id\": \"seg-21.seg-22\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-21.seg-22",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-23.seg-24",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-23.seg-24\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-23.seg-24",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.NMX\", \"id\": \"seg-23.seg-24\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-23.seg-24",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-25.seg-26",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-25.seg-26\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-25.seg-26",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.NYF\", \"id\": \"seg-25.seg-26\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-25.seg-26",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-27.seg-28",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-27.seg-28\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-27.seg-28",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.OSA\", \"id\": \"seg-27.seg-28\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-27.seg-28",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-29.seg-30",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-29.seg-30\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0011.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0011\",\"sourceRef\":\"Authz Perf Fixture\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-29.seg-30",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"REFINITIV.SHF\", \"id\": \"seg-29.seg-30\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-29.seg-30",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "value": "{\"removed\": false}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0022",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0022\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0016.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0016\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0022",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"a68f5d8d-dc18-4d5c-b5d4-33f2d1b444b5\", \"id\": \"term-0022\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0023",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0023\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0016.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0016\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0023",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"a695bd56-0f10-4e11-b414-28ac22c9d9c8\", \"id\": \"term-0023\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0024",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0024\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0024",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"a87774ff-6686-4e14-a39b-c43073366b48\", \"id\": \"term-0024\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0025",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0025\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0025",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"bd66d5b4-d313-44f8-99ad-da15a7deccc4\", \"id\": \"term-0025\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0026",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0026\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0014.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0014\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0026",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"c26e7e08-5f6b-44d3-9d1d-c3a1e4249a99\", \"id\": \"term-0026\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0027",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0027\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0017.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0017\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0027",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"c6819772-9145-4253-92a0-09365393b47f\", \"id\": \"term-0027\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0028",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0028\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0006.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0006\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0028",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"cb1ec983-fec6-4b63-9dbe-5efcf9d3342f\", \"id\": \"term-0028\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0029",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0029\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0029",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"d2e03301-2aa9-4743-9162-4c8eba2fbd44\", \"id\": \"term-0029\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0030",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0030\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0030",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"d4d5dc69-70d0-465f-b77f-782eded60c70\", \"id\": \"term-0030\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0031",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0031\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0014.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0014\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0031",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"d7843e6e-eaad-4f5d-8018-43d41deb553d\", \"id\": \"term-0031\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0032",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0032\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0006.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0006\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0032",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"da559f05-141e-4215-a33d-b8351e613839\", \"id\": \"term-0032\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0033",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0033\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0015.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0015\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0033",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"dab9ddf6-bfc0-4cc5-aff3-54a5d49c92b7\", \"id\": \"term-0033\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0034",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0034\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0005.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0005\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0034",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"e2e9a30b-2b81-43c5-b82c-cc7337619f5f\", \"id\": \"term-0034\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0035",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0035\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0002.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0002\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0035",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"e6398714-0841-4832-98e8-74f2c843707b\", \"id\": \"term-0035\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0036",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0036\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0012.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0012\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0036",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"ea9fb093-342d-47b3-a798-f6314915d484\", \"id\": \"term-0036\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0037",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 term-0037\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0016.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0016\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:term-0037",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"f0634b50-a3aa-437a-a8cf-417565798fce\", \"id\": \"term-0037\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-31.seg-32",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-31.seg-32\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0018.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0018\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-31.seg-32",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"greeks.equity_vega\", \"id\": \"seg-31.seg-32\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-33.seg-34",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-33.seg-34\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0018.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0018\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-33.seg-34",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"greeks.fx_vega\", \"id\": \"seg-33.seg-34\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-35.seg-36",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-35.seg-36\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0018.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0018\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-35.seg-36",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"greeks.rates_vega\", \"id\": \"seg-35.seg-36\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-37.seg-38",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-37.seg-38\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0018.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0018\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-37.seg-38",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"greeks.theta\", \"id\": \"seg-37.seg-38\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-39.seg-40",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-39.seg-40\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0019.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0019\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-39.seg-40",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"interest_rate_risk.convexity\", \"id\": \"seg-39.seg-40\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-41.seg-42",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-41.seg-42\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0019.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0019\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-41.seg-42",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"interest_rate_risk.dv01\", \"id\": \"seg-41.seg-42\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-43.seg-44",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-43.seg-44\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0019.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0019\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-43.seg-44",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"interest_rate_risk.move\", \"id\": \"seg-43.seg-44\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-45.seg-46",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-45.seg-46\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0019.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0019\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-45.seg-46",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"interest_rate_risk.pc1\", \"id\": \"seg-45.seg-46\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-47.seg-48",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-47.seg-48\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0019.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0019\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-47.seg-48",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"interest_rate_risk.pc2\", \"id\": \"seg-47.seg-48\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-49.seg-50",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-49.seg-50\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-49.seg-50",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"market_Value_metrics.gmv\", \"id\": \"seg-49.seg-50\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-51.seg-52",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-51.seg-52\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-51.seg-52",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"market_value_metrics.nmv\", \"id\": \"seg-51.seg-52\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-53.seg-54",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-53.seg-54\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0020.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0020\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-53.seg-54",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"market_values.gmv\", \"id\": \"seg-53.seg-54\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-55.seg-56",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-55.seg-56\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0020.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0020\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-55.seg-56",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"market_values.nmv\", \"id\": \"seg-55.seg-56\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-57.seg-58",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-57.seg-58\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0021.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0021\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-57.seg-58",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"pnl_measures.pnl_dtd\", \"id\": \"seg-57.seg-58\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-59.seg-60",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-59.seg-60\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0021.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0021\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-59.seg-60",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"pnl_measures.pnl_mtd\", \"id\": \"seg-59.seg-60\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-61.seg-62",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-61.seg-62\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0021.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0021\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-61.seg-62",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"pnl_measures.pnl_ytd\", \"id\": \"seg-61.seg-62\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-63.seg-64.seg-65",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-63.seg-64.seg-65\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0022.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0022\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-63.seg-64.seg-65",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"portfolio.glossary.acug\", \"id\": \"seg-63.seg-64.seg-65\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-66.seg-67",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-66.seg-67\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0022.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0022\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-66.seg-67",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"portfolio_glossary.acu\", \"id\": \"seg-66.seg-67\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-68.seg-69",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-68.seg-69\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0022.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0022\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-68.seg-69",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"portfolio_glossary.portfolio\", \"id\": \"seg-68.seg-69\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-70.seg-71",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-70.seg-71\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0022.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0022\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-70.seg-71",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"portfolio_glossary.portfolio_group\", \"id\": \"seg-70.seg-71\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-72.seg-73",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-72.seg-73\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0022.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0022\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-72.seg-73",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"portfolio_glossary.strategy\", \"id\": \"seg-72.seg-73\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-74.seg-75",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-74.seg-75\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0023.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0023\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-74.seg-75",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_factors.factor_exposure\", \"id\": \"seg-74.seg-75\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-76.seg-77",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-76.seg-77\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0023.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0023\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-76.seg-77",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_factors.risk_contributions\", \"id\": \"seg-76.seg-77\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-78.seg-79",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-78.seg-79\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0023.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0023\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-78.seg-79",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_factors.var_metrics\", \"id\": \"seg-78.seg-79\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-80.seg-81",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-80.seg-81\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-80.seg-81",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.active_risk\", \"id\": \"seg-80.seg-81\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-82.seg-83",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-82.seg-83\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-82.seg-83",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.alpha\", \"id\": \"seg-82.seg-83\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-84.seg-85",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-84.seg-85\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-84.seg-85",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.beta\", \"id\": \"seg-84.seg-85\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-86.seg-87",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-86.seg-87\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-86.seg-87",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.crowding\", \"id\": \"seg-86.seg-87\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-88.seg-89",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-88.seg-89\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-88.seg-89",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.drawdown\", \"id\": \"seg-88.seg-89\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-90.seg-91",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-90.seg-91\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-90.seg-91",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.factor_exposure\", \"id\": \"seg-90.seg-91\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-92.seg-93",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-92.seg-93\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-92.seg-93",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.factor_vol\", \"id\": \"seg-92.seg-93\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-94.seg-95",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-94.seg-95\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-94.seg-95",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.idio_vol\", \"id\": \"seg-94.seg-95\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-96.seg-97",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-96.seg-97\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-96.seg-97",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.risk_contribution\", \"id\": \"seg-96.seg-97\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-98.seg-99",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-98.seg-99\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-98.seg-99",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.specific_risk\", \"id\": \"seg-98.seg-99\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-100.seg-101",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-100.seg-101\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-100.seg-101",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.tracking_error\", \"id\": \"seg-100.seg-101\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-102.seg-103",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-102.seg-103\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-102.seg-103",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.var\", \"id\": \"seg-102.seg-103\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-104.seg-105",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-104.seg-105\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-104.seg-105",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_measure.volatility\", \"id\": \"seg-104.seg-105\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-106.seg-107",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-106.seg-107\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0024.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0024\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-106.seg-107",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"risk_meaure.momentum\", \"id\": \"seg-106.seg-107\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-108.seg-109",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-108.seg-109\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0025.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0025\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-108.seg-109",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"volatility_metrics.spotvol\", \"id\": \"seg-108.seg-109\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-110.seg-111",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermInfo",
+        "aspect": {
+            "value": "{\"name\":\"Authz perf \\u00b7 seg-110.seg-111\",\"definition\":\"Authz perf fixture glossary term. Catalog volume for authz graph stress tests (TYPE filters, ownership, browse). Not tied to a named test persona. Parent node: node-0025.\",\"customProperties\":{\"authzFixture\":\"authz-perf-medium\",\"authzEntityRole\":\"glossary-catalog\"},\"parentNode\":\"urn:li:glossaryNode:node-0025\",\"termSource\":\"INTERNAL\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "glossaryTerm",
+        "entityUrn": "urn:li:glossaryTerm:seg-110.seg-111",
+        "changeType": "UPSERT",
+        "aspectName": "glossaryTermKey",
+        "aspect": {
+            "value": "{\"name\": \"volatility_metrics.stressworst\", \"id\": \"seg-110.seg-111\"}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    }
+]
