@@ -1,0 +1,62 @@
+[
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:7",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"allUsers\":true,\"allGroups\":false,\"users\":[]},\"privileges\":[\"VIEW_ANALYTICS\",\"GENERATE_PERSONAL_ACCESS_TOKENS\",\"VIEW_METADATA_PROPOSALS\"],\"displayName\":\"Authz perf \\u00b7 7 (PLATFORM)\",\"description\":\"Authz perf fixture policy. Supporting policy in the authz perf catalog. Actors: allUsers. Type: PLATFORM, state: INACTIVE, privileges: 3.\",\"state\":\"INACTIVE\",\"type\":\"PLATFORM\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:view-entity-page-all",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"allUsers\":true,\"allGroups\":false,\"users\":[]},\"privileges\":[\"VIEW_ENTITY_PAGE\",\"SEARCH_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMELINE_PRIVILEGE\",\"ES_EXPLAIN_QUERY_PRIVILEGE\"],\"displayName\":\"Authz perf \\u00b7 View Entity Page All (METADATA)\",\"description\":\"Authz perf fixture policy. Supporting policy in the authz perf catalog. Actors: allUsers. Type: METADATA, state: INACTIVE, privileges: 7.\",\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:view-dataset-sensitive",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"allUsers\":true,\"allGroups\":false,\"users\":[]},\"privileges\":[\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\"],\"displayName\":\"Authz perf \\u00b7 View Dataset Sensitive (METADATA)\",\"description\":\"Authz perf fixture policy. Supporting policy in the authz perf catalog. Actors: allUsers. Type: METADATA, state: INACTIVE, privileges: 3.\",\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:editor-metadata-policy-entities",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":false,\"allUsers\":false,\"allGroups\":false,\"users\":[],\"groups\":[],\"roles\":[\"urn:li:dataHubRole:Editor\"]},\"resources\":{\"allResources\":false,\"filter\":{\"criteria\":[{\"field\":\"TYPE\",\"values\":[\"dataset\",\"chart\",\"dashboard\",\"dataFlow\",\"dataJob\",\"tag\",\"container\",\"domain\",\"glossaryTerm\",\"glossaryNode\",\"notebook\",\"dataProduct\",\"dataProcessInstance\",\"document\"],\"condition\":\"EQUALS\"}]}},\"privileges\":[\"EDIT_ENTITY\"],\"displayName\":\"Authz perf \\u00b7 Editor Metadata Policy Entities (METADATA)\",\"description\":\"Authz perf fixture policy. Supporting policy in the authz perf catalog. Actors: roles [Editor]. Resource filter: TYPE=dataset, chart, dashboard (+11 more). Type: METADATA, state: INACTIVE, privileges: 1.\",\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    },
+    {
+        "auditHeader": null,
+        "entityType": "dataHubPolicy",
+        "entityUrn": "urn:li:dataHubPolicy:asset-owners-metadata-policy",
+        "changeType": "UPSERT",
+        "aspectName": "dataHubPolicyInfo",
+        "aspect": {
+            "value": "{\"actors\":{\"resourceOwners\":true,\"allUsers\":false,\"allGroups\":false,\"users\":[],\"groups\":[]},\"privileges\":[\"VIEW_ENTITY_PAGE\",\"VIEW_ENTITY\",\"EDIT_ENTITY_TAGS\",\"EDIT_ENTITY_GLOSSARY_TERMS\",\"EDIT_ENTITY_OWNERS\",\"EDIT_ENTITY_DOCS\",\"EDIT_ENTITY_DOC_LINKS\",\"EDIT_ENTITY_STATUS\",\"EDIT_DOMAINS_PRIVILEGE\",\"EDIT_ENTITY_DATA_PRODUCTS\",\"EDIT_DEPRECATION_PRIVILEGE\",\"EDIT_ENTITY_ASSERTIONS\",\"EDIT_ENTITY_INCIDENTS\",\"EDIT_ENTITY\",\"EDIT_DATASET_COL_TAGS\",\"EDIT_DATASET_COL_GLOSSARY_TERMS\",\"EDIT_DATASET_COL_DESCRIPTION\",\"EDIT_DATASET_COL_PROPERTIES\",\"EDIT_DATASET_COL_BUSINESS_ATTRIBUTE_PRIVILEGE\",\"VIEW_DATASET_USAGE\",\"VIEW_DATASET_PROFILE\",\"VIEW_DATASET_OPERATIONS\",\"EDIT_TAG_COLOR\",\"EDIT_GROUP_MEMBERS\",\"EDIT_USER_PROFILE\",\"EDIT_CONTACT_INFO\",\"MANAGE_ENTITY_TAGS\",\"MANAGE_ENTITY_GLOSSARY_TERMS\",\"MANAGE_ENTITY_PROPERTIES\",\"MANAGE_ENTITY_DOMAINS\",\"MANAGE_ENTITY_OWNERS\",\"MANAGE_DATASET_COL_GLOSSARY_TERMS\",\"MANAGE_DATASET_COL_TAGS\",\"MANAGE_DATASET_COL_PROPERTIES\",\"MANAGE_ENTITY_DOCS_PROPOSALS_PRIVILEGE\",\"MANAGE_ENTITY_POSTS\",\"EDIT_LINEAGE\",\"EDIT_ENTITY_QUERIES\",\"GET_TIMELINE_PRIVILEGE\",\"GET_ENTITY_PRIVILEGE\",\"GET_TIMESERIES_ASPECT_PRIVILEGE\",\"GET_COUNTS_PRIVILEGE\",\"MANAGE_DATA_PRODUCTS\",\"ES_EXPLAIN_QUERY_PRIVILEGE\",\"EDIT_ENTITY_PROPERTIES\",\"MANAGE_ASSET_SUMMARY\",\"MANAGE_GROUP_NOTIFICATION_SETTINGS\",\"MANAGE_GROUP_SUBSCRIPTIONS\",\"MANAGE_ENTITY_DATA_CONTRACT_PROPOSALS\",\"EDIT_ENTITY_DATA_CONTRACT_PRIVILEGE\",\"EDIT_ENTITY_LIFECYCLE_STAGE\",\"PROPOSE_ENTITY_LIFECYCLE_STAGE\",\"PROPOSE_DOCUMENT_CHANGES\"],\"displayName\":\"Authz perf \\u00b7 Asset Owners Metadata Policy (METADATA)\",\"description\":\"Authz perf fixture policy. Supporting policy in the authz perf catalog. Actors: resourceOwners. Type: METADATA, state: INACTIVE, privileges: 53.\",\"state\":\"INACTIVE\",\"type\":\"METADATA\",\"editable\":true}",
+            "contentType": "application/json"
+        },
+        "systemMetadata": null
+    }
+]

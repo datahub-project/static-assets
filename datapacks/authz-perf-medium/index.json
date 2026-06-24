@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "files": [
+    {
+      "path": "mcps/00-disable-default-policies.json"
+    },
+    {
+      "path": "mcps/corpGroup.json",
+      "wait_for_completion": true
+    },
+    {
+      "path": "mcps/corpuser.json"
+    },
+    {
+      "path": "mcps/domain.json"
+    },
+    {
+      "path": "mcps/glossaryNode.json"
+    },
+    {
+      "path": "mcps/glossaryTerm.json"
+    },
+    {
+      "path": "mcps/dataHubPolicy.json"
+    }
+  ]
+}
