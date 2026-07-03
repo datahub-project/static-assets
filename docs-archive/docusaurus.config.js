@@ -31,9 +31,10 @@ const config = {
           routeBasePath: '/docs',
           includeCurrentVersion: false,
           sidebarPath: require.resolve('./sidebars.js'),
-          // 1.3.0 is "latest" in this archive — served without version prefix
-          lastVersion: '1.3.0',
+          // 1.5.0 is the newest version in this archive
+          lastVersion: '1.5.0',
           versions: {
+            '1.5.0': { label: '1.5.0', banner: 'none', path: '1.5.0' },
             '1.3.0': { label: '1.3.0', banner: 'none', path: '1.3.0' },
             '1.1.0': { label: '1.1.0', banner: 'none', path: '1.1.0' },
             '1.0.0': { label: '1.0.0', banner: 'none', path: '1.0.0' },
@@ -79,7 +80,7 @@ const config = {
           dropdownItemsBefore: [
             {
               href: 'https://docs.datahub.com',
-              label: '1.4.0 (Latest) ↗',
+              label: 'Latest ↗',
             },
             {
               type: 'html',
@@ -125,8 +126,8 @@ const config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Introduction', to: 'docs/1.3.0/features' },
-            { label: 'Quickstart', to: 'docs/1.3.0/quickstart' },
+            { label: 'Introduction', to: 'docs/1.5.0/features' },
+            { label: 'Quickstart', to: 'docs/1.5.0/quickstart' },
           ],
         },
         {
@@ -141,7 +142,7 @@ const config = {
         {
           title: 'More',
           items: [
-            { label: 'Latest Docs (1.4.0)', href: 'https://docs.datahub.com' },
+            { label: 'Latest Docs ↗', href: 'https://docs.datahub.com' },
             { label: 'Roadmap', href: 'https://feature-requests.datahubproject.io/roadmap' },
             { label: 'GitHub', href: 'https://github.com/datahub-project/datahub' },
           ],
