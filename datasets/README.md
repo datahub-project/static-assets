@@ -10,24 +10,17 @@ Each dataset simulates a real-world data pipeline with tables, views (for lineag
 
 | Dataset | What It Simulates | Pipeline Shape | .db Files | Size |
 |---|---|---|---|---|
-| [olist-ecommerce](./olist-ecommerce/) | Multi-table e-commerce with join relationships | 9 tables + 5 cross-table join views | `olist.db` (clean) + `olist_dirty.db` (broken joins) | ~90MB each |
 | [nyc-taxi](./nyc-taxi/) | 3-stage data pipeline with freshness tracking | raw → staging → mart (linear) | `nyc_taxi.db` + `nyc_taxi_pipeline.db` | ~85MB each |
 | [healthcare](./healthcare/) | Forking pipeline with data quality issues | raw → staging → billing + demographics (fork) | `healthcare.db` (quality issues planted) | ~2MB |
 | [fiction-retail](./fiction-retail/) | Synthetic global retail — orders, fulfillment, returns | 10 flat tables (no views) | `fiction-retail.db` | ~95MB |
 
 ### When to Use What
 
-**Testing join validation, schema matching, or cross-source discovery?**
-→ Use **olist-ecommerce** (`olist_dirty.db`). 8 interconnected tables with planted orphan keys, ID format mismatches, and NULL categories. Also includes clean + warehouse + analytics variants for reconciliation testing.
-
 **Testing freshness monitoring, staleness detection, or pipeline health?**
 → Use **nyc-taxi** (`nyc_taxi.db` + generate `nyc_taxi_pipeline.db`). A 3-stage pipeline where staging silently falls 3 days behind raw. Invisible in metadata — only detectable by querying actual timestamps.
 
 **Testing quality monitoring, circuit breaking, or selective pipeline halting?**
 → Use **healthcare** (`healthcare.db`). A forking pipeline where bad data in the source (negative billing, invalid ages) propagates to two downstream marts with different severity. The challenge: halt billing but let demographics continue.
-
-**Testing data reconciliation or cross-system consistency?**
-→ Use **olist-ecommerce** (`olist.db` + `olist_warehouse.db` + `olist_analytics.db`). Same source data in three "systems" — each with different drift. Warehouse has missing rows and precision loss. Analytics has daily rollups with inflated counts and missing days.
 
 **Exploring a flat, wide-table retail schema with no planted issues?**
 → Use **fiction-retail** (`fiction-retail.db`). 10 clean, interconnected tables covering customers, orders, products, suppliers, inventory, warehouses, shipments, returns, and promotions. Good baseline for schema exploration, join traversal, or building demos from scratch.
@@ -45,7 +38,7 @@ pip install 'acryl-datahub[sqlalchemy,datahub-rest]'
 # DataHub running locally: https://datahubproject.io/docs/quickstart
 
 # Pick a dataset and run 3 commands
-cd datasets/healthcare                    # (or olist-ecommerce, nyc-taxi)
+cd datasets/healthcare                    # (or nyc-taxi, fiction-retail)
 datahub ingest -c ingest.yaml             # load tables + views into DataHub
 python add_lineage.py                      # connect the pipeline stages
 python add_metadata.py                     # add tags, glossary, ownership
@@ -54,20 +47,6 @@ python add_metadata.py                     # add tags, glossary, ownership
 ---
 
 ## What's in Each Dataset
-
-### olist-ecommerce
-
-Brazilian e-commerce data from [Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 100k orders across 9 interconnected tables (orders, customers, products, sellers, payments, reviews, geolocation).
-
-**Committed .db files:**
-- `olist.db` — Clean source of truth. All joins match 100%.
-- `olist_dirty.db` — ~8% orphan customers, ~5% seller ID mismatches, ~3% NULL categories.
-
-**Generated via `create_db.py` (not committed):**
-- `olist_warehouse.db` — Same table structure with ETL drift: dropped rows, duplicated records, precision loss.
-- `olist_analytics.db` — Different structure: daily rollup tables with inflated counts, freight reduction, missing days.
-
-**Metadata:** Tags (pii, identifier, financial), glossary (order_status, customer_identity), ownership (logistics, finance, customer experience, product, platform teams).
 
 ### nyc-taxi
 
@@ -133,17 +112,6 @@ Some datasets simulate multi-stage data pipelines by creating separate tables fo
 datasets/
 ├── README.md                        ← You are here
 ├── .gitignore
-├── olist-ecommerce/
-│   ├── README.md
-│   ├── create_db.py
-│   ├── olist.db                     ← committed
-│   ├── olist_dirty.db               ← committed
-│   ├── ingest_source.yaml
-│   ├── ingest_dirty.yaml
-│   ├── ingest_warehouse.yaml
-│   ├── ingest_analytics.yaml
-│   ├── add_lineage.py
-│   └── add_metadata.py
 ├── nyc-taxi/
 │   ├── README.md
 │   ├── create_db.py
@@ -175,7 +143,6 @@ These datasets are derived from publicly available sources. DataHub does not own
 
 | Dataset | Original Source | License |
 |---|---|---|
-| Brazilian E-Commerce (Olist) | [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — Olist / André Sionek | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) — derivative work, same license (see [LICENSE](./olist-ecommerce/LICENSE)) |
 | NYC Taxi Trip Records | [Kaggle](https://www.kaggle.com/datasets/elemento/nyc-yellow-taxi-trip-data) — NYC TLC | Public Domain |
 | Healthcare Dataset | [Kaggle](https://www.kaggle.com/datasets/prasad22/healthcare-dataset) — Prasad22 | CC0 1.0 (Public Domain) |
 | Fiction Retail | [Kaggle](https://www.kaggle.com/datasets/nasalakshay/fiction-retail-e-commerce-dataset) — nasalakshay | CC0 1.0 (Public Domain) |
@@ -186,7 +153,7 @@ Original CSV data is loaded as-is into the base tables. The following additions 
 
 - **SQL views** — for DataHub lineage visualization
 - **Pipeline stages** — staging and mart tables computed from raw data
-- **Planted issues** — data quality problems, staleness gaps, and cross-copy drift (documented in each dataset's README)
+- **Planted issues** — data quality problems and staleness gaps (documented in each dataset's README)
 - **Metadata scripts** — tags, glossary terms, ownership emitted via DataHub SDK
 
 ---
