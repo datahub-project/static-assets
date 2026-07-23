@@ -101,7 +101,8 @@ def discover_urns(graph, platform_instance):
         entity = item.get("entity", {})
         if entity.get("platform", {}).get("name", "") != PLATFORM:
             continue
-        if platform_instance not in entity.get("urn", ""):
+        # exact-instance match: ",nyc_taxi." must not match ",nyc_taxi_pipeline." (prefix collision)
+        if f",{platform_instance}." not in entity.get("urn", ""):
             continue
         name = entity.get("name", "")
         simple = name.split(".")[-1] if "." in name else name
