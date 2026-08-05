@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "files": [
+    {
+      "path": "01-warehouse.json",
+      "wait_for_completion": true
+    },
+    {
+      "path": "02-column-lineage.json"
+    },
+    {
+      "path": "03-features.json",
+      "wait_for_completion": true
+    },
+    {
+      "path": "04-models.json"
+    }
+  ]
+}
