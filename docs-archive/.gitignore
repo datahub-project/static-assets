@@ -34,3 +34,6 @@ Thumbs.db
 
 # Claude Code                                                              
 .claude/ 
+# Local prototype output
+/spike/
+/spike-incremental/
