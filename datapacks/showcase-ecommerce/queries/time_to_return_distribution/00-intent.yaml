@@ -1,0 +1,5 @@
+id: time_to_return_distribution
+data_product: Returns & Refunds
+question: "How long after dispatch do customers typically return items?"
+primary_tables: [order_entry_db.order_entry.order_items]
+variants: [canonical_avg, with_percentiles, by_category]

@@ -1,0 +1,7 @@
+id: revenue_by_payment_method
+data_product: Order Entry Analytics
+domain: Ecommerce Operations
+question: "What revenue comes from each payment method?"
+metric: null
+primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
+variants: [canonical, mart_version, with_aov_per_method]

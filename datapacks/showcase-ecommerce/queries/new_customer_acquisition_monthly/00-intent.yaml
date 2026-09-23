@@ -1,0 +1,5 @@
+id: new_customer_acquisition_monthly
+data_product: Customer Analytics
+question: "How many new customers do we acquire per month?"
+primary_tables: [order_entry_db.order_entry.customers, order_entry_db.order_entry.orders]
+variants: [canonical_customer_since, by_first_order, with_yoy_compare]

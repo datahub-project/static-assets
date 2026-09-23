@@ -1,0 +1,25 @@
+id: top_promos_by_revenue
+data_product: Promotions Performance
+domain: Ecommerce Operations
+question: "Which promotions generated the most revenue?"
+metric: null
+canonical_definition: |
+  Rank promotions by SUM(orders.order_total) for orders attributed to that promotion.
+  Per the Promotion Attribution runbook: use LEFT JOIN from orders so non-promoted
+  orders aren't dropped if the report also wants a baseline column.
+  Within active promotion window only (see attribution-window variant).
+primary_tables:
+  - order_entry_db.order_entry.orders
+  - order_entry_db.order_entry.promotions
+variants:
+  - canonical_left_join     # LEFT JOIN orders → promotions, filtered to promoted rows
+  - inner_join_anti         # The wrong-shape variant: starts at promotions, INNER joins orders
+                            # — equivalent here but loses null-promo baseline if reused
+  - with_attribution_window # Restricts orders to within the promotion's start/end dates
+  - mart_version            # uses analytics.order_details (already has promotion_name resolved)
+data_caveats: |
+  - ~50% of orders have a null promotion_id. INNER JOIN on promotions effectively
+    keeps only promoted orders — fine for "top promos by revenue" but a footgun
+    if the same query is adapted later.
+  - promotion_end_date can be NULL (still-active promotion); coalesce to a future
+    date for window checks.

@@ -1,0 +1,5 @@
+id: customer_count_by_class
+data_product: Customer Analytics
+question: "How many customers are in each customer class?"
+primary_tables: [order_entry_db.order_entry.customers]
+variants: [canonical, with_active_only, mart_version_distinct]

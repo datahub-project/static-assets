@@ -1,0 +1,5 @@
+id: warehouse_throughput
+data_product: Inventory & Fulfilment
+question: "Which warehouses fulfilled the most orders in the last 90 days?"
+primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.warehouses, order_entry_db.analytics.order_details]
+variants: [canonical, mart_version, with_revenue, by_delivery_type]
