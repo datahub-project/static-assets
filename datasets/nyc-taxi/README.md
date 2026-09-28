@@ -16,6 +16,7 @@ nyc-taxi/
 ├── ingest_pipeline.yaml      ← Ingests nyc_taxi_pipeline.db into DataHub
 ├── add_lineage.py            ← Adds pipeline lineage (auto-discovers URNs)
 ├── add_metadata.py           ← Adds tags, glossary terms, ownership
+├── add_ml_entities.py        ← Adds ML entities on top of the pipeline
 └── README.md                 ← You are here
 ```
 
@@ -34,6 +35,9 @@ python add_lineage.py
 
 # 3. Add metadata
 python add_metadata.py
+
+# 4. Add ML entities (optional)
+python add_ml_entities.py
 ```
 
 ---
@@ -120,6 +124,7 @@ mart_daily_summary: data through Jan 28  ← also stale, plus one day shows 0 tr
 datahub ingest -c ingest.yaml
 python add_lineage.py
 python add_metadata.py
+python add_ml_entities.py
 ```
 
 ### Both variants
@@ -129,6 +134,7 @@ datahub ingest -c ingest.yaml
 datahub ingest -c ingest_pipeline.yaml
 python add_lineage.py --all
 python add_metadata.py --all
+python add_ml_entities.py --all
 ```
 
 ---
@@ -157,6 +163,45 @@ python add_metadata.py --all
 | Team | Owns |
 |---|---|
 | `data_platform_team` | All 3 tables |
+
+---
+
+## ML Entities
+
+`add_ml_entities.py` builds the ML half of the pipeline, so the dataset can exercise
+DataHub's ML metadata model:
+
+```
+staging_trips ──(DerivedFrom)──▶ mlFeature × 6 ──(Consumes)──▶ mlModel ──▶ mlModelDeployment
+```
+
+| Entity | Name | Notes |
+|---|---|---|
+| `mlFeatureTable` | `<instance>_taxi_features` | 6 rolling 7-day features |
+| `mlFeature` | `trips_7d`, `avg_fare_7d`, `avg_distance_7d`, `avg_duration_7d`, `passenger_mean_7d`, `revenue_7d` | each `sources` → `staging_trips`, with the originating column as a custom property |
+| `mlModel` | `<instance>_taxi_demand_forecast` | consumes all 6 features |
+| `mlModelDeployment` | `<instance>_taxi-demand-prod` | |
+
+Entities are namespaced by platform instance, so `nyc_taxi` and `nyc_taxi_pipeline` can
+coexist.
+
+Run it **after** `add_lineage.py` — the model's upstream chain reaches `raw_trips`
+through the dataset lineage that script creates:
+
+```
+searchAcrossLineage(mlModel, UPSTREAM)
+  degree 1  mlFeature × 6
+  degree 2  staging_trips
+  degree 3  raw_trips
+```
+
+Paired with `nyc_taxi_pipeline.db`, this makes the planted staleness reachable *from a
+model* — a stale table sitting upstream of a production model's features, which is the
+usual shape of a silent ML failure.
+
+**Note:** `mlFeature.sources` accepts dataset URNs only (its relationship annotation is
+`entityTypes: ["dataset"]`); a `schemaField` URN is rejected. The originating column is
+recorded as a `source_column` custom property instead.
 
 ---
 
