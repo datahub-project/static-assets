@@ -1,0 +1,19 @@
+{
+  "name": "showcase-ecommerce-metrics",
+  "description": "Metrics and semantic models overlay for showcase-ecommerce (and Databricks line items). Load the catalog packs first.",
+  "url": "<REPLACE_WITH_UPLOAD_URL>",
+  "tags": [
+    "demo",
+    "showcase",
+    "ecommerce",
+    "metrics",
+    "semantic-model"
+  ],
+  "trust": "community",
+  "min_server_version": "1.7.0",
+  "min_cloud_version": "2.3.0",
+  "pack_format_version": "1",
+  "sha256": "885d6f5a063205d21d8a0fc2a257fa1a5ad7f03ba77542231d3bb3bebc2d3c49",
+  "size_hint": "~118 KB",
+  "reference_timestamp": 1770000000000
+}

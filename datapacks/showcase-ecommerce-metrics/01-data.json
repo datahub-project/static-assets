@@ -1,0 +1,3522 @@
+[
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticModelInfo",
+        "aspect": {
+            "json": {
+                "name": "Sales Model",
+                "description": "Semantic model over showcase order_entry orders and customers.",
+                "nativeDefinition": "CREATE SEMANTIC VIEW order_entry_db.analytics.sales_model\n  TABLES (orders PRIMARY KEY (order_id), customers PRIMARY KEY (customer_id))\n  RELATIONSHIPS (orders(customer_id) REFERENCES customers)\n  METRICS (orders.total_order_revenue AS SUM(order_total));",
+                "datasets": [],
+                "relationships": [
+                    {
+                        "name": "orders_to_customers",
+                        "from": "ORDERS",
+                        "fromColumns": [
+                            "customer_id"
+                        ],
+                        "to": "CUSTOMERS",
+                        "toColumns": [
+                            "customer_id"
+                        ],
+                        "cardinality": "N_ONE"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "sales",
+                    "orders model"
+                ],
+                "instructions": "Use for order revenue, volume, and customer count questions."
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "datasetProperties",
+        "aspect": {
+            "json": {
+                "customProperties": {},
+                "name": "orders (Sales Model)",
+                "tags": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamLineage",
+        "aspect": {
+            "json": {
+                "upstreams": [
+                    {
+                        "auditStamp": {
+                            "time": 0,
+                            "actor": "urn:li:corpuser:unknown"
+                        },
+                        "dataset": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD)",
+                        "type": "TRANSFORMED"
+                    }
+                ],
+                "fineGrainedLineages": [
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD),order_id)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_id)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD),customer_id)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),customer_id)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD),order_date)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_date)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD),order_status)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_status)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.orders,PROD),order_total)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_total)"
+                        ],
+                        "confidenceScore": 1.0
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "editableDatasetProperties",
+        "aspect": {
+            "json": {
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "description": "Logical orders view of the Sales Model."
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "subTypes",
+        "aspect": {
+            "json": {
+                "typeNames": [
+                    "Semantic Model Dataset"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticModelProperties",
+        "aspect": {
+            "json": {
+                "alias": "ORDERS",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "schemaMetadata",
+        "aspect": {
+            "json": {
+                "schemaName": "",
+                "platform": "urn:li:dataPlatform:snowflake",
+                "version": 0,
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "hash": "",
+                "platformSchema": {
+                    "com.linkedin.schema.Schemaless": {}
+                },
+                "fields": [
+                    {
+                        "fieldPath": "order_id",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": true
+                    },
+                    {
+                        "fieldPath": "customer_id",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "order_date",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.BytesType": {}
+                            }
+                        },
+                        "nativeDataType": "timestamp",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "order_status",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.StringType": {}
+                            }
+                        },
+                        "nativeDataType": "varchar",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "order_total",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_id)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDERS.order_id"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),customer_id)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDERS.customer_id"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_date)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDERS.order_date"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": true
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_status)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDERS.order_status"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_total)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "MEASURE",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "SUM(order_total)"
+                        }
+                    ]
+                },
+                "aggregationFunction": "SUM"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_total)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "revenue"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "datasetProperties",
+        "aspect": {
+            "json": {
+                "customProperties": {},
+                "name": "customers (Sales Model)",
+                "tags": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamLineage",
+        "aspect": {
+            "json": {
+                "upstreams": [
+                    {
+                        "auditStamp": {
+                            "time": 0,
+                            "actor": "urn:li:corpuser:unknown"
+                        },
+                        "dataset": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD)",
+                        "type": "TRANSFORMED"
+                    }
+                ],
+                "fineGrainedLineages": [
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD),customer_id)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),customer_id)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD),cust_first_name)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),cust_first_name)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD),cust_last_name)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),cust_last_name)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.customers,PROD),customer_class)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),customer_class)"
+                        ],
+                        "confidenceScore": 1.0
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "editableDatasetProperties",
+        "aspect": {
+            "json": {
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "description": "Logical customers view of the Sales Model."
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "subTypes",
+        "aspect": {
+            "json": {
+                "typeNames": [
+                    "Semantic Model Dataset"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticModelProperties",
+        "aspect": {
+            "json": {
+                "alias": "CUSTOMERS",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "schemaMetadata",
+        "aspect": {
+            "json": {
+                "schemaName": "",
+                "platform": "urn:li:dataPlatform:snowflake",
+                "version": 0,
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "hash": "",
+                "platformSchema": {
+                    "com.linkedin.schema.Schemaless": {}
+                },
+                "fields": [
+                    {
+                        "fieldPath": "customer_id",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": true
+                    },
+                    {
+                        "fieldPath": "cust_first_name",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.StringType": {}
+                            }
+                        },
+                        "nativeDataType": "varchar",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "cust_last_name",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.StringType": {}
+                            }
+                        },
+                        "nativeDataType": "varchar",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "customer_class",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.StringType": {}
+                            }
+                        },
+                        "nativeDataType": "varchar",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),customer_id)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "CUSTOMERS.customer_id"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),cust_first_name)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "CUSTOMERS.cust_first_name"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),cust_last_name)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "CUSTOMERS.cust_last_name"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD),customer_class)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "CUSTOMERS.customer_class"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Total Order Revenue",
+                "description": "Sum of order_total across showcase orders.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "SUM(ORDERS.order_total)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "revenue",
+                    "order total"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)"
+                    }
+                ],
+                "fieldUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD),order_total)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Order Count",
+                "description": "Number of distinct orders.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "COUNT(DISTINCT ORDERS.order_id)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Customer Count",
+                "description": "Number of distinct customers.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "COUNT(DISTINCT CUSTOMERS.customer_id)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Average Order Value",
+                "description": "Total order revenue divided by order count.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "total_order_revenue / order_count"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "AOV"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)"
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)"
+                    }
+                ],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Revenue per Customer",
+                "description": "Total order revenue divided by customer count.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,sales_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "total_order_revenue / customer_count"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)"
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,customer_count)"
+                    }
+                ],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.orders,PROD)"
+                    },
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.sales_model.customers,PROD)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,revenue_per_customer)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:databricks"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticModelInfo",
+        "aspect": {
+            "json": {
+                "name": "Line Items Model",
+                "description": "Semantic model over Databricks order_items.",
+                "datasets": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "line items",
+                    "order lines"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "semanticModel",
+        "entityUrn": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "datasetProperties",
+        "aspect": {
+            "json": {
+                "customProperties": {},
+                "name": "order_items (Line Items Model)",
+                "tags": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:databricks"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamLineage",
+        "aspect": {
+            "json": {
+                "upstreams": [
+                    {
+                        "auditStamp": {
+                            "time": 0,
+                            "actor": "urn:li:corpuser:unknown"
+                        },
+                        "dataset": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.order_entry.order_items,PROD)",
+                        "type": "TRANSFORMED"
+                    }
+                ],
+                "fineGrainedLineages": [
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.order_entry.order_items,PROD),order_id)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),order_id)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.order_entry.order_items,PROD),line_item_id)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),line_item_id)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.order_entry.order_items,PROD),product_id)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),product_id)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.order_entry.order_items,PROD),unit_price)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),unit_price)"
+                        ],
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "upstreamType": "FIELD_SET",
+                        "upstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.order_entry.order_items,PROD),quantity)"
+                        ],
+                        "downstreamType": "FIELD",
+                        "downstreams": [
+                            "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),quantity)"
+                        ],
+                        "confidenceScore": 1.0
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "editableDatasetProperties",
+        "aspect": {
+            "json": {
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "description": "Logical order_items view of the Line Items Model."
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "subTypes",
+        "aspect": {
+            "json": {
+                "typeNames": [
+                    "Semantic Model Dataset"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticModelProperties",
+        "aspect": {
+            "json": {
+                "alias": "ORDER_ITEMS",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "schemaMetadata",
+        "aspect": {
+            "json": {
+                "schemaName": "",
+                "platform": "urn:li:dataPlatform:databricks",
+                "version": 0,
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "hash": "",
+                "platformSchema": {
+                    "com.linkedin.schema.Schemaless": {}
+                },
+                "fields": [
+                    {
+                        "fieldPath": "order_id",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": true
+                    },
+                    {
+                        "fieldPath": "line_item_id",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": true
+                    },
+                    {
+                        "fieldPath": "product_id",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "unit_price",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "quantity",
+                        "nullable": true,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),order_id)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDER_ITEMS.order_id"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),line_item_id)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDER_ITEMS.line_item_id"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),product_id)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "DIMENSION",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDER_ITEMS.product_id"
+                        }
+                    ]
+                },
+                "dimension": {
+                    "isTime": false
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),unit_price)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "MEASURE",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDER_ITEMS.unit_price"
+                        }
+                    ]
+                },
+                "aggregationFunction": "SUM"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "schemaField",
+        "entityUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),quantity)",
+        "changeType": "UPSERT",
+        "aspectName": "semanticFieldAnnotation",
+        "aspect": {
+            "json": {
+                "type": "MEASURE",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "ANSI_SQL",
+                            "expression": "ORDER_ITEMS.quantity"
+                        }
+                    ]
+                },
+                "aggregationFunction": "SUM"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:databricks"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Line Revenue",
+                "description": "Sum of unit_price * quantity across Databricks order_items.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "DATABRICKS",
+                            "expression": "SUM(ORDER_ITEMS.unit_price * ORDER_ITEMS.quantity)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)"
+                    }
+                ],
+                "fieldUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),unit_price)"
+                    },
+                    {
+                        "destinationUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD),quantity)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:databricks"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Units Sold",
+                "description": "Sum of line-item quantities.",
+                "semanticModel": "urn:li:semanticModel:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_items_model)",
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "DATABRICKS",
+                            "expression": "SUM(ORDER_ITEMS.quantity)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_items_model.order_items,PROD)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "schemaMetadata",
+        "aspect": {
+            "json": {
+                "schemaName": "",
+                "platform": "urn:li:dataPlatform:snowflake",
+                "version": 0,
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "hash": "",
+                "platformSchema": {
+                    "com.linkedin.schema.Schemaless": {}
+                },
+                "fields": [
+                    {
+                        "fieldPath": "as_of_date",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.DateType": {}
+                            }
+                        },
+                        "nativeDataType": "date",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "total_order_revenue",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "order_count",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "average_order_value",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "editableDatasetProperties",
+        "aspect": {
+            "json": {
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "description": "Daily order KPIs consuming Sales Model metrics."
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "datasetProperties",
+        "aspect": {
+            "json": {
+                "customProperties": {},
+                "name": "daily_order_kpis",
+                "tags": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "subTypes",
+        "aspect": {
+            "json": {
+                "typeNames": [
+                    "Table"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:databricks"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "schemaMetadata",
+        "aspect": {
+            "json": {
+                "schemaName": "",
+                "platform": "urn:li:dataPlatform:databricks",
+                "version": 0,
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "hash": "",
+                "platformSchema": {
+                    "com.linkedin.schema.Schemaless": {}
+                },
+                "fields": [
+                    {
+                        "fieldPath": "as_of_date",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.DateType": {}
+                            }
+                        },
+                        "nativeDataType": "date",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "line_revenue",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    },
+                    {
+                        "fieldPath": "units_sold",
+                        "nullable": false,
+                        "type": {
+                            "type": {
+                                "com.linkedin.schema.NumberType": {}
+                            }
+                        },
+                        "nativeDataType": "number",
+                        "recursive": false,
+                        "isPartOfKey": false
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "editableDatasetProperties",
+        "aspect": {
+            "json": {
+                "created": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                },
+                "description": "Line-item KPIs consuming Line Items Model metrics."
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "datasetProperties",
+        "aspect": {
+            "json": {
+                "customProperties": {},
+                "name": "line_item_kpis",
+                "tags": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "subTypes",
+        "aspect": {
+            "json": {
+                "typeNames": [
+                    "Table"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "ownership",
+        "aspect": {
+            "json": {
+                "owners": [
+                    {
+                        "owner": "urn:li:corpuser:datahub",
+                        "type": "TECHNICAL_OWNER"
+                    }
+                ],
+                "ownerTypes": {},
+                "lastModified": {
+                    "time": 0,
+                    "actor": "urn:li:corpuser:unknown"
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Promotion Spend",
+                "description": "Standalone metric (no semantic model). Sum of promotion_cost.",
+                "created": {
+                    "time": 1770000000000,
+                    "actor": "urn:li:corpuser:datahub"
+                },
+                "lastModified": {
+                    "time": 1770000000000,
+                    "actor": "urn:li:corpuser:datahub"
+                },
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "SUM(promotion_cost)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)"
+                    }
+                ],
+                "fieldUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:schemaField:(urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD),promotion_cost)"
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "promo spend",
+                    "campaign cost"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Active Promotions",
+                "description": "Standalone metric (no semantic model). Count of promotions.",
+                "created": {
+                    "time": 1770000000000,
+                    "actor": "urn:li:corpuser:datahub"
+                },
+                "lastModified": {
+                    "time": 1770000000000,
+                    "actor": "urn:li:corpuser:datahub"
+                },
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "COUNT(*)"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)"
+                    }
+                ],
+                "fieldUpstreams": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "status",
+        "aspect": {
+            "json": {
+                "removed": false
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "dataPlatformInstance",
+        "aspect": {
+            "json": {
+                "platform": "urn:li:dataPlatform:snowflake"
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "metricInfo",
+        "aspect": {
+            "json": {
+                "name": "Promotion Cost per Order",
+                "description": "Standalone derived metric. Promotion spend divided by order count.",
+                "created": {
+                    "time": 1770000000000,
+                    "actor": "urn:li:corpuser:datahub"
+                },
+                "lastModified": {
+                    "time": 1770000000000,
+                    "actor": "urn:li:corpuser:datahub"
+                },
+                "expression": {
+                    "dialects": [
+                        {
+                            "dialect": "SNOWFLAKE",
+                            "expression": "promotion_spend / order_count"
+                        }
+                    ]
+                }
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "metricRelationships",
+        "aspect": {
+            "json": {
+                "derivedFrom": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)"
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)"
+                    }
+                ],
+                "relatedMetrics": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "metricUpstreams",
+        "aspect": {
+            "json": {
+                "datasetUpstreams": [
+                    {
+                        "destinationUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.order_entry.promotions,PROD)"
+                    }
+                ],
+                "fieldUpstreams": []
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "aiContext",
+        "aspect": {
+            "json": {
+                "synonyms": [
+                    "promo CAC"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "metric",
+        "entityUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_cost_per_order)",
+        "changeType": "UPSERT",
+        "aspectName": "domains",
+        "aspect": {
+            "json": {
+                "domains": [
+                    "urn:li:domain:b2fd91.d4f24004-fb54-4e3c-8dea-2b7e209230b0"
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics.daily_order_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamMetrics",
+        "aspect": {
+            "json": {
+                "metrics": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,average_order_value)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dataset",
+        "entityUrn": "urn:li:dataset:(urn:li:dataPlatform:databricks,order_entry_db.analytics.line_item_kpis,PROD)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamMetrics",
+        "aspect": {
+            "json": {
+                "metrics": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,units_sold)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "chart",
+        "entityUrn": "urn:li:chart:(looker,b2fd91.dashboard_elements.224)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamMetrics",
+        "aspect": {
+            "json": {
+                "metrics": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,order_count)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "chart",
+        "entityUrn": "urn:li:chart:(looker,b2fd91.dashboard_elements.222)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamMetrics",
+        "aspect": {
+            "json": {
+                "metrics": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,active_promotions)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    },
+    {
+        "entityType": "dashboard",
+        "entityUrn": "urn:li:dashboard:(looker,b2fd91.dashboards.53)",
+        "changeType": "UPSERT",
+        "aspectName": "upstreamMetrics",
+        "aspect": {
+            "json": {
+                "metrics": [
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.analytics,total_order_revenue)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:snowflake,b2fd91.order_entry_db.standalone,promotion_spend)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    },
+                    {
+                        "destinationUrn": "urn:li:metric:(urn:li:dataPlatform:databricks,order_entry_db.analytics,line_revenue)",
+                        "created": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        },
+                        "lastModified": {
+                            "time": 1770000000000,
+                            "actor": "urn:li:corpuser:datahub"
+                        }
+                    }
+                ]
+            }
+        },
+        "systemMetadata": {
+            "properties": {
+                "sampleData": "true"
+            }
+        }
+    }
+]
