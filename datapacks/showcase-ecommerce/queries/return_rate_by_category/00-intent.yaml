@@ -1,0 +1,7 @@
+id: return_rate_by_category
+data_product: Returns & Refunds
+question: "What is the return rate by product category?"
+metric: Return Rate
+primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.products, order_entry_db.order_entry.product_categories, order_entry_db.analytics.order_details]
+variants: [canonical_raw, mart_version, last_90d_window, ranked_categories]
+notes: In this dataset every dispatched item also has a return_date, so "return rate" = 100% globally. Time-windowed and rate-of-return-within-N-days variants surface real variance.

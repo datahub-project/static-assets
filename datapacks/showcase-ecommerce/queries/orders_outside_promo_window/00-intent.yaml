@@ -1,0 +1,5 @@
+id: orders_outside_promo_window
+data_product: Promotions Performance
+question: "Are there orders attributed to a promotion outside its active window? (data quality)"
+primary_tables: [order_entry_db.order_entry.orders, order_entry_db.order_entry.promotions]
+variants: [canonical, with_days_off, by_promo]
