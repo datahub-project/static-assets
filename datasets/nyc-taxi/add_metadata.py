@@ -18,6 +18,7 @@ from datahub.emitter.rest_emitter import DatahubRestEmitter
 from datahub.ingestion.graph.client import DataHubGraph, DatahubClientConfig
 from datahub.metadata.schema_classes import (
     AuditStampClass,
+    CorpGroupInfoClass,
     GlobalTagsClass,
     GlossaryTermAssociationClass,
     GlossaryTermInfoClass,
@@ -28,6 +29,11 @@ from datahub.metadata.schema_classes import (
     TagAssociationClass,
     TagPropertiesClass,
 )
+
+# Windows consoles default to cp1252 and crash on the ✓/→ characters below
+# (reported in static-assets #211). Reconfigure stdout once, up front.
+if sys.stdout.encoding and sys.stdout.encoding.lower().replace("-", "") != "utf8":
+    sys.stdout.reconfigure(encoding="utf-8")
 
 DATAHUB_SERVER = "http://localhost:8080"
 PLATFORM = "sqlite"
@@ -87,6 +93,19 @@ OWNERSHIP_ASSIGNMENTS = {
     "data_platform_team": ["raw_trips", "staging_trips", "mart_daily_summary"],
 }
 
+GROUP_DISPLAY_NAMES = {
+    "data_platform_team": "Data Platform Team",
+}
+
+
+def _assignments_by_table(assignments):
+    """Invert {association: [tables]} into {table: [associations]} preserving order."""
+    by_table = {}
+    for assoc, tables in assignments.items():
+        for t in tables:
+            by_table.setdefault(t, []).append(assoc)
+    return by_table
+
 
 # ─── URN discovery ───
 def discover_urns(graph, platform_instance):
@@ -120,21 +139,6 @@ def create_tags(emitter):
         print(f"    ✓ Created tag: {name}")
 
 
-def attach_tags(emitter, urn_map):
-    count = 0
-    for tag, tables in TAG_ASSIGNMENTS.items():
-        for t in tables:
-            if t not in urn_map:
-                continue
-            emitter.emit(MetadataChangeProposalWrapper(
-                entityUrn=urn_map[t],
-                aspect=GlobalTagsClass(tags=[TagAssociationClass(tag=f"urn:li:tag:{tag}")]),
-            ))
-            print(f"    ✓ tag:{tag} → {t}")
-            count += 1
-    return count
-
-
 def create_glossary(emitter):
     for key, info in GLOSSARY_DEFINITIONS.items():
         emitter.emit(MetadataChangeProposalWrapper(
@@ -146,22 +150,59 @@ def create_glossary(emitter):
         print(f"    ✓ Created term: {info['name']}")
 
 
+def create_groups(emitter):
+    # Ownership below references these groups — they must exist as entities,
+    # otherwise the owner chip in the UI resolves to "Not Found".
+    for group, tables in OWNERSHIP_ASSIGNMENTS.items():
+        emitter.emit(MetadataChangeProposalWrapper(
+            entityUrn=f"urn:li:corpGroup:{group}",
+            aspect=CorpGroupInfoClass(
+                displayName=GROUP_DISPLAY_NAMES.get(group, group),
+                description="Owner of the NYC Taxi pipeline tables.",
+                admins=[],
+                members=[],
+                groups=[],
+            ),
+        ))
+        print(f"    ✓ Created group: {group}")
+
+
+def attach_tags(emitter, urn_map):
+    # One emit per table with the FULL tag list. Emitting one aspect per
+    # (tag, table) pair replaces the whole globalTags aspect each time —
+    # last write wins and earlier tags are silently dropped.
+    count = 0
+    for t, tags in _assignments_by_table(TAG_ASSIGNMENTS).items():
+        if t not in urn_map:
+            continue
+        emitter.emit(MetadataChangeProposalWrapper(
+            entityUrn=urn_map[t],
+            aspect=GlobalTagsClass(tags=[
+                TagAssociationClass(tag=f"urn:li:tag:{tag}") for tag in tags
+            ]),
+        ))
+        print(f"    ✓ tags {tags} → {t}")
+        count += 1
+    return count
+
+
 def attach_glossary(emitter, urn_map):
+    # Same pattern as attach_tags: one emit per table with the full term list.
     now_ms = int(time.time() * 1000)
     count = 0
-    for key, tables in GLOSSARY_ASSIGNMENTS.items():
-        for t in tables:
-            if t not in urn_map:
-                continue
-            emitter.emit(MetadataChangeProposalWrapper(
-                entityUrn=urn_map[t],
-                aspect=GlossaryTermsClass(
-                    terms=[GlossaryTermAssociationClass(urn=f"urn:li:glossaryTerm:{key}")],
-                    auditStamp=AuditStampClass(time=now_ms, actor="urn:li:corpuser:datahub"),
-                ),
-            ))
-            print(f"    ✓ glossary:{key} → {t}")
-            count += 1
+    for t, terms in _assignments_by_table(GLOSSARY_ASSIGNMENTS).items():
+        if t not in urn_map:
+            continue
+        emitter.emit(MetadataChangeProposalWrapper(
+            entityUrn=urn_map[t],
+            aspect=GlossaryTermsClass(
+                terms=[GlossaryTermAssociationClass(urn=f"urn:li:glossaryTerm:{key}")
+                       for key in terms],
+                auditStamp=AuditStampClass(time=now_ms, actor="urn:li:corpuser:datahub"),
+            ),
+        ))
+        print(f"    ✓ terms {terms} → {t}")
+        count += 1
     return count
 
 
@@ -180,6 +221,20 @@ def emit_ownership(emitter, urn_map):
             print(f"    ✓ owner:{owner} → {t}")
             count += 1
     return count
+
+
+def print_plan(instance, urn_map):
+    print(f"\n    DRY RUN — planned changes for {instance}:")
+    for t, tags in _assignments_by_table(TAG_ASSIGNMENTS).items():
+        if t in urn_map:
+            print(f"      + tags {tags} → {t}")
+    for t, terms in _assignments_by_table(GLOSSARY_ASSIGNMENTS).items():
+        if t in urn_map:
+            print(f"      + terms {terms} → {t}")
+    for owner, tables in OWNERSHIP_ASSIGNMENTS.items():
+        for t in tables:
+            if t in urn_map:
+                print(f"      + owner:{owner} → {t}")
 
 
 def main():
@@ -220,6 +275,8 @@ def main():
         create_tags(emitter)
         print(f"\n  Creating glossary terms...")
         create_glossary(emitter)
+        print(f"\n  Creating owner groups...")
+        create_groups(emitter)
 
     for instance in instances:
         print(f"\n{'='*50}")
@@ -234,8 +291,7 @@ def main():
         print(f"    Found {len(urn_map)} datasets")
 
         if dry_run:
-            for name in sorted(urn_map.keys()):
-                print(f"      {name}: {urn_map[name]}")
+            print_plan(instance, urn_map)
             continue
 
         print(f"\n    Attaching tags...")
@@ -246,8 +302,11 @@ def main():
         emit_ownership(emitter, urn_map)
 
     print(f"\n{'='*50}")
-    print(f"✅ Metadata complete")
-    print(f"   Glossary: DataHub UI → Govern → Glossary")
+    if dry_run:
+        print(f"DRY RUN — no changes made")
+    else:
+        print(f"✅ Metadata complete")
+        print(f"   Glossary: DataHub UI → Govern → Glossary")
     print(f"{'='*50}")
 
 
