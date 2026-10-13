@@ -1,0 +1,132 @@
+[
+{
+    "entityType": "mlFeature",
+    "entityUrn": "urn:li:mlFeature:(trip_features,tip_rate)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Tip as a fraction of fare. Drives tip prediction.",
+            "dataType": "CONTINUOUS",
+            "sources": [
+                "urn:li:dataset:(urn:li:dataPlatform:snowflake,nyc_taxi.trip_features,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeature",
+    "entityUrn": "urn:li:mlFeature:(trip_features,fare_per_mile)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Fare normalised by trip distance.",
+            "dataType": "CONTINUOUS",
+            "sources": [
+                "urn:li:dataset:(urn:li:dataPlatform:snowflake,nyc_taxi.trip_features,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeature",
+    "entityUrn": "urn:li:mlFeature:(trip_features,duration_min)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Observed trip duration in minutes.",
+            "dataType": "CONTINUOUS",
+            "sources": [
+                "urn:li:dataset:(urn:li:dataPlatform:snowflake,nyc_taxi.trip_features,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeature",
+    "entityUrn": "urn:li:mlFeature:(trip_features,distance_km)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Trip distance converted to kilometres.",
+            "dataType": "CONTINUOUS",
+            "sources": [
+                "urn:li:dataset:(urn:li:dataPlatform:snowflake,nyc_taxi.trip_features,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeatureTable",
+    "entityUrn": "urn:li:mlFeatureTable:(urn:li:dataPlatform:feast,trip_features)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureTableProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Feature table trip_features",
+            "mlFeatures": [
+                "urn:li:mlFeature:(trip_features,tip_rate)",
+                "urn:li:mlFeature:(trip_features,fare_per_mile)",
+                "urn:li:mlFeature:(trip_features,duration_min)",
+                "urn:li:mlFeature:(trip_features,distance_km)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeature",
+    "entityUrn": "urn:li:mlFeature:(zone_features,avg_trip_duration)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Rolling mean trip duration for the zone.",
+            "dataType": "CONTINUOUS",
+            "sources": [
+                "urn:li:dataset:(urn:li:dataPlatform:snowflake,nyc_taxi.zone_features,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeature",
+    "entityUrn": "urn:li:mlFeature:(zone_features,trips_per_hour)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Demand signal used for surge pricing.",
+            "dataType": "CONTINUOUS",
+            "sources": [
+                "urn:li:dataset:(urn:li:dataPlatform:snowflake,nyc_taxi.zone_features,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlFeatureTable",
+    "entityUrn": "urn:li:mlFeatureTable:(urn:li:dataPlatform:feast,zone_features)",
+    "changeType": "UPSERT",
+    "aspectName": "mlFeatureTableProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Feature table zone_features",
+            "mlFeatures": [
+                "urn:li:mlFeature:(zone_features,avg_trip_duration)",
+                "urn:li:mlFeature:(zone_features,trips_per_hour)"
+            ]
+        }
+    }
+}
+]
