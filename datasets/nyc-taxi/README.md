@@ -93,17 +93,21 @@ Same 3-stage pipeline structure, but with freshness issues planted:
 
 | Issue | What's Planted | How to Detect |
 |---|---|---|
-| Stale staging | `staging_trips` stops 3 days before `raw_trips` max date | Compare `MAX(trip_date)` between raw and staging |
-| Stale mart | `mart_daily_summary` reflects the staging gap | Last 3 days missing from daily summary |
+| Stale staging | Rows after a cutoff 3 calendar days before the raw max are removed. Because the committed subset has sparse dates, its latest remaining staging date is 9 days behind raw. | Compare raw pickup date max with `MAX(trip_date)` in staging |
+| Stale mart | `mart_daily_summary` reflects the same cutoff and observed 9-day gap in the committed subset | Compare raw and mart business-date maxima |
 | Empty load | One day in the mart shows 0 trips | `trip_count = 0` for that day — pipeline ran but loaded nothing |
 
 **The core trick:** DataHub metadata shows all tables as "ingested now" (because they were all ingested at the same time). The staleness is invisible in metadata — you can only detect it by querying the actual data timestamps.
 
 ```
-raw_trips:          data through Jan 31  ← looks fresh
-staging_trips:      data through Jan 28  ← 3 days behind (stale!)
-mart_daily_summary: data through Jan 28  ← also stale, plus one day shows 0 trips
+raw_trips:          data through Mar 10  ← looks fresh
+staging_trips:      data through Mar 01  ← 9 observed days behind (stale!)
+mart_daily_summary: data through Mar 01  ← also stale; Jan 21 shows 0 trips
 ```
+
+`create_db.py` derives the cutoff from the raw pickup timestamp and reports the
+actual observed lag after applying it. This distinction matters for a sampled
+database where not every calendar date has rows.
 
 ---
 
