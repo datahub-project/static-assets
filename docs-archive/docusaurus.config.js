@@ -31,9 +31,10 @@ const config = {
           routeBasePath: '/docs',
           includeCurrentVersion: false,
           sidebarPath: require.resolve('./sidebars.js'),
-          // 1.6.0 is the newest version in this archive
-          lastVersion: '1.6.0',
+          // 1.7.0 is the newest version in this archive
+          lastVersion: '1.7.0',
           versions: {
+            '1.7.0': { label: '1.7.0', banner: 'none', path: '1.7.0' },
             '1.6.0': { label: '1.6.0', banner: 'none', path: '1.6.0' },
             '1.5.0': { label: '1.5.0', banner: 'none', path: '1.5.0' },
             '1.3.0': { label: '1.3.0', banner: 'none', path: '1.3.0' },
