@@ -1,6 +1,6 @@
 # Showcase E-Commerce — Query Corpus
 
-This directory holds the source SQL files that produce `04-queries.json` in the parent datapack. Each `urn:li:query` MCP in `04-queries.json` corresponds to exactly one `.sql` file here.
+This directory holds the source SQL files that produce `04-queries-v2.json` in the parent datapack. Each `urn:li:query` MCP in `04-queries-v2.json` corresponds to exactly one `.sql` file here.
 
 ## Layout
 
@@ -63,7 +63,7 @@ The `ORDER_ENTRY_DB` schema diverges from the original docs in several ways. Que
 2. Add `00-intent.yaml` with the fields below.
 3. Write 2–5 `.sql` files, each with an author comment header and a meaningful name like `01-canonical.sql`, `02-mart_version.sql`, `03-anti_join_pattern.sql`.
 4. Add an entry to `queries/intent-matrix.yaml`.
-5. Rebuild `04-queries.json` (the build script reads this directory).
+5. Rebuild `04-queries-v2.json` (the build script reads this directory).
 
 ### `00-intent.yaml` schema
 
@@ -84,7 +84,11 @@ notes: |
 
 ## Build
 
-Producing `04-queries.json` from this tree is a one-shot script (kept alongside the datapack-build tooling) that:
+Producing `04-queries-v2.json` from this tree is a one-shot script (kept alongside the datapack-build tooling).
+
+Give the file a new name whenever its published content changes, and update `index.json`. The `datahub datapack` CLI caches each file by URL and does not refetch it when the index version changes, so a fix under the old name never reaches users who already loaded the pack.
+
+The script:
 1. Walks each intent dir + `noise/`
 2. Reads each `.sql` file
 3. Detects author from the `-- Author:` comment line
