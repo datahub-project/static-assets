@@ -1,0 +1,7 @@
+id: repeat_order_rate
+data_product: Order Entry Analytics
+domain: Customer Success
+question: "What share of customers have placed more than one order?"
+metric: null
+primary_tables: [order_entry_db.order_entry.orders]
+variants: [canonical_with_having, cte_based, window_function_version]

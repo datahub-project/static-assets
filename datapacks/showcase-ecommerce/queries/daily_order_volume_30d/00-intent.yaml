@@ -1,0 +1,15 @@
+id: daily_order_volume_30d
+data_product: Order Entry Analytics
+domain: Ecommerce Operations
+question: "How many orders did we get per day for the last 30 days?"
+metric: null
+canonical_definition: |
+  COUNT(orders) per calendar day, anchored to MAX(order_date) for a 30-day window.
+primary_tables:
+  - order_entry_db.order_entry.orders
+  - order_entry_db.analytics.order_details
+variants:
+  - canonical
+  - with_running_total
+  - with_dow_breakdown
+  - mart_version
