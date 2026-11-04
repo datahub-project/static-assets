@@ -1,0 +1,110 @@
+[
+{
+    "entityType": "mlModelGroup",
+    "entityUrn": "urn:li:mlModelGroup:(urn:li:dataPlatform:mlflow,tip_predictor,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "mlModelGroupProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Model group tip_predictor"
+        }
+    }
+},
+{
+    "entityType": "mlModel",
+    "entityUrn": "urn:li:mlModel:(urn:li:dataPlatform:mlflow,tip_predictor_v3,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "mlModelProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "externalUrl": "http://localhost:5000/#/models/tip_predictor_v3",
+            "description": "Predicts expected tip at trip start. Serves the in-app tip suggestion.",
+            "hyperParams": [],
+            "trainingMetrics": [],
+            "mlFeatures": [
+                "urn:li:mlFeature:(trip_features,tip_rate)",
+                "urn:li:mlFeature:(trip_features,fare_per_mile)",
+                "urn:li:mlFeature:(trip_features,distance_km)"
+            ],
+            "tags": [],
+            "groups": [
+                "urn:li:mlModelGroup:(urn:li:dataPlatform:mlflow,tip_predictor,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlModelGroup",
+    "entityUrn": "urn:li:mlModelGroup:(urn:li:dataPlatform:mlflow,eta_predictor,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "mlModelGroupProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Model group eta_predictor"
+        }
+    }
+},
+{
+    "entityType": "mlModel",
+    "entityUrn": "urn:li:mlModel:(urn:li:dataPlatform:mlflow,eta_predictor_v2,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "mlModelProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "externalUrl": "http://localhost:5000/#/models/eta_predictor_v2",
+            "description": "Predicts arrival time shown to the rider during dispatch.",
+            "hyperParams": [],
+            "trainingMetrics": [],
+            "mlFeatures": [
+                "urn:li:mlFeature:(trip_features,duration_min)",
+                "urn:li:mlFeature:(trip_features,distance_km)",
+                "urn:li:mlFeature:(zone_features,avg_trip_duration)"
+            ],
+            "tags": [],
+            "groups": [
+                "urn:li:mlModelGroup:(urn:li:dataPlatform:mlflow,eta_predictor,PROD)"
+            ]
+        }
+    }
+},
+{
+    "entityType": "mlModelGroup",
+    "entityUrn": "urn:li:mlModelGroup:(urn:li:dataPlatform:mlflow,surge_pricing,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "mlModelGroupProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "description": "Model group surge_pricing"
+        }
+    }
+},
+{
+    "entityType": "mlModel",
+    "entityUrn": "urn:li:mlModel:(urn:li:dataPlatform:mlflow,surge_pricing_v1,PROD)",
+    "changeType": "UPSERT",
+    "aspectName": "mlModelProperties",
+    "aspect": {
+        "json": {
+            "customProperties": {},
+            "externalUrl": "http://localhost:5000/#/models/surge_pricing_v1",
+            "description": "Sets the demand multiplier applied at booking time.",
+            "hyperParams": [],
+            "trainingMetrics": [],
+            "mlFeatures": [
+                "urn:li:mlFeature:(zone_features,trips_per_hour)",
+                "urn:li:mlFeature:(zone_features,avg_trip_duration)",
+                "urn:li:mlFeature:(trip_features,fare_per_mile)"
+            ],
+            "tags": [],
+            "groups": [
+                "urn:li:mlModelGroup:(urn:li:dataPlatform:mlflow,surge_pricing,PROD)"
+            ]
+        }
+    }
+}
+]
