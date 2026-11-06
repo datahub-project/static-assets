@@ -248,46 +248,84 @@ def create_views(conn, pickup_col, dropoff_col):
 def plant_staleness(conn):
     """Plant freshness issues into the pipeline.
 
-    The core trick: raw_trips has data through the latest date,
-    but staging_trips and mart_daily_summary stop 3 days earlier.
+    The core trick: raw_trips has data through the latest date, while
+    staging_trips and mart_daily_summary use a cutoff 3 calendar days earlier.
+    With a sparse source sample, the latest remaining stage date can be older
+    than that cutoff.
 
     This simulates a pipeline that ran successfully (DataHub shows
     "ingested now") but didn't actually process new data.
     """
-    max_raw = conn.execute("SELECT MAX(trip_date) FROM staging_trips").fetchone()[0]
+    raw_columns = [row[1] for row in conn.execute("PRAGMA table_info(raw_trips)")]
+    pickup_col, _ = detect_datetime_columns(raw_columns)
+    if not pickup_col:
+        print("    ✗ Cannot find pickup datetime column in raw_trips — skipping")
+        return
+
+    quoted_pickup_col = pickup_col.replace('"', '""')
+    max_raw = conn.execute(
+        f'SELECT MAX(DATE("{quoted_pickup_col}")) FROM raw_trips'
+    ).fetchone()[0]
     if not max_raw:
         print("    ✗ Cannot determine max date — skipping")
         return
 
-    cutoff_date = (datetime.strptime(max_raw, "%Y-%m-%d") - timedelta(days=3)).strftime("%Y-%m-%d")
+    cutoff_date = (
+        datetime.strptime(max_raw, "%Y-%m-%d") - timedelta(days=3)
+    ).strftime("%Y-%m-%d")
     print(f"    Raw data through: {max_raw}")
-    print(f"    Staging/mart cutoff: {cutoff_date} (3 days stale)")
+    print(f"    Staging/mart cutoff target: {cutoff_date} (3 calendar days)")
 
     # Remove recent rows from staging
     before = conn.execute("SELECT COUNT(*) FROM staging_trips").fetchone()[0]
-    conn.execute(f"DELETE FROM staging_trips WHERE trip_date > '{cutoff_date}'")
+    conn.execute("DELETE FROM staging_trips WHERE trip_date > ?", (cutoff_date,))
     after = conn.execute("SELECT COUNT(*) FROM staging_trips").fetchone()[0]
     print(f"    ✓ staging_trips: removed {before - after:,} recent rows")
 
     # Remove recent days from mart
     before_m = conn.execute("SELECT COUNT(*) FROM mart_daily_summary").fetchone()[0]
-    conn.execute(f"DELETE FROM mart_daily_summary WHERE trip_date > '{cutoff_date}'")
+    conn.execute("DELETE FROM mart_daily_summary WHERE trip_date > ?", (cutoff_date,))
     after_m = conn.execute("SELECT COUNT(*) FROM mart_daily_summary").fetchone()[0]
     print(f"    ✓ mart_daily_summary: removed {before_m - after_m} recent days")
 
-    # Plant one "empty load" day (pipeline ran, loaded nothing)
-    mid_date = (datetime.strptime(cutoff_date, "%Y-%m-%d") - timedelta(days=7)).strftime("%Y-%m-%d")
-    conn.execute(f"""
-        UPDATE mart_daily_summary
-        SET trip_count = 0, total_fare = 0, total_revenue = 0,
-            avg_fare = 0, avg_distance = 0, avg_passengers = 0, avg_duration_min = 0
-        WHERE trip_date = '{mid_date}'
-    """)
-    affected = conn.execute("SELECT changes()").fetchone()[0]
+    stage_max = conn.execute("SELECT MAX(trip_date) FROM staging_trips").fetchone()[0]
+    if stage_max:
+        actual_lag = (
+            datetime.strptime(max_raw, "%Y-%m-%d")
+            - datetime.strptime(stage_max, "%Y-%m-%d")
+        ).days
+        print(
+            f"    Observed staging max: {stage_max} "
+            f"({actual_lag} calendar days behind raw)"
+        )
+
+    # Plant one "empty load" on an existing mart day. Selecting the median
+    # remaining date makes this deterministic even when the sample has gaps.
+    mart_dates = [
+        row[0]
+        for row in conn.execute(
+            "SELECT trip_date FROM mart_daily_summary "
+            "WHERE COALESCE(trip_count, 0) <> 0 ORDER BY trip_date"
+        )
+    ]
+    mid_date = mart_dates[len(mart_dates) // 2] if mart_dates else None
+    affected = 0
+    if mid_date is not None:
+        conn.execute(
+            """
+            UPDATE mart_daily_summary
+            SET trip_count = 0, total_fare = 0, total_revenue = 0,
+                avg_fare = 0, avg_distance = 0,
+                avg_passengers = 0, avg_duration_min = 0
+            WHERE trip_date = ?
+            """,
+            (mid_date,),
+        )
+        affected = conn.execute("SELECT changes()").fetchone()[0]
     if affected > 0:
         print(f"    ✓ Empty load: {mid_date} shows 0 trips (pipeline ran but loaded nothing)")
     else:
-        print(f"    ⚠ Empty load: {mid_date} not found in mart (skipped)")
+        print("    ⚠ Empty load: no eligible mart date found (skipped)")
 
     conn.commit()
 
