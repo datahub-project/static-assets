@@ -22,6 +22,18 @@ export VERCEL_PROJECT_ID=...
 npx vercel deploy --prebuilt --prod --yes --token="$VERCEL_TOKEN"
 ```
 
+## Memory requirements
+
+`build-archive.sh` sets a **24 GB** Node heap
+(`NODE_OPTIONS=--max-old-space-size=24576`). The limit was raised from 20 GB
+when the archive reached 18 versions (1.8.0), because 20 GB ran out of memory.
+
+- Build on a machine with **at least 32 GB RAM** and quit other heavy apps
+  (browsers, IDEs) while it runs, so the build is not pushed into swap.
+- The limit grows with every version added. If it runs out of memory again,
+  raise it, or drop rarely used versions from `versions.json` and
+  `docusaurus.config.js` (their `.tar.gz` snapshots stay in the repo).
+
 ## Why `--prebuilt`
 
 `--prebuilt` tells Vercel to upload the contents of `.vercel/output/` directly
