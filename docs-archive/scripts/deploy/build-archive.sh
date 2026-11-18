@@ -14,7 +14,9 @@ cd "$ARCHIVE_DIR"
 # Raise the V8 heap limit and serialize SSR to keep peak memory manageable.
 # The server compile needs well above the default heap; run this on a machine
 # (or runner) with enough RAM to back the limit below, or provide swap.
-export NODE_OPTIONS="--max-old-space-size=20480"
+# 24 GB: 20 GB ran out of memory once the archive reached 18 versions (1.8.0).
+# Needs a machine with >=32 GB RAM; quit other heavy apps while it runs.
+export NODE_OPTIONS="--max-old-space-size=24576"
 export DOCUSAURUS_SSR_CONCURRENCY=1
 
 echo ">> Building docs archive in $ARCHIVE_DIR"

@@ -31,13 +31,16 @@ const config = {
           routeBasePath: '/docs',
           includeCurrentVersion: false,
           sidebarPath: require.resolve('./sidebars.js'),
-          // 1.7.0 is the newest version in this archive
-          lastVersion: '1.7.0',
+          // 1.8.0 is the newest version in this archive
+          lastVersion: '1.8.0',
           versions: {
+            '1.8.0': { label: '1.8.0', banner: 'none', path: '1.8.0' },
             '1.7.0': { label: '1.7.0', banner: 'none', path: '1.7.0' },
             '1.6.0': { label: '1.6.0', banner: 'none', path: '1.6.0' },
             '1.5.0': { label: '1.5.0', banner: 'none', path: '1.5.0' },
+            '1.4.0': { label: '1.4.0', banner: 'none', path: '1.4.0' },
             '1.3.0': { label: '1.3.0', banner: 'none', path: '1.3.0' },
+            '1.2.0': { label: '1.2.0', banner: 'none', path: '1.2.0' },
             '1.1.0': { label: '1.1.0', banner: 'none', path: '1.1.0' },
             '1.0.0': { label: '1.0.0', banner: 'none', path: '1.0.0' },
             '0.15.0': { label: '0.15.0', banner: 'none', path: '0.15.0' },
