@@ -1,0 +1,5 @@
+id: top_products_by_returns
+data_product: Returns & Refunds
+question: "Which products are returned most often?"
+primary_tables: [order_entry_db.order_entry.order_items, order_entry_db.order_entry.products, order_entry_db.analytics.order_details]
+variants: [canonical_count, with_return_rate, mart_version, by_category]

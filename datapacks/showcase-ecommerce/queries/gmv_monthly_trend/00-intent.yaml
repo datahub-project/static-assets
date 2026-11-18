@@ -1,0 +1,22 @@
+id: gmv_monthly_trend
+data_product: Order Entry Analytics
+domain: Ecommerce Operations
+question: "What is our monthly GMV over the last 12 months?"
+metric: GMV
+canonical_definition: |
+  SUM(orders.order_total), grouped by month, on completed orders.
+  Per the Key Metrics Reference, GMV is gross — does not subtract returns.
+primary_tables:
+  - order_entry_db.order_entry.orders
+  - order_entry_db.analytics.order_details   # for mart variant
+variants:
+  - canonical_raw            # 01: orders table only, MAX-anchored window
+  - mart_shortcut            # 02: analytics.order_details, line-item grain handled
+  - with_yoy_compare         # 03: side-by-side prior-year column
+  - missing_status_filter_anti  # 04: same intent but no status exclusion (common analyst mistake)
+data_caveats: |
+  - orders.order_status is NUMBER(0..4) in this env, not the string lifecycle the
+    Metrics doc shows. Mapping is unconfirmed; using my best guess (3,4 = held/cancelled).
+  - order_date is TEXT; cast to TIMESTAMP for math.
+  - Data ends 2025-05-14 in this env, so window is anchored to MAX(order_date) rather
+    than CURRENT_DATE.

@@ -1,0 +1,5 @@
+id: daily_order_count_audit
+data_product: Order Entry Analytics
+question: "Run a daily order count audit for the last 14 days"
+primary_tables: [order_entry_db.order_entry.orders, order_entry_db.analytics.order_details]
+variants: [canonical, with_dod_change, mart_version]
