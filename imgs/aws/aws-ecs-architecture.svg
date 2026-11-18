@@ -1,0 +1,67 @@
+<svg width="700" height="560" viewBox="0 0 680 550" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>DataHub on ECS network architecture</title>
+<desc>Shows how a user reaches DataHub through Route 53 and an Application Load Balancer, and how the Frontend, GMS, and Actions ECS services communicate with each other and with RDS, MSK, and OpenSearch inside public and private VPC subnets.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#3d3d3a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect x="0" y="0" width="680" height="550" fill="#ffffff"/>
+
+<g fill="none" stroke="#5F5E5A" stroke-width="0.5">
+<rect x="110" y="20" width="90" height="40" rx="8" fill="#F1EFE8"/>
+</g>
+<text x="155" y="40" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">User</text>
+
+<rect x="270" y="20" width="140" height="40" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="340" y="40" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">Route 53 (DNS)</text>
+
+<line x1="200" y1="40" x2="270" y2="40" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="340" y1="60" x2="340" y2="150" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="40" y="90" width="600" height="436" rx="20" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="60" y="112" font-family="sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">VPC</text>
+
+<rect x="70" y="118" width="560" height="92" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5" stroke-dasharray="6 4"/>
+<text x="90" y="136" font-family="sans-serif" font-size="12" fill="#185FA5">Public subnet</text>
+
+<rect x="295" y="150" width="90" height="40" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+<text x="340" y="170" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#042C53">ALB</text>
+
+<rect x="70" y="230" width="560" height="276" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5" stroke-dasharray="6 4"/>
+<text x="90" y="248" font-family="sans-serif" font-size="12" fill="#534AB7">Private subnets</text>
+
+<path d="M340,190 L340,237 L165,237 L165,262" fill="none" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="110" y="262" width="110" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="165" y="282" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#04342C">Frontend</text>
+<text x="165" y="302" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#085041">ECS service</text>
+
+<rect x="293" y="262" width="100" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="343" y="282" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#04342C">GMS</text>
+<text x="343" y="302" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#085041">Cloud Map</text>
+
+<rect x="480" y="262" width="110" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="535" y="282" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#04342C">Actions</text>
+<text x="535" y="302" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#085041">ECS service</text>
+
+<line x1="220" y1="290" x2="293" y2="290" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="480" y1="290" x2="393" y2="290" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="343" y1="318" x2="343" y2="352" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="286" y="352" width="115" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="343" y="372" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#04342C">GMS service</text>
+<text x="343" y="392" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#085041">ECS service</text>
+
+<path d="M305,408 L305,424 L205,424 L205,442" fill="none" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="355" y1="408" x2="355" y2="442" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M393,408 L393,430 L510,430 L510,442" fill="none" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M590,290 L612,290 L612,496 L355,496 L355,486" fill="none" stroke="#3d3d3a" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<rect x="150" y="442" width="110" height="44" rx="8" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+<text x="205" y="464" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#4A1B0C">RDS MySQL</text>
+
+<rect x="310" y="442" width="90" height="44" rx="8" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+<text x="355" y="464" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#4A1B0C">MSK</text>
+
+<rect x="450" y="442" width="120" height="44" rx="8" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+<text x="510" y="464" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#4A1B0C">OpenSearch</text>
+</svg>
