@@ -1,0 +1,6 @@
+id: reorder_candidates
+data_product: Inventory & Fulfilment
+domain: Ecommerce Operations
+question: "Show me products that need reordering (qty below restock level)"
+primary_tables: [order_entry_db.order_entry.inventories, order_entry_db.order_entry.products, order_entry_db.order_entry.warehouses]
+variants: [canonical, with_reorder_qty, exclude_negatives, prioritised_by_gap]
